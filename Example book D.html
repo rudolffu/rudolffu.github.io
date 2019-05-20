@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example book D.md</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="welcome-sql-is-the-structured-query-language-a-language-widely-used-in-handling-data-stored-in-database-management-systems.-various-tasks-such-as-updating-and-retrieving-data-can-be-achieved-with-sql-statements.-and-it-has-been-a-powerful-tool-to-query-sky-survey-data-in-astronomy-research.-this-guide-provides-a-brief-overview-of-sql-and-query-examples-are-available-with-comments.欢迎你学习使用巡天数据库中的sql语言！sql即结构化查询语言，是与数据库通信的标准方法。sql语句用于执行更新数据库中的数据或从数据库检索数据等任务。在天文学研究中，它被广泛应用于巡天数据的查询和操作。本手册包含了sql的简要介绍，你还可以学习一些包含注释的具体查询示例。"><strong>Welcome! SQL is the Structured Query Language, a language widely used in handling data stored in database management systems. Various tasks such as updating and retrieving data can be achieved with SQL statements. And it has been a powerful tool to query sky survey data in astronomy research. This guide provides a brief overview of SQL and query examples are available with comments.</strong><br>
+<strong>欢迎你学习使用巡天数据库中的SQL语言！SQL即结构化查询语言，是与数据库通信的标准方法。SQL语句用于执行更新数据库中的数据或从数据库检索数据等任务。在天文学研究中，它被广泛应用于巡天数据的查询和操作。本手册包含了SQL的简要介绍，你还可以学习一些包含注释的具体查询示例。</strong></h2>
+<p><strong>Table of content</strong></p>
+<h2 id="sql-basics-sql基础知识">1. SQL Basics SQL基础知识</h2>
+<h4 id="database-structure-table-descriptions-数据库与表的结构">1.1 Database structure/ table descriptions 数据库与表的结构</h4>
+<h4 id="sky-survey-basics-巡天数据库常用字段">1.2 Sky survey basics 巡天数据库常用字段</h4>
+<h2 id="query-examples-查询示例">2. Query Examples 查询示例</h2>
+<hr>
+<h2 id="sql-basics-sql基础知识-1">1. SQL Basics SQL基础知识</h2>
+<p>The data in the database is organized in Tables, organized in columns and rows. In SQL you write queries to the database. A query is compound of the table columns you want to retrieve (the SELECT part), the table or tables that store the data (the FROM part) and the conditions to restrict the data you will obtain (the WHERE part).<br>
+数据库中的数据在<strong>表（table）</strong> 中按照<strong>行(row)</strong> 和<strong>列(column)</strong> 组织起来。通过SQL你通过<strong>查询语句（query）</strong> 从数据库中获取数据。查询语句包括要检索的表和列（SELECT子句）、存储数据的表（FROM子句）以及查询数据的限制条件（WHERE子句）。<br>
+E.g.</p>
+<pre><code> SELECT &lt;columns&gt; FROM &lt;tables&gt; WHERE &lt;conditions&gt;
+</code></pre>
+<h5 id="mathematical-and-logical-operators-数学与逻辑运算符">Mathematical and logical operators 数学与逻辑运算符</h5>
+<p><img src="https://upload-images.jianshu.io/upload_images/11075127-c82767e07c1edd4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>
+<img src="https://upload-images.jianshu.io/upload_images/11075127-0886a09a05de2fbc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>The AND operator displays a record if all conditions separated by AND are TRUE.<br>
+The OR operator displays a record if any of conditions separated by OR is TRUE.<br>
+The NOT operator displays a record if the condition(s) is NOT TRUE.</p>
+<h5 id="sql-comments-注释">SQL Comments 注释</h5>
+<p>Comments are used to explain sections of SQL statements, or to prevent execution of SQL statements.<br>
+Single line comments start with – .Any content between – and the end of the line will be ignored (will not be executed).<br>
+注释用于解释SQL语句的各个部分，或使SQL语句不能运行。<br>
+单行注释以–开始，在“–”和行尾中间的所有内容都不会被运行。<br>
+E.g.</p>
+<pre><code> --Select all:
+SELECT * FROM Stars;
+</code></pre>
+<h4 id="database-structure-table-descriptions-数据库结构">1.1 Database structure/ table descriptions 数据库结构</h4>
+<p>Below is a list of the most commonly used tables (and views) in our sky survey database and a short description of them. You can click on the table names to read further information. 以下是该巡天数据库中常用的表和视图，以及对它们的简要介绍。你可以点击表名的链接阅读更多信息。</p>
+<p><a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+PhotoObj+V#&amp;&amp;history=description+PhotoObj+V"><em><strong>PhotoObj</strong></em></a>：stores information about the images of every object, including run, rerun, camcol, field, ra, dec, magnitudes and object flags. 存储每个目标的图像信息，包括run，rerun，camcol，field，ra，dec，magnitude和object flags等字段。</p>
+<p><a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+PlateX+U"><em><strong>PlateX</strong></em></a>： stores information on the aluminum plates that the sky survey uses to take spectra, including their exposure times and reddening information. You will need to find the Plate and MJD in this table to look up an object’s spectrum in the Get Spectra tool. 存储巡天中用于拍摄光谱的铝板信息，包括曝光时间和红化信息。你需要在此表中查询Plate和MJD从而在Get Spectra工具中查找目标天体的光谱。</p>
+<p><a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+Specobj+U#&amp;&amp;history=description+Specobj+U"><em><strong>SpecObj</strong></em></a>：stores information on objects’ spectra, including redshifts and spectroscopic classifications. 存储有关目标天体光谱的信息，包括红移和光谱分类。</p>
+<p><a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+Neighbors+U#&amp;&amp;history=description+Neighbors+U"><em><strong>Neighbors</strong></em></a>： stores all PhotoObj pairs within 30 arcseconds. 在30角秒（arcsecond）内存储所有PhotoObj对。</p>
+<p><a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+Photoz+U#&amp;&amp;history=description+Photoz+U"><em><strong>Photoz</strong></em></a>：stores the photometrically estimated redshifts for all objects in the GalaxyTag view. 存储GalaxyTag视图中所有目标的光度估计红移。</p>
+<p>Our sky survey data also contains several subsets of the PhotoObj table. <a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+PhotoPrimary+V#&amp;&amp;history=description+PhotoPrimary+V"><em><strong>PhotoPrimary</strong></em></a> contains only the “best” measurements of each object. Generally, it’s better to use PhotoPrimary rather than PhotoObj, which contains both good and bad data. <a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+Star+V"><em><strong>Star</strong></em></a> contains only data for stars, <a href="http://skyserver.sdss.org/dr15/en/help/browser/browser.aspx?cmd=description+Galaxy+V#&amp;&amp;history=description+Galaxy+V"><em><strong>Galaxy</strong></em></a> contains only data for galaxies, and Unknown contains only data for objects classified as “unknown.” These subsets are actually views rather than tables; <strong>you will get familiar with them later in through examples</strong><br>
+我们的巡天数据还包含PhotoObj表的几个子集。 PhotoPrimary仅包含每个对象的“最佳”测量值。通常，最好使用PhotoPrimary而不是PhotoObj因为后者的数据质量不一。 Star仅包含星星的数据，Galaxy仅包含星系数据，而Unknown仅包含被归类为“未知”的对象的数据。这些子集实际上是视图而不是表。<strong>你将通过后面的示例进一步熟悉它们</strong></p>
+<h4 id="sky-survey-basics-巡天数据库常用字段-1">1.2 Sky survey basics 巡天数据库常用字段</h4>
+<p><strong>ra</strong>: right ascension (sky longitude) ;赤经</p>
+<p><strong>dec</strong>: declination (sky latitude) ;赤纬</p>
+<p><strong>g magnitude</strong>: model magnitude in g filter ;在g波段的星等</p>
+<h2 id="query-examples">2. Query Examples</h2>
+<p><strong>Example 1</strong><br>
+– Find unique objects in an RA/Dec box. 查询一个赤经/赤纬坐标区域内具有唯一性的目标。<br>
+–Table used: PhotoObj (PhotoPrimary is a view created based on PhotoObj)</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token keyword">TOP</span> <span class="token number">100</span> objID<span class="token punctuation">,</span>  	    
+<span class="token comment">-- to retrieve only the first 100 object ID  </span>
+<span class="token comment">-- the SELECT TOP clause is used to specify the number of records to return </span>
+    field<span class="token punctuation">,</span> ra<span class="token punctuation">,</span> <span class="token keyword">dec</span>      	<span class="token comment">-- to get the field number and coordinates </span>
+<span class="token keyword">FROM</span> PhotoPrimary       	
+<span class="token comment">-- to select from PhotoPrimary which contains only unique objects in PhotoObj  </span>
+<span class="token comment">-- selecting from a view which contains only unique objects can avoid duplicates in the result </span>
+<span class="token keyword">WHERE</span>
+    ra <span class="token operator">&gt;</span> <span class="token number">185</span><span class="token punctuation">.</span> <span class="token operator">and</span> ra <span class="token operator">&lt;</span> <span class="token number">185.1</span> <span class="token operator">and</span> <span class="token keyword">dec</span> <span class="token operator">&gt;</span> <span class="token number">15</span><span class="token punctuation">.</span> <span class="token operator">and</span> <span class="token keyword">dec</span> <span class="token operator">&lt;</span> <span class="token number">15.1</span>
+   
+</code></pre>
+<p><strong>Example 2</strong><br>
+– Find all galaxies in a certain area of the sky that meet specific criteria in their measured parameters.  查询天区中参数符合特定判据的所有星系。<br>
+– Table used: Galaxy</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token keyword">TOP</span> <span class="token number">100</span> objID<span class="token punctuation">,</span> ra<span class="token punctuation">,</span> <span class="token keyword">dec</span><span class="token punctuation">,</span> cModelMag_g 
+<span class="token comment">-- to get first 100 objectID, coordinates and g magnitude   --The cModelMag_g column contains “model magnitude in g filter” </span>
+<span class="token keyword">FROM</span> Galaxy
+<span class="token keyword">WHERE</span> ra <span class="token operator">BETWEEN</span> <span class="token number">178</span> <span class="token operator">AND</span> <span class="token number">180</span> 
+<span class="token comment">-- to select objects of which right ascension ranges between 178 and 180  --The BETWEEN operator selects values within a given range. </span>
+ <span class="token operator">AND</span> <span class="token keyword">dec</span> <span class="token operator">&lt;</span> <span class="token number">0</span>
+ <span class="token operator">AND</span> cModelMag_g <span class="token operator">BETWEEN</span> <span class="token number">18</span> <span class="token operator">AND</span> <span class="token number">19</span> 
+ <span class="token comment">-- to select objects of which g magnitude ranges between 18 and 19</span>
+
+
+</code></pre>
+<p><strong>Example 3</strong><br>
+–Look for spectra of quasars and the date and time at which each spectrum was taken.  查询类星体的光谱，并显示每个光谱的拍摄日期和时间。<br>
+– Table used: SpecPhoto (a view which is a pre-computed join of the most commonly-searched fields in both the SpecObj view that contains spectroscopy data and the PhotoObj view that contains photometry data)</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token keyword">TOP</span> <span class="token number">100</span>
+sp<span class="token punctuation">.</span>objID<span class="token punctuation">,</span> sp<span class="token punctuation">.</span>ra<span class="token punctuation">,</span> sp<span class="token punctuation">.</span><span class="token keyword">dec</span><span class="token punctuation">,</span>
+px<span class="token punctuation">.</span>taiBegin<span class="token punctuation">,</span> px<span class="token punctuation">.</span>taiEnd<span class="token punctuation">,</span>    <span class="token comment">-- to select beginning time and ending time </span>
+<span class="token keyword">FROM</span> specPhoto <span class="token keyword">AS</span> sp     
+<span class="token comment">-- to give specPhoto an alias (nickname) as sp in this query  -- aliases (names) are used to give a table, or a column a temporary name</span>
+<span class="token keyword">JOIN</span> plateX <span class="token keyword">AS</span> px          <span class="token comment">-- to give plateX an alias (nickname)as px in this query </span>
+<span class="token keyword">ON</span> sp<span class="token punctuation">.</span>plateID <span class="token operator">=</span> px<span class="token punctuation">.</span>plateID  
+<span class="token comment">-- to use JOIN…ON… to select objects that stored in both sp and px </span>
+<span class="token comment">-- a JOIN clause is used to combine rows from two or more tables, based on key variable they have in common </span>
+<span class="token keyword">WHERE</span>
+<span class="token punctuation">(</span>sp<span class="token punctuation">.</span>class<span class="token operator">=</span><span class="token string">'QSO'</span><span class="token punctuation">)</span>           <span class="token comment">-- to select QSO from spectroscopic class (GALAXY, QSO, or STAR) </span>
+           
+</code></pre>
+<p><strong>Example 4</strong><br>
+– Count the number of spectra of each spectral classification (galaxy, quasar, star). 查询每种光谱分类（星系，类星体，恒星）的光谱数。<br>
+– Table used: SpecObj</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> class<span class="token punctuation">,</span> <span class="token function">count</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span>   
+<span class="token comment">-- to retrieve class and the total number of records  </span>
+<span class="token comment">-- the count(*) statement returns the number of all records that meet specific search criteria </span>
+<span class="token keyword">FROM</span> SpecObj 
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> class  
+<span class="token comment">-- to group the number of records based on 'class' column which contains the spectral classification of the object  </span>
+<span class="token comment">-- The GROUP BY statement groups results into groups (categories) based on the value of a data column. </span>
+  
+</code></pre>
+<p><strong>Example 5</strong><br>
+– Find all objects within 30 arcseconds of one another that have very similar colors.查询彼此角距离小于30角秒且颜色相近的所有目标。<br>
+– Table used: PhotoPrimary, Neighbors</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token keyword">TOP</span> <span class="token number">10</span> P<span class="token punctuation">.</span>ObjID	                               
+<span class="token keyword">FROM</span>	PhotoPrimary <span class="token keyword">AS</span> P	                         <span class="token comment">-- to select primary objects from P</span>
+<span class="token keyword">JOIN</span> Neighbors <span class="token keyword">AS</span> N <span class="token keyword">ON</span> P<span class="token punctuation">.</span>ObjID <span class="token operator">=</span> N<span class="token punctuation">.</span>ObjID           
+<span class="token keyword">JOIN</span> PhotoPrimary <span class="token keyword">AS</span> L <span class="token keyword">ON</span> L<span class="token punctuation">.</span>ObjID <span class="token operator">=</span> N<span class="token punctuation">.</span>NeighborObjID   <span class="token comment">-- to select lens candidate from L  </span>
+<span class="token keyword">WHERE</span>	
+P<span class="token punctuation">.</span>ObjID <span class="token operator">&lt;</span> L<span class="token punctuation">.</span> ObjID                                    <span class="token comment">-- to avoid duplicates </span>
+<span class="token comment">-- to select objects from L and P that have similar spectra, which means the color ratios u-g, g-r, r-I are less than 0.05m   </span>
+<span class="token comment">-- if two objects’ color ratios u-g, g-r, r-I are less than 0.05m, they have a similar spectra</span>
+<span class="token operator">and</span> abs<span class="token punctuation">(</span><span class="token punctuation">(</span>P<span class="token punctuation">.</span>u<span class="token operator">-</span>P<span class="token punctuation">.</span>g<span class="token punctuation">)</span><span class="token operator">-</span><span class="token punctuation">(</span>L<span class="token punctuation">.</span>u<span class="token operator">-</span>L<span class="token punctuation">.</span>g<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token number">0.05</span>         
+<span class="token operator">and</span> abs<span class="token punctuation">(</span><span class="token punctuation">(</span>P<span class="token punctuation">.</span>g<span class="token operator">-</span>P<span class="token punctuation">.</span>r<span class="token punctuation">)</span><span class="token operator">-</span><span class="token punctuation">(</span>L<span class="token punctuation">.</span>g<span class="token operator">-</span>L<span class="token punctuation">.</span>r<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token number">0.05</span>      
+<span class="token operator">and</span> abs<span class="token punctuation">(</span><span class="token punctuation">(</span>P<span class="token punctuation">.</span>r<span class="token operator">-</span>P<span class="token punctuation">.</span>i<span class="token punctuation">)</span><span class="token operator">-</span><span class="token punctuation">(</span>L<span class="token punctuation">.</span>r<span class="token operator">-</span>L<span class="token punctuation">.</span>i<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token number">0.05</span>
+<span class="token operator">and</span> abs<span class="token punctuation">(</span><span class="token punctuation">(</span>P<span class="token punctuation">.</span>i<span class="token operator">-</span>P<span class="token punctuation">.</span>z<span class="token punctuation">)</span><span class="token operator">-</span><span class="token punctuation">(</span>L<span class="token punctuation">.</span>i<span class="token operator">-</span>L<span class="token punctuation">.</span>z<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">&lt;</span><span class="token number">0.05</span>        <span class="token comment">-- The ABS() function returns the absolute value of a number.</span>
+  
+</code></pre>
+<p><strong>Example 6</strong><br>
+– List the number of each type of object observed by each special spectroscopic observation program. 查询每个光谱观测项目观测到的每种目标的数量。<br>
+– Table used: SpecObjAll, PlateX</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> plate<span class="token punctuation">.</span>programname<span class="token punctuation">,</span> class<span class="token punctuation">,</span>
+<span class="token function">COUNT</span><span class="token punctuation">(</span>specObjId<span class="token punctuation">)</span> <span class="token keyword">AS</span> numObjs     
+<span class="token comment">-- to count objects and name the result column as numObjs  </span>
+<span class="token comment">-- The COUNT() function returns the number of rows that matches a specified criteria. </span>
+<span class="token keyword">FROM</span> SpecObjAll
+<span class="token keyword">JOIN</span> PlateX <span class="token keyword">AS</span> plate <span class="token keyword">ON</span> plate<span class="token punctuation">.</span>plate <span class="token operator">=</span> specObjAll<span class="token punctuation">.</span>plate
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> plate<span class="token punctuation">.</span>programname<span class="token punctuation">,</span> class
+<span class="token comment">-- to categorize results based on program and class  </span>
+<span class="token comment">-- The GROUP BY statement sorts results into groups (categories) based on the value of a data column. </span>
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> plate<span class="token punctuation">.</span>programname<span class="token punctuation">,</span> class       
+<span class="token comment">-- to sort the results based on program and in each program sort results based on class  </span>
+<span class="token comment">-- the ORDER BY keyword is used to sort the result-set in ascending or descending order </span>
+     
+</code></pre>
+</div>
+</body>
+
+</html>
