@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Yuming Fu&#39;s Homepage</title>
-    <link>https://example.com/books/</link>
+    <link>https://rudolffu.github.io/books/</link>
     <description>Recent content in Books on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/books/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rudolffu.github.io/books/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

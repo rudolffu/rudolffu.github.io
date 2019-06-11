@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical notes on Yuming Fu&#39;s Homepage</title>
-    <link>https://example.com/tech/</link>
+    <link>https://rudolffu.github.io/tech/</link>
     <description>Recent content in Technical notes on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rudolffu.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Extend disk volume with Ubuntu LVM</title>
-      <link>https://example.com/tech/2019-05-21-ubuntu-lvm/</link>
+      <link>https://rudolffu.github.io/tech/2019-05-21-ubuntu-lvm/</link>
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
       
-      <guid>https://example.com/tech/2019-05-21-ubuntu-lvm/</guid>
+      <guid>https://rudolffu.github.io/tech/2019-05-21-ubuntu-lvm/</guid>
       <description> Introduction to LVM Steps with examples </description>
     </item>
     

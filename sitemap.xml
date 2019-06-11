@@ -3,89 +3,89 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://rudolffu.github.io/categories/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/observation/weather-china/</loc>
+    <loc>https://rudolffu.github.io/observation/weather-china/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/observation/</loc>
+    <loc>https://rudolffu.github.io/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tech/2019-05-21-ubuntu-lvm/</loc>
+    <loc>https://rudolffu.github.io/categories/observation/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tech/2019-05-21-ubuntu-lvm/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/lvm/</loc>
+    <loc>https://rudolffu.github.io/tags/lvm/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://rudolffu.github.io/tags/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/tech/</loc>
+    <loc>https://rudolffu.github.io/categories/tech/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/ubuntu/</loc>
+    <loc>https://rudolffu.github.io/tags/ubuntu/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/books/</loc>
+    <loc>https://rudolffu.github.io/books/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/observation/</loc>
+    <loc>https://rudolffu.github.io/observation/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/research/</loc>
+    <loc>https://rudolffu.github.io/research/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tech/</loc>
+    <loc>https://rudolffu.github.io/tech/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/philology/</loc>
+    <loc>https://rudolffu.github.io/philology/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://rudolffu.github.io/about/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/series/</loc>
+    <loc>https://rudolffu.github.io/series/</loc>
     <priority>0</priority>
   </url>
   
