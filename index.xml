@@ -2,69 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuming Fu&#39;s Homepage</title>
-    <link>https://rudolffu.github.io/</link>
+    <link>https://example.com/</link>
     <description>Recent content on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jun 2019 12:52:24 +0200</lastBuildDate>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rudolffu.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>語文學/Philology 欄目說明</title>
-      <link>https://rudolffu.github.io/2019/06/philology-main/</link>
-      <pubDate>Tue, 11 Jun 2019 12:52:24 +0200</pubDate>
+      <title>How&#39;s the weather tonight?</title>
+      <link>https://example.com/observation/weather-china/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rudolffu.github.io/2019/06/philology-main/</guid>
-      <description>“語文”二字，大陸人莫不熟悉；近世以來，其名代昔之“國文”，而列中小學之必修課程。由名觀之，乃“語言文學”或“語言文字”之統稱，在教學中，前</description>
+      <guid>https://example.com/observation/weather-china/</guid>
+      <description>Although astronomers do not study meteorology, some of them, especially observers, may pay close attention to the weather. Factors such as temperature, humidity, wind speed and direction, cloud coverage, have great influence on the observation activity.</description>
     </item>
     
     <item>
       <title>Extend disk volume with Ubuntu LVM</title>
-      <link>https://rudolffu.github.io/2019/05/ubuntu-lvm/</link>
+      <link>https://example.com/tech/2019-05-21-ubuntu-lvm/</link>
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
       
-      <guid>https://rudolffu.github.io/2019/05/ubuntu-lvm/</guid>
-      <description>##Introduction to LVM
-##Steps with examples</description>
-    </item>
-    
-    <item>
-      <title>Finding Quasars behind the Galactic Plane</title>
-      <link>https://rudolffu.github.io/2019/05/gpq/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://rudolffu.github.io/2019/05/gpq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://rudolffu.github.io/search/placeholder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rudolffu.github.io/search/placeholder/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://rudolffu.github.io/top/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rudolffu.github.io/top/about/</guid>
-      <description>I am a PhD candidate in Astrophysics at Peking University in China. Currently I&amp;rsquo;m a guest PhD student at Leiden Observatory in the Netherlands.
-I&amp;rsquo;m interested in quasars/AGN, observational cosmology, stastical astrometry, as well as data mining on big-data sky surveys. Apart from my research, I write popular science articles and books, and translate some works in English into Chinese as well.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://rudolffu.github.io/top/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rudolffu.github.io/top/books/</guid>
-      <description> Some useful books for astronomers Textbooks or lecture notes Astronomy, Astrophysics and Cosmology  Textbook on spherical astronomy by Smart, William Marshall, W. M. Smart, and R. M. Green. Cambridge University Press, 1977.   Physics Technical books or manuals Statistics, Machine Learning and AI Operating Systems and shell Python, R and other languages Databases, SQL and so on Popular science books History of natural science / astronomy </description>
+      <guid>https://example.com/tech/2019-05-21-ubuntu-lvm/</guid>
+      <description> Introduction to LVM Steps with examples </description>
     </item>
     
   </channel>

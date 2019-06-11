@@ -3,114 +3,89 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rudolffu.github.io/categories/</loc>
-    <lastmod>2019-06-11T12:52:24+02:00</lastmod>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/post/</loc>
-    <lastmod>2019-06-11T12:52:24+02:00</lastmod>
+    <loc>https://example.com/observation/weather-china/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/tags/</loc>
-    <lastmod>2019-06-11T12:52:24+02:00</lastmod>
+    <loc>https://example.com/categories/observation/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/</loc>
-    <lastmod>2019-06-11T12:52:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/categories/%E8%AA%9E%E6%96%87-philology/</loc>
-    <lastmod>2019-06-11T12:52:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/2019/06/philology-main/</loc>
-    <lastmod>2019-06-11T12:52:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/tags/%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%97/</loc>
-    <lastmod>2019-06-11T12:52:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/2019/05/ubuntu-lvm/</loc>
+    <loc>https://example.com/tech/2019-05-21-ubuntu-lvm/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/tags/lvm/</loc>
+    <loc>https://example.com/tags/lvm/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/categories/tech/</loc>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/tags/ubuntu/</loc>
+    <loc>https://example.com/categories/tech/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/2019/05/gpq/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/tags/galactic-plane/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+    <loc>https://example.com/tags/ubuntu/</loc>
+    <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/tags/quasar/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://example.com/books/</loc>
+    <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/categories/research/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://example.com/observation/</loc>
+    <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/search/placeholder/</loc>
-    <priority>0</priority>
+    <loc>https://example.com/research/</loc>
+    <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/top/about/</loc>
-    <priority>0</priority>
+    <loc>https://example.com/tech/</loc>
+    <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/top/books/</loc>
-    <priority>0</priority>
+    <loc>https://example.com/philology/</loc>
+    <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/search/</loc>
-    <priority>0</priority>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/top/</loc>
+    <loc>https://example.com/series/</loc>
     <priority>0</priority>
   </url>
   

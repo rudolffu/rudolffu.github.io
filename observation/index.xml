@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Observation on Yuming Fu&#39;s Homepage</title>
+    <link>https://example.com/observation/</link>
+    <description>Recent content in Observation on Yuming Fu&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.com/observation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How&#39;s the weather tonight?</title>
+      <link>https://example.com/observation/weather-china/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/observation/weather-china/</guid>
+      <description>Although astronomers do not study meteorology, some of them, especially observers, may pay close attention to the weather. Factors such as temperature, humidity, wind speed and direction, cloud coverage, have great influence on the observation activity.</description>
+    </item>
+    
+  </channel>
+</rss>
