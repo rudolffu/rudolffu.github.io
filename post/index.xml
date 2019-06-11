@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yuming Fu&#39;s Homepage</title>
+    <link>https://rudolffu.github.io/post/</link>
+    <description>Recent content in Posts on Yuming Fu&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 12:52:24 +0200</lastBuildDate>
+    
+	<atom:link href="https://rudolffu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>語文學/Philology 欄目說明</title>
+      <link>https://rudolffu.github.io/2019/06/philology-main/</link>
+      <pubDate>Tue, 11 Jun 2019 12:52:24 +0200</pubDate>
+      
+      <guid>https://rudolffu.github.io/2019/06/philology-main/</guid>
+      <description>“語文”二字，大陸人莫不熟悉；近世以來，其名代昔之“國文”，而列中小學之必修課程。由名觀之，乃“語言文學”或“語言文字”之統稱，在教學中，前</description>
+    </item>
+    
+    <item>
+      <title>Extend disk volume with Ubuntu LVM</title>
+      <link>https://rudolffu.github.io/2019/05/ubuntu-lvm/</link>
+      <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
+      
+      <guid>https://rudolffu.github.io/2019/05/ubuntu-lvm/</guid>
+      <description>##Introduction to LVM
+##Steps with examples</description>
+    </item>
+    
+    <item>
+      <title>Finding Quasars behind the Galactic Plane</title>
+      <link>https://rudolffu.github.io/2019/05/gpq/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudolffu.github.io/2019/05/gpq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

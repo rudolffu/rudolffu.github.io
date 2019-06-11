@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LVM on Yuming Fu&#39;s Homepage</title>
+    <link>https://rudolffu.github.io/tags/lvm/</link>
+    <description>Recent content in LVM on Yuming Fu&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 May 2019 17:19:31 +0200</lastBuildDate>
+    
+	<atom:link href="https://rudolffu.github.io/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Extend disk volume with Ubuntu LVM</title>
+      <link>https://rudolffu.github.io/2019/05/ubuntu-lvm/</link>
+      <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
+      
+      <guid>https://rudolffu.github.io/2019/05/ubuntu-lvm/</guid>
+      <description>##Introduction to LVM
+##Steps with examples</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Yuming Fu&#39;s Homepage</title>
+    <link>https://rudolffu.github.io/categories/</link>
+    <description>Recent content in Categories on Yuming Fu&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 12:52:24 +0200</lastBuildDate>
+    
+	<atom:link href="https://rudolffu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>語文-Philology</title>
+      <link>https://rudolffu.github.io/categories/%E8%AA%9E%E6%96%87-philology/</link>
+      <pubDate>Tue, 11 Jun 2019 12:52:24 +0200</pubDate>
+      
+      <guid>https://rudolffu.github.io/categories/%E8%AA%9E%E6%96%87-philology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://rudolffu.github.io/categories/tech/</link>
+      <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
+      
+      <guid>https://rudolffu.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://rudolffu.github.io/categories/research/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudolffu.github.io/categories/research/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
