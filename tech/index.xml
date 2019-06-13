@@ -17,7 +17,8 @@
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
       
       <guid>https://rudolffu.github.io/tech/2019-05-21-ubuntu-lvm/</guid>
-      <description> Introduction to LVM Steps with examples </description>
+      <description>Be careful with your disk when reading this note and similar ones. Think twice before you take action.
+Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems.</description>
     </item>
     
   </channel>
