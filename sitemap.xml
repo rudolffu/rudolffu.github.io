@@ -3,6 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rudolffu.github.io/</loc>
+    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/philology/2019-07-05-qingpingyue/</loc>
+    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rudolffu.github.io/categories/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -11,12 +22,6 @@
   <url>
     <loc>https://rudolffu.github.io/observation/weather-china/</loc>
     <lastmod>2019-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/</loc>
-    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
