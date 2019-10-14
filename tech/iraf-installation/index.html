@@ -353,13 +353,13 @@
           <div class="post-content markdown">
             
 
-<h3 id="0-introduction-to-iraf">0. Introduction to IRAF</h3>
+<h3 id="0-introduction-to-iraf-introduction-to-iraf"><a href="#introduction-to-iraf">0. Introduction to IRAF</a></h3>
 
 <p>IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data. IRAF is licensed under a MIT style license. The software was written by the National Optical Astronomy Observatories (NOAO) in Tucson, Arizona.</p>
 
-<h3 id="1-install-iraf-and-pyraf-from-astroconda-https-astroconda-readthedocs-io-en-latest">1. Install IRAF and PyRAF from <a href="https://astroconda.readthedocs.io/en/latest/">AstroConda</a></h3>
+<h3 id="1-install-iraf-and-pyraf-from-astroconda-install-iraf-and-pyraf-from-astroconda"><a href="#install-iraf-and-pyraf-from-astroconda">1. Install IRAF and PyRAF from AstroConda</a></h3>
 
-<h4 id="1-1-general-brief-instructions">1.1 General brief instructions</h4>
+<h4 id="1-1-general-brief-instructions-general-brief-instructions"><a href="#general-brief-instructions">1.1 General brief instructions</a></h4>
 
 <p>If you are already (or going to be) familiar with <a href="https://conda.io/en/latest/">Conda</a>, which is an open source package management system, then you may prefer to install IRAF/PyRAF from <a href="https://astroconda.readthedocs.io/en/latest/">AstroConda</a> channel. AstroConda provides a simple way to plan and extract packages into your environment. You can refer to the documentation of AstroConda for instructions on how to install <a href="https://astroconda.readthedocs.io/en/latest/installation.html#legacy-software-stack-with-iraf">Legacy Software Stack with IRAF</a>. In short, the installation can be done with:</p>
 
@@ -387,10 +387,12 @@ conda create -n iraf27 python=2.7 iraf-all pyraf-all stsci
 ### or conda activate iraf27 #(for newer versions)
 </code></pre>
 
-<p>Make sure you&rsquo;re under your working dirctory (not the installation directory of IRAF), and initiate IRAF/PyRAF with <code>mkiraf</code> command:</p>
+<p>Make sure you&rsquo;re under your working dirctory (not the installation directory of IRAF), and initiate IRAF/PyRAF with <code>mkiraf</code> command, <strong>which is necessary when you&rsquo;re going to use IRAF/PyRAF for the first time in <code>YourWorkingDirectory</code></strong>:</p>
 
 <pre><code>cd YourWorkingDirectory
+
 mkiraf
+
 ###Enter 'xgterm' in the terminal type
 &gt;&gt;&gt;-- creating a new uparm directory
 &gt;&gt;&gt;Terminal types: xgterm,xterm,gterm,vt640,vt100,etc.
@@ -401,7 +403,7 @@ mkiraf
 
 <h5 id="1-2-1-log-in-to-iraf">1.2.1 Log in to IRAF</h5>
 
-<p>The command for logging in to IRAF is <code>cl</code> or <code>ecl</code> (you can try both in your system). However, we&rsquo;re not supposed to type the command directly in the system default terminal, but rather do that in <code>xgterm</code>. This is because only <code>xgterm</code> can play well in terms of interactive operations when using IRAF. Also, we often need to keep a <code>ds9</code> window active when learning data reduction. So the steps here are:</p>
+<p>The command for logging in to IRAF is <code>cl</code> or <code>ecl</code> (you can try both in your system). However, we&rsquo;re not supposed to type the command directly in the system default terminal, but rather do that in <code>xgterm</code>. This is because <strong>only <code>xgterm</code> can play well in terms of interactive operations when using IRAF</strong>. Also, we often need to keep a <code>ds9</code> window active when learning data reduction. So the steps here are:</p>
 
 <ul>
 <li>Open <code>xgterm</code></li>
@@ -439,6 +441,8 @@ source activate iraf27 #or conda activate iraf27
 </code></pre>
 
 <p>Now and next time you launch a new terminal window, just activate <code>iraf27</code> environment and you can use <code>iraf</code> command to log in.</p>
+
+<p><strong>Always check if there are <code>login.cl</code> and <code>uparm</code> in your (new) working directory! If not, remember to <code>mkiraf</code> before logging in.</strong></p>
 
 <h5 id="1-2-1-log-in-to-pyraf">1.2.1 Log in to PyRAF</h5>
 
@@ -597,7 +601,7 @@ mv ~/Downloads/ds9 /home/yourname/anaconda3/envs/iraf27/bin/ds9 #Replace
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#0-introduction-to-iraf">
+						 					<a class="nav-link" href="#0-introduction-to-iraf-introduction-to-iraf">
 												 0. Introduction to IRAF
 											</a>
 										</li>
@@ -623,7 +627,7 @@ mv ~/Downloads/ds9 /home/yourname/anaconda3/envs/iraf27/bin/ds9 #Replace
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#1-install-iraf-and-pyraf-from-astroconda-https-astroconda-readthedocs-io-en-latest">
+						 					<a class="nav-link" href="#1-install-iraf-and-pyraf-from-astroconda-install-iraf-and-pyraf-from-astroconda">
 												 1. Install IRAF and PyRAF from AstroConda
 											</a>
 										</li>
@@ -651,7 +655,7 @@ mv ~/Downloads/ds9 /home/yourname/anaconda3/envs/iraf27/bin/ds9 #Replace
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#1-1-general-brief-instructions">
+						 					<a class="nav-link" href="#1-1-general-brief-instructions-general-brief-instructions">
 												 1.1 General brief instructions
 											</a>
 										</li>
