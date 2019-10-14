@@ -3,8 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rudolffu.github.io/tags/astroconda/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://rudolffu.github.io/categories/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/conda/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tech/iraf-installation/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/iraf/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/pyraf/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/categories/tech/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/ubuntu/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/</loc>
+    <lastmod>2019-09-14T14:43:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16,18 +69,6 @@
   
   <url>
     <loc>https://rudolffu.github.io/categories/philology/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/tags/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/</loc>
     <lastmod>2019-07-05T21:09:40+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -72,18 +113,6 @@
   
   <url>
     <loc>https://rudolffu.github.io/tags/lvm/</loc>
-    <lastmod>2019-05-21T17:19:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/categories/tech/</loc>
-    <lastmod>2019-05-21T17:19:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/tags/ubuntu/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
     <priority>0</priority>
   </url>

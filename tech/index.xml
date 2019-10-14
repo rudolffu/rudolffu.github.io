@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>How to install and initiate IRAF in Ubuntu/Mac OS</title>
+      <link>https://rudolffu.github.io/tech/iraf-installation/</link>
+      <pubDate>Sat, 14 Sep 2019 14:43:21 +0800</pubDate>
+      
+      <guid>https://rudolffu.github.io/tech/iraf-installation/</guid>
+      <description>0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
+    </item>
+    
+    <item>
       <title>Extend disk volume with Ubuntu LVM</title>
       <link>https://rudolffu.github.io/tech/2019-05-21-ubuntu-lvm/</link>
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
