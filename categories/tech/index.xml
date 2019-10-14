@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sat, 14 Sep 2019 14:43:21 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2019 14:43:21 +0800</lastBuildDate>
     
 	<atom:link href="https://rudolffu.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>How to install and initiate IRAF in Ubuntu/Mac OS</title>
       <link>https://rudolffu.github.io/tech/iraf-installation/</link>
-      <pubDate>Sat, 14 Sep 2019 14:43:21 +0800</pubDate>
+      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
       
       <guid>https://rudolffu.github.io/tech/iraf-installation/</guid>
       <description>0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
