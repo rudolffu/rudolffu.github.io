@@ -363,19 +363,19 @@
 
 <p>If you are already (or going to be) familiar with <a href="https://conda.io/en/latest/">Conda</a>, which is an open source package management system, then you may prefer to install IRAF/PyRAF from <a href="https://astroconda.readthedocs.io/en/latest/">AstroConda</a> channel. AstroConda provides a simple way to plan and extract packages into your environment. You can refer to the documentation of AstroConda for instructions on how to install <a href="https://astroconda.readthedocs.io/en/latest/installation.html#legacy-software-stack-with-iraf">Legacy Software Stack with IRAF</a>. In short, the installation can be done with:</p>
 
-<pre><code>conda config --add channels http://ssb.stsci.edu/astroconda
+<pre><code class="language-bash">conda config --add channels http://ssb.stsci.edu/astroconda
 conda create -n iraf27 python=2.7 iraf-all pyraf-all stsci
 </code></pre>
 
 <p>Note that every time you want to use IRAF/PyRAF (and any other packages in <code>iraf27</code> environment), you need to activate the env &lsquo;iraf27&rsquo; that you have created:</p>
 
-<pre><code>source activate iraf27
+<pre><code class="language-bash">source activate iraf27
 ### or conda activate iraf27
 </code></pre>
 
 <p>And to deactivate, run:</p>
 
-<pre><code>source deactivate
+<pre><code class="language-bash">source deactivate
 ### or conda deactivate
 </code></pre>
 
@@ -383,13 +383,13 @@ conda create -n iraf27 python=2.7 iraf-all pyraf-all stsci
 
 <p>First activate <code>iraf27</code> environment:</p>
 
-<pre><code>source activate iraf27
+<pre><code class="language-bash">source activate iraf27
 ### or conda activate iraf27 #(for newer versions)
 </code></pre>
 
 <p>Make sure you&rsquo;re under your working dirctory (not the installation directory of IRAF), and initiate IRAF/PyRAF with <code>mkiraf</code> command, <strong>which is necessary when you&rsquo;re going to use IRAF/PyRAF for the first time in <code>YourWorkingDirectory</code></strong>:</p>
 
-<pre><code>cd YourWorkingDirectory
+<pre><code class="language-bash">cd YourWorkingDirectory
 
 mkiraf
 
@@ -413,25 +413,25 @@ mkiraf
 
 <p>If you&rsquo;re satisfied with all the windows that pop up, then you can stop reading this article. But you may find ths fonts in xgterm too small, and the whole process not so smooth. You may even get errors because <code>iraf27</code> environment needs to be activated again in <code>xgterm</code> in some computers! Then I have some tips for you. You can link all the commands of the whole 3 steps together, and also set font size for xgterm with:</p>
 
-<pre><code>xgterm -fn 10*20 -e cl &amp; ds9 &amp;
+<pre><code class="language-bash">xgterm -fn 10*20 -e cl &amp; ds9 &amp;
 </code></pre>
 
 <p>where argument <code>-fn 10*20</code> tells xgterm to use font with size &lsquo;10*20&rsquo;, <code>-e cl</code> (or <code>-e ecl</code>) tells xgterm to log in to IRAF immediately after it&rsquo;s started. The <code>&amp;</code> put the process into background of the terminal, so that we can excute new commands without waiting for the former process to be finished.</p>
 
 <p>If you want xgterm to display a scroll bar, simply add another <code>-sbr</code> argument:</p>
 
-<pre><code>xgterm -fn 10*20 -sbr -e cl &amp; ds9 &amp;
+<pre><code class="language-bash">xgterm -fn 10*20 -sbr -e cl &amp; ds9 &amp;
 </code></pre>
 
 <p>You may wish to type less, and there&rsquo;s a good way for sure: edit your <code>~/.bashrc</code> (for Ubuntu) or <code>~/.bash_profile</code> (for Mac OS) file to add this line to the file:</p>
 
-<pre><code>alias iraf='xgterm -fn 10*20 -sbr -e cl &amp; ds9 &amp;'
+<pre><code class="language-bash">alias iraf='xgterm -fn 10*20 -sbr -e cl &amp; ds9 &amp;'
 ###(You're free to edit the quoted as you like)
 </code></pre>
 
 <p>Save the file and use <code>source</code> to make it take effect in your current open terminal:</p>
 
-<pre><code>###For Ubuntu
+<pre><code class="language-bash">###For Ubuntu
 source ~/.bashrc
 source activate iraf27 #or conda activate iraf27
 
@@ -448,19 +448,19 @@ source activate iraf27 #or conda activate iraf27
 
 <p>After <code>mkiraf</code>, just type:</p>
 
-<pre><code>pyraf
+<pre><code class="language-bash">pyraf
 </code></pre>
 
 <p>and then you can use PyRAF just in your current terminal. (You will not need xgterm!)</p>
 
 <p>You can either open <code>ds9</code> before <code>pyraf</code> using:</p>
 
-<pre><code>ds9 &amp; pyraf
+<pre><code class="language-bash">ds9 &amp; pyraf
 </code></pre>
 
 <p>or open <code>ds9</code> in PyRAF environment with <code>!ds9 &amp;</code>:</p>
 
-<pre><code>PyRAF 2.1.15 Copyright (c) 2002 AURA
+<pre><code class="language-bash">PyRAF 2.1.15 Copyright (c) 2002 AURA
 Python 2.7.16 Copyright (c) 2001-2019 Python Software Foundation.
 Python/CL command line wrapper
   .help describes executive commands
@@ -475,7 +475,7 @@ Python/CL command line wrapper
 
 <p>If xgterm does not execute with error &lsquo;File not found&rsquo;, although the file is clearly there, make sure you have installed 32 bit dependencies:</p>
 
-<pre><code>dpkg --add-architecture i386 #Add 32-bit architecture
+<pre><code class="language-bash">dpkg --add-architecture i386 #Add 32-bit architecture
 sudo apt-get update #Update package source list
 sudo apt-get install libc6:i386 zlib1g:i386 libncurses5:i386 libbz2-1.0:i386 libuuid1:i386 libxcb1:i386 libxmu6:i386
 </code></pre>
@@ -486,13 +486,13 @@ sudo apt-get install libc6:i386 zlib1g:i386 libncurses5:i386 libbz2-1.0:i386 lib
 
 <p>Suppose you have Ubuntu 18, go to <a href="http://ds9.si.edu/site/Download.html">http://ds9.si.edu/site/Download.html</a> and you&rsquo;ll find the latest package for your system: <code>Linux Ubuntu 18</code>. And if you have download it to your user&rsquo;s <code>Downloads</code> folder, with its filename being <code>ds9.ubuntu18.8.0.1.tar.gz</code>:</p>
 
-<pre><code>cd ~/Downloads
+<pre><code class="language-bash">cd ~/Downloads
 tar -zxvf ds9.ubuntu18.8.0.1.tar.gz #Decompress the .tar.gz file
 </code></pre>
 
 <p>Now you have <code>ds9</code> in <code>Downloads</code> folder. Please record your path to conda-version ds9, which is the output of the following commands:</p>
 
-<pre><code>source activate iraf27
+<pre><code class="language-bash">source activate iraf27
 ### or conda activate iraf27
 which ds9
 #e.g.&gt;&gt;&gt;/home/yourname/anaconda3/envs/iraf27/bin/ds9
@@ -500,7 +500,7 @@ which ds9
 
 <p>With this output, we know that the conda-version ds9 is under <code>/home/yourname/anaconda3/envs/iraf27/bin/ds9</code>, just backup and replace:</p>
 
-<pre><code>cp /home/yourname/anaconda3/envs/iraf27/bin/ds9 /home/yourname/anaconda3/envs/iraf27/bin/ds9.bak #Create a backup file for ds9
+<pre><code class="language-bash">cp /home/yourname/anaconda3/envs/iraf27/bin/ds9 /home/yourname/anaconda3/envs/iraf27/bin/ds9.bak #Create a backup file for ds9
 mv ~/Downloads/ds9 /home/yourname/anaconda3/envs/iraf27/bin/ds9 #Replace
 </code></pre>
 
