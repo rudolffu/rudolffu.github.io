@@ -6,10 +6,19 @@
     <description>Recent content on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Mon, 14 Oct 2019 14:43:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 11:05:05 +0800</lastBuildDate>
     
 	<atom:link href="https://rudolffu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>网络汉语字典推荐</title>
+      <link>https://rudolffu.github.io/philology/chinesedict/</link>
+      <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
+      
+      <guid>https://rudolffu.github.io/philology/chinesedict/</guid>
+      <description>按：本文原载于“浅浅的天河”微信公众号2</description>
+    </item>
     
     <item>
       <title>How to install and initiate IRAF in Ubuntu/Mac OS</title>

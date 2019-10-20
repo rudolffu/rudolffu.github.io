@@ -3,13 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rudolffu.github.io/tags/astroconda/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
+    <loc>https://rudolffu.github.io/categories/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/categories/</loc>
+    <loc>https://rudolffu.github.io/categories/philology/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/philology/chinesedict/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rudolffu.github.io/tags/astroconda/</loc>
     <lastmod>2019-10-14T14:43:21+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -38,12 +67,6 @@
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/tags/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://rudolffu.github.io/categories/tech/</loc>
     <lastmod>2019-10-14T14:43:21+08:00</lastmod>
     <priority>0</priority>
@@ -56,19 +79,7 @@
   </url>
   
   <url>
-    <loc>https://rudolffu.github.io/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://rudolffu.github.io/tags/chinese-poems/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rudolffu.github.io/categories/philology/</loc>
     <lastmod>2019-07-05T21:09:40+02:00</lastmod>
     <priority>0</priority>
   </url>
