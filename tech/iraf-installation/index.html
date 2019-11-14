@@ -475,7 +475,7 @@ Python/CL command line wrapper
 
 <p>If xgterm does not execute with error &lsquo;File not found&rsquo;, although the file is clearly there, make sure you have installed 32 bit dependencies:</p>
 
-<pre><code class="language-bash">dpkg --add-architecture i386 #Add 32-bit architecture
+<pre><code class="language-bash">sudo dpkg --add-architecture i386 #Add 32-bit architecture
 sudo apt-get update #Update package source list
 sudo apt-get install libc6:i386 zlib1g:i386 libncurses5:i386 libbz2-1.0:i386 libuuid1:i386 libxcb1:i386 libxmu6:i386
 </code></pre>
