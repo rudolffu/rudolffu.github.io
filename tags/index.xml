@@ -6,26 +6,26 @@
     <description>Recent content in Tags on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sun, 20 Oct 2019 11:05:05 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2019 14:43:21 +0800</lastBuildDate>
     
 	<atom:link href="https://rudolffu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>汉语字典</title>
-      <link>https://rudolffu.github.io/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</link>
-      <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
-      
-      <guid>https://rudolffu.github.io/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AstroConda</title>
+      <title>Astroconda</title>
       <link>https://rudolffu.github.io/tags/astroconda/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
       
       <guid>https://rudolffu.github.io/tags/astroconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chinese Poems</title>
+      <link>https://rudolffu.github.io/tags/chinese-poems/</link>
+      <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
+      
+      <guid>https://rudolffu.github.io/tags/chinese-poems/</guid>
       <description></description>
     </item>
     
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>IRAF</title>
+      <title>Iraf</title>
       <link>https://rudolffu.github.io/tags/iraf/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
       
@@ -48,7 +48,16 @@
     </item>
     
     <item>
-      <title>PyRAF</title>
+      <title>Lvm</title>
+      <link>https://rudolffu.github.io/tags/lvm/</link>
+      <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
+      
+      <guid>https://rudolffu.github.io/tags/lvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyraf</title>
       <link>https://rudolffu.github.io/tags/pyraf/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
       
@@ -66,11 +75,11 @@
     </item>
     
     <item>
-      <title>Chinese Poems</title>
-      <link>https://rudolffu.github.io/tags/chinese-poems/</link>
-      <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
+      <title>汉语字典</title>
+      <link>https://rudolffu.github.io/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</link>
+      <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
       
-      <guid>https://rudolffu.github.io/tags/chinese-poems/</guid>
+      <guid>https://rudolffu.github.io/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</guid>
       <description></description>
     </item>
     
@@ -89,15 +98,6 @@
       <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
       
       <guid>https://rudolffu.github.io/tags/%E8%A9%A9%E8%A9%9E/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LVM</title>
-      <link>https://rudolffu.github.io/tags/lvm/</link>
-      <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
-      
-      <guid>https://rudolffu.github.io/tags/lvm/</guid>
       <description></description>
     </item>
     
