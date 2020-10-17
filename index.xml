@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuming Fu&#39;s Homepage</title>
-    <link>https://rudolffu.github.io/</link>
+    <link>https://yumingfu.space/</link>
     <description>Recent content on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Sun, 20 Oct 2019 11:05:05 +0800</lastBuildDate>
     
-	<atom:link href="https://rudolffu.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>网络汉语字典推荐</title>
-      <link>https://rudolffu.github.io/philology/chinesedict/</link>
+      <link>https://yumingfu.space/philology/chinesedict/</link>
       <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
       
-      <guid>https://rudolffu.github.io/philology/chinesedict/</guid>
+      <guid>https://yumingfu.space/philology/chinesedict/</guid>
       <description>作者：傅煜铭 按：本文原载于“浅浅的天河”</description>
     </item>
     
     <item>
       <title>How to install and initiate IRAF in Ubuntu/Mac OS</title>
-      <link>https://rudolffu.github.io/tech/iraf-installation/</link>
+      <link>https://yumingfu.space/tech/iraf-installation/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
       
-      <guid>https://rudolffu.github.io/tech/iraf-installation/</guid>
+      <guid>https://yumingfu.space/tech/iraf-installation/</guid>
       <description>0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
     </item>
     
     <item>
       <title>清平樂（積勞目眩）</title>
-      <link>https://rudolffu.github.io/philology/2019-07-05-qingpingyue/</link>
+      <link>https://yumingfu.space/philology/2019-07-05-qingpingyue/</link>
       <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
       
-      <guid>https://rudolffu.github.io/philology/2019-07-05-qingpingyue/</guid>
+      <guid>https://yumingfu.space/philology/2019-07-05-qingpingyue/</guid>
       <description>清平樂 傅煜銘 己亥年六月初三作於萊頓司馬樓</description>
     </item>
     
     <item>
       <title>How&#39;s the weather tonight?</title>
-      <link>https://rudolffu.github.io/observation/weather-china/</link>
+      <link>https://yumingfu.space/observation/weather-china/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rudolffu.github.io/observation/weather-china/</guid>
+      <guid>https://yumingfu.space/observation/weather-china/</guid>
       <description>Although astronomers do not study meteorology, some of them, especially observers, may pay close attention to the weather. Factors such as temperature, humidity, wind speed and direction, cloud coverage, have great influence on the observation activity.</description>
     </item>
     
     <item>
       <title>Extend disk volume with Ubuntu LVM</title>
-      <link>https://rudolffu.github.io/tech/2019-05-21-ubuntu-lvm/</link>
+      <link>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</link>
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
       
-      <guid>https://rudolffu.github.io/tech/2019-05-21-ubuntu-lvm/</guid>
+      <guid>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</guid>
       <description>Be careful with your disk when reading this note and similar ones. Think twice before you take action.
 Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems.</description>
     </item>
