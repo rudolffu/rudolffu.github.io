@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yumingfu.space/research/finding_gpqs/</loc>
+    <lastmod>2020-09-01T19:59:32+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yumingfu.space/philology/chinesedict/</loc>
     <lastmod>2019-10-20T11:05:05+08:00</lastmod>
   </url>
@@ -81,6 +86,12 @@
   </url>
   
   <url>
+    <loc>https://yumingfu.space/tags/galactic-plane/</loc>
+    <lastmod>2020-09-01T19:59:32+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yumingfu.space/tags/iraf/</loc>
     <lastmod>2019-10-14T14:43:21+08:00</lastmod>
     <priority>0</priority>
@@ -111,6 +122,12 @@
   </url>
   
   <url>
+    <loc>https://yumingfu.space/tags/quasar/</loc>
+    <lastmod>2020-09-01T19:59:32+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yumingfu.space/series/</loc>
     <priority>0</priority>
   </url>
@@ -135,7 +152,7 @@
   
   <url>
     <loc>https://yumingfu.space/</loc>
-    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+    <lastmod>2020-09-01T19:59:32+02:00</lastmod>
     <priority>0</priority>
   </url>
   
