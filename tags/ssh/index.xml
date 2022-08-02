@@ -17,7 +17,7 @@
       <pubDate>Tue, 02 Aug 2022 16:35:43 +0800</pubDate>
       
       <guid>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</guid>
-      <description>Step 1: Generate keygen pair (client) Client（客户端，例如笔</description>
+      <description>Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being</description>
     </item>
     
   </channel>

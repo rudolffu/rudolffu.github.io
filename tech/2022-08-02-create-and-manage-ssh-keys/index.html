@@ -7,10 +7,10 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Yuming Fu">
-  <meta name="description" content="Step 1: Generate keygen pair (client) Client（客户端，例如笔">
+  <meta name="description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being">
   
   <meta property="og:title" content="Create and manage SSH keys for authentication to a Linux server" />
-<meta property="og:description" content="Step 1: Generate keygen pair (client) Client（客户端，例如笔" />
+<meta property="og:description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/" />
 <meta property="article:published_time" content="2022-08-02T16:35:43&#43;08:00"/>
@@ -338,12 +338,16 @@
           <div class="post-content markdown">
             
 
+<p>Say the hostname of the server is <code>agnkiaa</code> (e.g. set in your local <code>/etc/hosts</code> file), with its ip address being <code>162.***.***.***</code>, we can set up SSH keys following the steps below.</p>
+
 <h3 id="step-1-generate-keygen-pair-client">Step 1: Generate keygen pair (client)</h3>
 
-<p>Client（客户端，例如笔记本电脑）：</p>
+<p>On the local client（客户端，例如笔记本电脑）：</p>
 
 <pre><code class="language-sh">ssh-keygen -m PEM -t rsa -C &quot;username@your_local_machine&quot;
 </code></pre>
+
+<p>The string &ldquo;username@your_local_machine&rdquo; is added to make the string of the public key more recognizable on the server.</p>
 
 <p>Example:</p>
 
@@ -410,14 +414,14 @@ The key\'s randomart image is:
 
 <pre><code class="language-sh">Host agnkiaa
   HostName agnkiaa
-  User yuming
+  User username ## Your own user name 
 </code></pre>
 
 <p>or:</p>
 
 <pre><code>Host 162.***.***.***
   HostName 162.***.***.***
-  User yuming
+  User username
 </code></pre>
 
 <p>if you use ip as the host name.</p>
@@ -426,7 +430,7 @@ The key\'s randomart image is:
 
 <pre><code>Host agnkiaa
   HostName agnkiaa
-  User yuming
+  User username
   IdentityFile ~/.ssh/id_rsa_agn
 </code></pre>
 
