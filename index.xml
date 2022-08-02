@@ -6,10 +6,19 @@
     <description>Recent content on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sat, 01 May 2021 12:59:32 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 02 Aug 2022 16:35:43 +0800</lastBuildDate>
     
 	<atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create and manage SSH keys for authentication to a Linux server</title>
+      <link>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</link>
+      <pubDate>Tue, 02 Aug 2022 16:35:43 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</guid>
+      <description>Step 1: Generate keygen pair (client) Client（客户端，例如笔</description>
+    </item>
     
     <item>
       <title>Finding Quasars behind the Galactic Plane</title>

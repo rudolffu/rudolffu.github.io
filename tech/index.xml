@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Create and manage SSH keys for authentication to a Linux server</title>
+      <link>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</link>
+      <pubDate>Tue, 02 Aug 2022 16:35:43 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</guid>
+      <description>Step 1: Generate keygen pair (client) Client（客户端，例如笔</description>
+    </item>
+    
+    <item>
       <title>How to install and initiate IRAF in Ubuntu/Mac OS</title>
       <link>https://yumingfu.space/tech/iraf-installation/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
