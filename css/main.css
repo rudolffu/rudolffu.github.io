@@ -667,7 +667,8 @@ carousel
 
 */
 .headfont {
-  font-family: 'Raleway', 'Roboto', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Microsoft YaHei", sans-serif, Arial, "PingFang SC", "Lantinghei SC","Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Raleway', "Helvetica Neue", Arial, "PingFang SC", "Lantinghei SC", "Microsoft YaHei", sans-serif !important;
+
 }
 
 .carousel a, .carousel a:hover, .carousel a:active {
