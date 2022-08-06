@@ -27,7 +27,7 @@ Layout
 
 */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Arial, "PingFang SC", "Lantinghei SC", "Microsoft YaHei", sans-serif, 'Raleway', "Helvetica Neue",  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", 'Roboto', "Microsoft YaHei", sans-serif, Arial, "PingFang SC", "Lantinghei SC",'Raleway', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /* color: #333; */
   color: var(--text-dark);
   line-height: 1.6;
@@ -667,7 +667,7 @@ carousel
 
 */
 .headfont {
-  font-family: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", 'Roboto', "Microsoft YaHei", sans-serif, Arial, "PingFang SC", "Lantinghei SC",'Raleway', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .carousel a, .carousel a:hover, .carousel a:active {
