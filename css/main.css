@@ -667,7 +667,7 @@ carousel
 
 */
 .headfont {
-  font-family: 'Raleway', "Helvetica Neue", Arial, "PingFang SC", "Lantinghei SC", "Microsoft YaHei", sans-serif !important;
+  font-family: inherit;
 }
 
 .carousel a, .carousel a:hover, .carousel a:active {
