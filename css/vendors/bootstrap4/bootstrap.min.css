@@ -7550,12 +7550,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   margin-bottom: 0 !important
 }
 
-.mb-0, .p {
-    margin-bottom: 0 !important;
-    font-size: 1.250rem;
-    font-weight: 300;
-}
-
 .ml-0, .mx-0 {
   margin-left: 0 !important
 }
