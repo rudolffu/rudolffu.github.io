@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Galactic Plane on Yuming Fu&#39;s Homepage</title>
-    <link>https://yumingfu.space/tags/galactic-plane/</link>
-    <description>Recent content in Galactic Plane on Yuming Fu&#39;s Homepage</description>
+    <title>Research Progress on Yuming Fu&#39;s Homepage</title>
+    <link>https://yumingfu.space/categories/research-progress/</link>
+    <description>Recent content in Research Progress on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Fri, 05 Aug 2022 21:17:10 +0800</lastBuildDate>
     
-	<atom:link href="https://yumingfu.space/tags/galactic-plane/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yumingfu.space/categories/research-progress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</guid>
       <description>We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky.</description>
-    </item>
-    
-    <item>
-      <title>Finding Quasars behind the Galactic Plane</title>
-      <link>https://yumingfu.space/research/finding_gpqs/</link>
-      <pubDate>Sat, 01 May 2021 12:59:32 +0200</pubDate>
-      
-      <guid>https://yumingfu.space/research/finding_gpqs/</guid>
-      <description>Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find.</description>
     </item>
     
   </channel>

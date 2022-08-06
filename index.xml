@@ -6,10 +6,19 @@
     <description>Recent content on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 02 Aug 2022 16:35:43 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Aug 2022 21:17:10 +0800</lastBuildDate>
     
 	<atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Featured Science: PKU Astronomers Discover Nearly 200 New Quasars behind the Galactic Plane</title>
+      <link>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</link>
+      <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</guid>
+      <description>We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky.</description>
+    </item>
     
     <item>
       <title>Create and manage SSH keys for authentication to a Linux server</title>

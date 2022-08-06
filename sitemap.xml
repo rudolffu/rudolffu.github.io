@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</loc>
     <lastmod>2022-08-02T16:35:43+08:00</lastmod>
   </url>
@@ -92,7 +97,7 @@
   
   <url>
     <loc>https://yumingfu.space/tags/galactic-plane/</loc>
-    <lastmod>2021-05-01T12:59:32+02:00</lastmod>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -134,13 +139,19 @@
   
   <url>
     <loc>https://yumingfu.space/tags/quasar/</loc>
-    <lastmod>2021-05-01T12:59:32+02:00</lastmod>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</loc>
     <lastmod>2021-05-01T12:59:32+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yumingfu.space/categories/research-progress/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,7 +187,7 @@
   
   <url>
     <loc>https://yumingfu.space/</loc>
-    <lastmod>2022-08-02T16:35:43+08:00</lastmod>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   

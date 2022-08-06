@@ -383,6 +383,14 @@ template {
   line-height: 1.2
 }
 
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.2
+    }
+}
+
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
@@ -578,6 +586,16 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px
+}
+
+@media (max-width:767.98px) { 
+    .col-md-9 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 0px;
+        padding-left: 0px
+    }
 }
 
 .col {
@@ -4051,14 +4069,14 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding-right: 0;
     padding-left: 0
   }
-
+/* 
   .pr-5, .px-5 {
     padding-right: 0 !important
   }
 
   .pl-5, .px-5 {
     padding-left: 0 !important
-  }
+  } */
 }
 
 @media (min-width:768px) {
@@ -7754,6 +7772,16 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 .pl-5, .px-5 {
   padding-left: 3rem !important
+}
+
+@media (max-width:767.98px) {  
+    .pr-5, .px-5 {
+      padding-right: 2.8rem !important
+    }
+  
+    .pl-5, .px-5 {
+      padding-left: 2.8rem !important
+    }
 }
 
 .m-auto {
