@@ -6,10 +6,20 @@
     <description>Recent content in Ssh on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 02 Aug 2022 16:35:43 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Sep 2022 10:35:05 +0800</lastBuildDate>
     
 	<atom:link href="https://yumingfu.space/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Local port forwarding examples</title>
+      <link>https://yumingfu.space/tech/local-port-forwarding/</link>
+      <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tech/local-port-forwarding/</guid>
+      <description>For more information, please see https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding
+1. Forward agnkiaa:9000 to localhost:8080 The webpage running on agnkiaa:9000 cannot be accessed from remote clients.</description>
+    </item>
     
     <item>
       <title>Create and manage SSH keys for authentication to a Linux server</title>
