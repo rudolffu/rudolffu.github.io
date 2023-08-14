@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lvm on Yuming Fu&#39;s Homepage</title>
+    <title>LVM on Yuming Fu&#39;s Homepage</title>
     <link>https://yumingfu.space/tags/lvm/</link>
-    <description>Recent content in Lvm on Yuming Fu&#39;s Homepage</description>
+    <description>Recent content in LVM on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 21 May 2019 17:19:31 +0200</lastBuildDate>
-    
-	<atom:link href="https://yumingfu.space/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 21 May 2019 17:19:31 +0200</lastBuildDate><atom:link href="https://yumingfu.space/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Extend disk volume with Ubuntu LVM</title>
       <link>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</link>

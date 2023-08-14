@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Yuming Fu&#39;s Homepage</title>
@@ -6,15 +6,11 @@
     <description>Recent content in Series on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sat, 01 May 2021 12:59:32 +0200</lastBuildDate>
-    
-	<atom:link href="https://yumingfu.space/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 05 Aug 2022 21:17:10 +0800</lastBuildDate><atom:link href="https://yumingfu.space/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Quasars Behind the Galactic Plane</title>
+      <title>quasars-behind-the-galactic-plane</title>
       <link>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</link>
-      <pubDate>Sat, 01 May 2021 12:59:32 +0200</pubDate>
+      <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
       
       <guid>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</guid>
       <description></description>

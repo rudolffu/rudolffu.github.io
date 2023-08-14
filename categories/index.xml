@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yuming Fu&#39;s Homepage</title>
@@ -6,12 +6,9 @@
     <description>Recent content in Categories on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    
-	<atom:link href="https://yumingfu.space/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yumingfu.space/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Observation</title>
+      <title>observation</title>
       <link>https://yumingfu.space/categories/observation/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       
@@ -20,11 +17,11 @@
     </item>
     
     <item>
-      <title>Philology</title>
-      <link>https://yumingfu.space/categories/philology/</link>
-      <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
+      <title>Tech</title>
+      <link>https://yumingfu.space/categories/tech/</link>
+      <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
       
-      <guid>https://yumingfu.space/categories/philology/</guid>
+      <guid>https://yumingfu.space/categories/tech/</guid>
       <description></description>
     </item>
     
@@ -38,11 +35,11 @@
     </item>
     
     <item>
-      <title>Tech</title>
-      <link>https://yumingfu.space/categories/tech/</link>
-      <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
+      <title>Philology</title>
+      <link>https://yumingfu.space/categories/philology/</link>
+      <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
       
-      <guid>https://yumingfu.space/categories/tech/</guid>
+      <guid>https://yumingfu.space/categories/philology/</guid>
       <description></description>
     </item>
     

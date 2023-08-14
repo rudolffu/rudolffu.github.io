@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>語文學/Philology 欄目說明 on Yuming Fu&#39;s Homepage</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 語文學/Philology 欄目說明 on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate>
-    
-	<atom:link href="https://yumingfu.space/philology/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate><atom:link href="https://yumingfu.space/philology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网络汉语字典推荐</title>
       <link>https://yumingfu.space/philology/chinesedict/</link>

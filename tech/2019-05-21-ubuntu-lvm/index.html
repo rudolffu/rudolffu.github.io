@@ -14,14 +14,15 @@ Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical 
 <meta property="og:description" content="Be careful with your disk when reading this note and similar ones. Think twice before you take action.
 Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/" />
-<meta property="article:published_time" content="2019-05-21T17:19:31&#43;02:00"/>
-<meta property="article:modified_time" content="2019-05-21T17:19:31&#43;02:00"/>
+<meta property="og:url" content="https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/" /><meta property="article:section" content="tech" />
+<meta property="article:published_time" content="2019-05-21T17:19:31+02:00" />
+<meta property="article:modified_time" content="2019-05-21T17:19:31+02:00" />
+
 
 
   <title>
   
-       Extend disk volume with Ubuntu LVM | Yuming Fu&#39;s Homepage 
+       Extend disk volume with Ubuntu LVM | Extend disk volume with Ubuntu LVM 
   
   </title>
 
@@ -54,6 +55,8 @@ Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical 
 
   
   
+  
+
 
   <style type="text/css">
       @media (min-width: 800px) and (max-width: 850px) {
@@ -338,67 +341,40 @@ Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical 
 
 
           <div class="post-content markdown">
-            
-
-<p><strong>Be careful with your disk when reading this note and similar ones. Think twice before you take action.</strong></p>
-
+            <p><strong>Be careful with your disk when reading this note and similar ones. Think twice before you take action.</strong></p>
 <h2 id="introduction-to-lvm">Introduction to LVM</h2>
-
 <p><a href="http://www.sourceware.org/lvm2/">LVM</a> (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems. Since version 12.10, Ubuntu has introduced LVM support in the installation process.</p>
-
 <p>The most attractive feature of LVM to me, is the capability to resize the disk volume dynamically. Traditionally, if we add a new hard drive to an exsiting Linux computer, we would assign a new mount point to the disk, and use some <a href="https://help.ubuntu.com/community/AutomaticallyMountPartitions">techniques to mount automatically at startup</a> for convenience. With LVM, however, we can combine different physical volumes together and always add new space to an exsiting LVM partition in principle. For people who want to overcome volume shortage in their workstations/servers, it is a economic and brilliant choice.</p>
-
 <h3 id="some-basic-concepts">Some basic concepts</h3>
-
 <ul>
 <li>PV (physical volume): actual disk or partions on it. The <strong>real</strong> one.</li>
-<li>VG (volume group): (virtual) group based on at least one PV. A LVM system may have multiple VGs.<br /></li>
+<li>VG (volume group): (virtual) group based on at least one PV. A LVM system may have multiple VGs.</li>
 <li>LV (logical volume): (virtual) volume created on VG.</li>
 </ul>
-
 <h2 id="example-with-steps">Example with steps</h2>
-
 <p>I created 2 LVs when installing Ubuntu Server 16.04 LTS on a computer: <code>/home</code> which is users&rsquo; home directory and <code>/store</code> for data storage. A physical space of 4 TB was not in use at first. And when the <code>/store</code> dir is about to be full, I added the 4-TB free space to it.</p>
-
 <p>Use <code>df -h</code> to check current status of file systems, and we&rsquo;ll get output like:</p>
-
-<pre><code class="language-Bash">Filesystem               Size  Used Avail Use% Mounted on
-......
-/dev/sdd6                459G  2.8G  433G   1% /opt
-/dev/mapper/home-home     11T  7.6T  2.8T  73% /home
-......
-/dev/mapper/store-store   30T   27T  2.9T  90% /store
-......
-</code></pre>
-
-<p>And the two LVM dirs <code>/home</code> and <code>/store</code> show differently (<code>/dev/mapper/home-home</code> and <code>/dev/mapper/store-store</code>) from physical volume like <code>/opt</code> in the first &lsquo;Filesystem&rsquo; column. The first &lsquo;home&rsquo; in &lsquo;home-home&rsquo; stands for the Volume Group (VG) and the second for the Logical Volume (LV) of the VG. The names can be choosen arbitrarily, and I used these names during installation just for simplicity.</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="cl">Filesystem               Size  Used Avail Use% Mounted on
+</span></span><span class="line"><span class="cl">......
+</span></span><span class="line"><span class="cl">/dev/sdd6                459G  2.8G  433G   1% /opt
+</span></span><span class="line"><span class="cl">/dev/mapper/home-home     11T  7.6T  2.8T  73% /home
+</span></span><span class="line"><span class="cl">......
+</span></span><span class="line"><span class="cl">/dev/mapper/store-store   30T   27T  2.9T  90% /store
+</span></span><span class="line"><span class="cl">......
+</span></span></code></pre></div><p>And the two LVM dirs <code>/home</code> and <code>/store</code> show differently (<code>/dev/mapper/home-home</code> and <code>/dev/mapper/store-store</code>) from physical volume like <code>/opt</code> in the first &lsquo;Filesystem&rsquo; column. The first &lsquo;home&rsquo; in &lsquo;home-home&rsquo; stands for the Volume Group (VG) and the second for the Logical Volume (LV) of the VG. The names can be choosen arbitrarily, and I used these names during installation just for simplicity.</p>
 <p>Do <code>sudo fdisk -l</code> to list all disks. I found the 4-TB free space is under <code>/dev/sda</code>, whose number is 3.</p>
-
 <p>First use <code>parted</code> tool to first turn on LVM on this partition, then create physical volume (PV) <code>/dev/sda3</code>, and finally extend <code>store</code> with <code>/dev/sda3</code>.</p>
-
 <h3 id="turn-on-lvm-on-the-free-space">Turn on LVM on the free space</h3>
-
 <p>Excute <code>parted</code> on the disk where new physical space is located. I use <code>/dev/sda</code> because the 4-TB space in on it. If you want to add a new disk, say <code>/dev/sdd</code>, just use it in the following commands.</p>
-
-<pre><code class="language-bash">sudo parted /dev/sda
-</code></pre>
-
-<p>And we&rsquo;ll get</p>
-
-<pre><code>GNU Parted 3.2
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo parted /dev/sda
+</span></span></code></pre></div><p>And we&rsquo;ll get</p>
+<pre tabindex="0"><code>GNU Parted 3.2
 Using /dev/sda
-Welcome to GNU Parted! Type 'help' to view a list of commands.
-</code></pre>
-
-<p>The free space starts from 38.0TB and ends at 42.0TB on the disk. So we make a logical volume using</p>
-
-<pre><code>(parted) mkpart logical 38.0TB 42.0TB
-</code></pre>
-
-<p>Let&rsquo;s print the information, we can see Number 3 is &lsquo;logical&rsquo; now.</p>
-
-<pre><code>(parted) print
+Welcome to GNU Parted! Type &#39;help&#39; to view a list of commands.
+</code></pre><p>The free space starts from 38.0TB and ends at 42.0TB on the disk. So we make a logical volume using</p>
+<pre tabindex="0"><code>(parted) mkpart logical 38.0TB 42.0TB
+</code></pre><p>Let&rsquo;s print the information, we can see Number 3 is &rsquo;logical&rsquo; now.</p>
+<pre tabindex="0"><code>(parted) print
 Model: LSI MR9260-8i (scsi)
 Disk /dev/sda: 42.0TB
 Sector size (logical/physical): 512B/4096B
@@ -408,11 +384,8 @@ Number  Start   End     Size    File system  Name     Flags
  1      1049kB  4000GB  4000GB                        lvm
  2      4000GB  38.0TB  34.0TB                        lvm
  3      38.0TB  42.0TB  4004GB               logical
-</code></pre>
-
-<p>Now turn it to LVM partition.</p>
-
-<pre><code>(parted) set 3 lvm on
+</code></pre><p>Now turn it to LVM partition.</p>
+<pre tabindex="0"><code>(parted) set 3 lvm on
 
 (parted) print
 Model: LSI MR9260-8i (scsi)
@@ -425,22 +398,15 @@ Number  Start   End     Size    File system  Name     Flags
  2      4000GB  38.0TB  34.0TB                        lvm
  3      38.0TB  42.0TB  4004GB               logical  lvm
 (parted) quit                                    
-</code></pre>
-
-<h3 id="create-physical-volume-and-extend-volume-group">Create Physical Volume and extend Volume Group</h3>
-
+</code></pre><h3 id="create-physical-volume-and-extend-volume-group">Create Physical Volume and extend Volume Group</h3>
 <p>This step is pretty straightforward.</p>
-
-<pre><code>sudo pvcreate /dev/sda3
-  Physical volume &quot;/dev/sda3&quot; successfully created
+<pre tabindex="0"><code>sudo pvcreate /dev/sda3
+  Physical volume &#34;/dev/sda3&#34; successfully created
 
 sudo vgextend store /dev/sda3
-  Volume group &quot;store&quot; successfully extended
-</code></pre>
-
-<p>To make it take effect immediately, we do <code>lvextend</code> and <code>resize2fs</code>.</p>
-
-<pre><code>sudo lvextend -l +100%FREE /dev/store/store 
+  Volume group &#34;store&#34; successfully extended
+</code></pre><p>To make it take effect immediately, we do <code>lvextend</code> and <code>resize2fs</code>.</p>
+<pre tabindex="0"><code>sudo lvextend -l +100%FREE /dev/store/store 
   Size of logical volume store/store changed from 30.92 TiB (8106231 extents) to 34.56 TiB (9060916 extents).
   Logical volume store successfully resized.
 
@@ -449,9 +415,7 @@ resize2fs 1.42.13 (17-May-2015)
 Filesystem at /dev/store/store is mounted on /store; on-line resizing required
 old_desc_blocks = 3959, new_desc_blocks = 4425
 The filesystem on /dev/store/store is now 9278377984 (4k) blocks long.
-</code></pre>
-
-<p>The <code>/store</code> directory has now been extended.</p>
+</code></pre><p>The <code>/store</code> directory has now been extended.</p>
 
           </div>
 

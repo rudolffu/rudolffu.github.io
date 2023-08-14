@@ -14,14 +14,15 @@
 <meta property="og:description" content="For more information, please see https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding.
 1. Forward agnkiaa:9000 to localhost:8080 The webpage running on agnkiaa:9000 cannot be accessed from remote clients." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yumingfu.space/tech/local-port-forwarding/" />
-<meta property="article:published_time" content="2022-09-14T10:35:05&#43;08:00"/>
-<meta property="article:modified_time" content="2022-09-14T10:35:05&#43;08:00"/>
+<meta property="og:url" content="https://yumingfu.space/tech/local-port-forwarding/" /><meta property="article:section" content="tech" />
+<meta property="article:published_time" content="2022-09-14T10:35:05+08:00" />
+<meta property="article:modified_time" content="2022-09-14T10:35:05+08:00" />
+
 
 
   <title>
   
-       Local port forwarding examples | Yuming Fu&#39;s Homepage 
+       Local port forwarding examples | Local port forwarding examples 
   
   </title>
 
@@ -54,6 +55,8 @@
 
   
   
+  
+
 
   <style type="text/css">
       @media (min-width: 800px) and (max-width: 850px) {
@@ -334,47 +337,24 @@
 
 
           <div class="post-content markdown">
-            
-
-<p>For more information, please see
+            <p>For more information, please see
 <a href="https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding">https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding</a>.</p>
-
-<h2 id="1-forward-agnkiaa-9000-to-localhost-8080">1. Forward <code>agnkiaa:9000</code> to <code>localhost:8080</code></h2>
-
+<h2 id="1-forward-agnkiaa9000-to-localhost8080">1. Forward <code>agnkiaa:9000</code> to <code>localhost:8080</code></h2>
 <p>The webpage running on <code>agnkiaa:9000</code> cannot be accessed from remote clients. To visit the webpage from the local computer, we can forward the port <code>9000</code> of the host <code>agnkiaa</code> to the <code>8080</code> port (or any other port number you like) of <code>localhost</code>:</p>
-
-<pre><code class="language-sh">ssh -L 8080:localhost:9000 agnkiaa
-</code></pre>
-
-<p>Then open the browser and type <code>localhost:8080</code> in the address bar.</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -L 8080:localhost:9000 agnkiaa
+</span></span></code></pre></div><p>Then open the browser and type <code>localhost:8080</code> in the address bar.</p>
 <h2 id="2-forward-remote-jupyter-notebook-to-localhost">2. Forward remote <code>jupyter-notebook</code> to <code>localhost</code></h2>
-
 <p>The same applies to the <code>jupyter-notebook</code> running on remote servers. You can first log in to the remote server (e.g. <code>agnkiaa</code>) with ssh, and start <code>jupyter-notebook</code> with command line. A port number will be promoted in the output text, e.g. <code>8889</code>. Now forward this port to your local <code>8890</code> with ssh tunneling:</p>
-
-<pre><code class="language-sh">ssh -L 8890:localhost:8889 agnkiaa
-</code></pre>
-
-<p>Then you can open the browser and type <code>localhost:8890</code> in the address bar.</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -L 8890:localhost:8889 agnkiaa
+</span></span></code></pre></div><p>Then you can open the browser and type <code>localhost:8890</code> in the address bar.</p>
 <h2 id="3-forward-remote-vncserver-to-localhost">3. Forward remote <code>vncserver</code> to <code>localhost</code></h2>
-
 <p>On the remote server, start a new vnc session with:</p>
-
-<pre><code class="language-sh">vncserver -geometry 1920x1080 :50
-</code></pre>
-
-<p>You will get an output like this:</p>
-
-<pre><code>New 'agnkiaa:50 (username)' desktop is agnkiaa:50
-</code></pre>
-
-<p>The message confirms that the port of the vnc session is <code>5950</code> (the vnc port starts from <code>5901</code>, and <code>:50</code> corresponds to <code>5950</code>). Now forward this port to your local <code>5901</code> with ssh tunneling:</p>
-
-<pre><code class="language-sh">ssh -L 5901:localhost:5950 agnkiaa
-</code></pre>
-
-<p>The next step is to open <code>vncviewer</code> from your local computer, and connect to <code>localhost:5901</code> (or simply <code>localhost:1</code>).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">vncserver -geometry 1920x1080 :50
+</span></span></code></pre></div><p>You will get an output like this:</p>
+<pre tabindex="0"><code>New &#39;agnkiaa:50 (username)&#39; desktop is agnkiaa:50
+</code></pre><p>The message confirms that the port of the vnc session is <code>5950</code> (the vnc port starts from <code>5901</code>, and <code>:50</code> corresponds to <code>5950</code>). Now forward this port to your local <code>5901</code> with ssh tunneling:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -L 5901:localhost:5950 agnkiaa
+</span></span></code></pre></div><p>The next step is to open <code>vncviewer</code> from your local computer, and connect to <code>localhost:5901</code> (or simply <code>localhost:1</code>).</p>
 
           </div>
 
@@ -465,7 +445,7 @@
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#1-forward-agnkiaa-9000-to-localhost-8080">
+						 					<a class="nav-link" href="#1-forward-agnkiaa9000-to-localhost8080">
 												 1. Forward agnkiaa:9000 to localhost:8080
 											</a>
 										</li>

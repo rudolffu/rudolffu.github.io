@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yuming Fu&#39;s Homepage</title>
@@ -6,56 +6,7 @@
     <description>Recent content in Tags on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Mon, 14 Oct 2019 14:43:21 +0800</lastBuildDate>
-    
-	<atom:link href="https://yumingfu.space/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Astroconda</title>
-      <link>https://yumingfu.space/tags/astroconda/</link>
-      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/astroconda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chinese Poems</title>
-      <link>https://yumingfu.space/tags/chinese-poems/</link>
-      <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
-      
-      <guid>https://yumingfu.space/tags/chinese-poems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conda</title>
-      <link>https://yumingfu.space/tags/conda/</link>
-      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/conda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Galactic Plane</title>
-      <link>https://yumingfu.space/tags/galactic-plane/</link>
-      <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/galactic-plane/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iraf</title>
-      <link>https://yumingfu.space/tags/iraf/</link>
-      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/iraf/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 14 Sep 2022 10:35:05 +0800</lastBuildDate><atom:link href="https://yumingfu.space/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
       <link>https://yumingfu.space/tags/linux/</link>
@@ -66,34 +17,7 @@
     </item>
     
     <item>
-      <title>Lvm</title>
-      <link>https://yumingfu.space/tags/lvm/</link>
-      <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
-      
-      <guid>https://yumingfu.space/tags/lvm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pyraf</title>
-      <link>https://yumingfu.space/tags/pyraf/</link>
-      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/pyraf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quasar</title>
-      <link>https://yumingfu.space/tags/quasar/</link>
-      <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/quasar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssh</title>
+      <title>SSH</title>
       <link>https://yumingfu.space/tags/ssh/</link>
       <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
       
@@ -111,11 +35,74 @@
     </item>
     
     <item>
+      <title>Galactic plane</title>
+      <link>https://yumingfu.space/tags/galactic-plane/</link>
+      <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/galactic-plane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quasar</title>
+      <link>https://yumingfu.space/tags/quasar/</link>
+      <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/quasar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>汉语字典</title>
       <link>https://yumingfu.space/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</link>
       <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
       
       <guid>https://yumingfu.space/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AstroConda</title>
+      <link>https://yumingfu.space/tags/astroconda/</link>
+      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/astroconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conda</title>
+      <link>https://yumingfu.space/tags/conda/</link>
+      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IRAF</title>
+      <link>https://yumingfu.space/tags/iraf/</link>
+      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/iraf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyRAF</title>
+      <link>https://yumingfu.space/tags/pyraf/</link>
+      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/pyraf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chinese Poems</title>
+      <link>https://yumingfu.space/tags/chinese-poems/</link>
+      <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
+      
+      <guid>https://yumingfu.space/tags/chinese-poems/</guid>
       <description></description>
     </item>
     
@@ -134,6 +121,15 @@
       <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
       
       <guid>https://yumingfu.space/tags/%E8%A9%A9%E8%A9%9E/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LVM</title>
+      <link>https://yumingfu.space/tags/lvm/</link>
+      <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
+      
+      <guid>https://yumingfu.space/tags/lvm/</guid>
       <description></description>
     </item>
     

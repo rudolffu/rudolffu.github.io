@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Some useful books for astronomers on Yuming Fu&#39;s Homepage</title>
@@ -6,10 +6,6 @@
     <description>Recent content in Some useful books for astronomers on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate>
-    
-	<atom:link href="https://yumingfu.space/books/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate><atom:link href="https://yumingfu.space/books/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

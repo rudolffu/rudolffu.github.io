@@ -1,222 +1,122 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://yumingfu.space/observation/schedule-22b-23a/</loc>
-    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tech/local-port-forwarding/</loc>
-    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</loc>
-    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</loc>
-    <lastmod>2022-08-02T16:35:43+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/research/finding_gpqs/</loc>
-    <lastmod>2021-05-01T12:59:32+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/philology/chinesedict/</loc>
-    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tech/iraf-installation/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/philology/2019-07-05-qingpingyue/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/observation/weather-china/</loc>
-    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://yumingfu.space/about/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/</loc>
+    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/categories/</loc>
+    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/categories/observation/</loc>
+    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/observation/schedule-22b-23a/</loc>
+    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/linux/</loc>
+    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tech/local-port-forwarding/</loc>
+    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/ssh/</loc>
+    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/</loc>
+    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/categories/tech/</loc>
+    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/ubuntu/</loc>
+    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/galactic-plane/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/quasar/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/categories/research-progress/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/series/</loc>
+    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</loc>
+    <lastmod>2022-08-02T16:35:43+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/research/finding_gpqs/</loc>
+    <lastmod>2021-05-01T12:59:32+02:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/categories/philology/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/philology/chinesedict/</loc>
+    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/astroconda/</loc>
+    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/conda/</loc>
+    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tech/iraf-installation/</loc>
+    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/iraf/</loc>
+    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/pyraf/</loc>
+    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/chinese-poems/</loc>
+    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/philology/2019-07-05-qingpingyue/</loc>
+    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/%E8%A9%9E/</loc>
+    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/%E8%A9%A9%E8%A9%9E/</loc>
+    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/observation/weather-china/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</loc>
     <lastmod>2019-05-21T17:19:31+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yumingfu.space/tags/lvm/</loc>
+    <lastmod>2019-05-21T17:19:31+02:00</lastmod>
+  </url><url>
     <loc>https://yumingfu.space/observation/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yumingfu.space/research/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yumingfu.space/books/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yumingfu.space/tech/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yumingfu.space/philology/</loc>
     <lastmod>2018-09-13T22:31:21+08:00</lastmod>
   </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/astroconda/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/chinese-poems/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/conda/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/galactic-plane/</loc>
-    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/iraf/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/linux/</loc>
-    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/lvm/</loc>
-    <lastmod>2019-05-21T17:19:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/categories/observation/</loc>
-    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/categories/philology/</loc>
-    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/pyraf/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/quasar/</loc>
-    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</loc>
-    <lastmod>2021-05-01T12:59:32+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/categories/research-progress/</loc>
-    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/series/</loc>
-    <lastmod>2021-05-01T12:59:32+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/ssh/</loc>
-    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/</loc>
-    <lastmod>2019-10-14T14:43:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/categories/tech/</loc>
-    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/ubuntu/</loc>
-    <lastmod>2022-09-14T10:35:05+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/</loc>
-    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/</loc>
-    <lastmod>2019-10-20T11:05:05+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/%E8%A9%9E/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yumingfu.space/tags/%E8%A9%A9%E8%A9%9E/</loc>
-    <lastmod>2019-07-05T21:09:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
 </urlset>
