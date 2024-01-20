@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 14 Sep 2022 10:35:05 +0800</lastBuildDate><atom:link href="https://yumingfu.space/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2024 10:40:00 +0800</lastBuildDate><atom:link href="https://yumingfu.space/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conda</title>
+      <link>https://yumingfu.space/tags/conda/</link>
+      <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IRAF</title>
+      <link>https://yumingfu.space/tags/iraf/</link>
+      <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/iraf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://yumingfu.space/tags/mac/</link>
+      <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyRAF</title>
+      <link>https://yumingfu.space/tags/pyraf/</link>
+      <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tags/pyraf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Linux</title>
       <link>https://yumingfu.space/tags/linux/</link>
@@ -67,33 +103,6 @@
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
       
       <guid>https://yumingfu.space/tags/astroconda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conda</title>
-      <link>https://yumingfu.space/tags/conda/</link>
-      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/conda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IRAF</title>
-      <link>https://yumingfu.space/tags/iraf/</link>
-      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/iraf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PyRAF</title>
-      <link>https://yumingfu.space/tags/pyraf/</link>
-      <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
-      <guid>https://yumingfu.space/tags/pyraf/</guid>
       <description></description>
     </item>
     

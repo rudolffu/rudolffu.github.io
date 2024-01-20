@@ -6,7 +6,16 @@
     <description>Recent content on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2024 10:40:00 +0800</lastBuildDate><atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac?</title>
+      <link>https://yumingfu.space/tech/2024-iraf-mac-installation/</link>
+      <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
+      
+      <guid>https://yumingfu.space/tech/2024-iraf-mac-installation/</guid>
+      <description>This tutorial is for installing IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.</description>
+    </item>
+    
     <item>
       <title>Schedule of time allocation in S22B and S23A</title>
       <link>https://yumingfu.space/observation/schedule-22b-23a/</link>
