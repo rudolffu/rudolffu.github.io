@@ -401,11 +401,11 @@
 <h4 id="22-in-place-installation">2.2 In-place installation</h4>
 <p>Although IRAF can be installed anywhere (including the system directory <code>/usr/local</code>, see <a href="https://iraf-community.github.io/install.html#system-wide-installation)">https://iraf-community.github.io/install.html#system-wide-installation)</a>, it is recommended to install it in-place in the user&rsquo;s home directory. The in-place installation just configures the built system in its current location.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">make inplace
-</span></span></code></pre></div><p>This also installs the links required to run iraf or its commands to <code>~/.iraf/bin</code>.</p>
+</span></span></code></pre></div><p>This also installs the links required to run iraf or its commands to <code>/Users/yourname/.iraf/bin</code>.</p>
 <h4 id="23-set-environment-variables">2.3 Set environment variables</h4>
-<p>Then, you need to set the environment variable <code>iraf</code> to the path of the <code>iraf-2.17.1</code> folder, and add the <code>~/.iraf/bin</code> directory to your <code>PATH</code> environment variable. This can be done by adding the following lines to your <code>~/.zshrc</code> file:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">iraf</span><span class="o">=</span><span class="s2">&#34;~/opt/iraf-2.17.1/&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$PATH</span><span class="s2">:~/.iraf/bin&#34;</span>
+<p>Then, you need to set the environment variable <code>iraf</code> to the path of the <code>iraf-2.17.1</code> folder, and add the <code>/Users/yourname/.iraf/bin</code> directory to your <code>PATH</code> environment variable. This can be done by adding the following lines to your <code>~/.zshrc</code> file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">iraf</span><span class="o">=</span><span class="s2">&#34;/Users/yourname/opt/iraf-2.17.1/&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$PATH</span><span class="s2">:/Users/yourname/.iraf/bin&#34;</span>
 </span></span></code></pre></div><h4 id="24-test-iraf">2.4 Test IRAF</h4>
 <p>Open a new terminal, and type <code>cl</code> to start IRAF. If you see the following message, then IRAF is successfully installed.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">  This product includes results achieved by the IRAF64 project in 2006-
@@ -430,10 +430,10 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">tar xzf /&lt;path&gt;/x11iraf-2.1.tar.gz
 </span></span></code></pre></div><p>Go to the <code>x11iraf-2.1</code> folder:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="nb">cd</span> x11iraf-2.1
-</span></span></code></pre></div><p>Then edit the <code>Makefile</code> to set the <code>prefix</code> variable to the path of the <code>~/.iraf</code> folder. The edited <code>Makefile</code> should look like:</p>
+</span></span></code></pre></div><p>Then edit the <code>Makefile</code> to set the <code>prefix</code> variable to the path of the <code>/Users/yourname/.iraf</code> folder. The edited <code>Makefile</code> should look like:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-makefile" data-lang="makefile"><span class="line"><span class="cl"><span class="nf">all</span><span class="o">:</span> <span class="n">xgterm</span> <span class="n">ximtool</span> 
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nv">prefix</span> <span class="o">=</span> ~/.iraf
+</span></span><span class="line"><span class="cl"><span class="nv">prefix</span> <span class="o">=</span> /Users/yourname/.iraf
 </span></span><span class="line"><span class="cl"><span class="k">export </span><span class="nv">TCL_INCLUDE_DIR</span> <span class="o">=</span> /usr/include/tcl
 </span></span></code></pre></div><p>Compile and install X11IRAF using:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">make
