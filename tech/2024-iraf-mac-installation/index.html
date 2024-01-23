@@ -7,10 +7,10 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Yuming Fu">
-  <meta name="description" content="This tutorial is for installing IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.">
+  <meta name="description" content="This tutorial is for installing IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.">
   
-  <meta property="og:title" content="How to install IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac?" />
-<meta property="og:description" content="This tutorial is for installing IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14." />
+  <meta property="og:title" content="How to install IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac?" />
+<meta property="og:description" content="This tutorial is for installing IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yumingfu.space/tech/2024-iraf-mac-installation/" /><meta property="article:section" content="tech" />
 <meta property="article:published_time" content="2024-01-20T10:40:00+08:00" />
@@ -20,7 +20,7 @@
 
   <title>
   
-       How to install IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac? | How to install IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac? 
+       How to install IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac? | How to install IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac? 
   
   </title>
 
@@ -317,7 +317,7 @@
     
   </ul>
 
-  <div class="px-4 post-heading">How to install IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac?</div>
+  <div class="px-4 post-heading">How to install IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac?</div>
 
   <ul class="post-meta li-x mt-1">
     
@@ -339,16 +339,16 @@
 
 
           <div class="post-content markdown">
-            <p>This tutorial is for installing <a href="https://iraf-community.github.io/">IRAF Community Distribution</a> and PyRAF on M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.2.1 with M1 chip.</p>
+            <p>This tutorial is for installing <a href="https://iraf-community.github.io/">IRAF Community Distribution</a> and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.2.1 with M1 chip.</p>
 <h3 id="1-preparations">1. Preparations</h3>
 <h4 id="11-install-command-line-tools-for-xcode">1.1 Install Command Line Tools for Xcode</h4>
 <p>If you have not installed Xcode, please install it from the App Store. After installation, open a terminal and type:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">xcode-select --install
 </span></span></code></pre></div><p>to install Command Line Tools for Xcode.</p>
-<h4 id="12-install-homebrew-for-mac-os-optional">1.2 Install Homebrew for Mac OS (optional)</h4>
+<h4 id="12-install-homebrew-for-mac-os-recommended">1.2 Install Homebrew for Mac OS (recommended)</h4>
 <p><a href="https://brew.sh/">Homebrew</a> is a package manager for Mac OS, which can be installed with:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
-</span></span></code></pre></div><p>For example, to install gcc compiler using Homebrew, type:</p>
+</span></span></code></pre></div><p>For example, to install gcc compiler (recommended) using Homebrew, type:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">brew install gcc
 </span></span></code></pre></div><h4 id="13-install-xquartz">1.3 Install XQuartz</h4>
 <p>XQuartz is a software package allowing X Window System applications to be run on macOS. To install XQuartz, you can either download the latest version from <a href="https://www.xquartz.org/releases/index.html">here</a>, or install it using Homebrew:</p>
@@ -465,7 +465,7 @@
 </span></span><span class="line"><span class="cl">  .help describes executive commands
 </span></span><span class="line"><span class="cl">--&gt; 
 </span></span></code></pre></div><h4 id="42-enable-the-matplotlib-graphics-kernel-for-smoother-and-more-stable-graphics">4.2 Enable the matplotlib graphics kernel for smoother and more stable graphics</h4>
-<p>According to the <a href="https://stsci.service-now.com/sys_attachment.do?sys_id=a49b1ec6db543b44591e79fdae96194d">PyRAF FAQ</a>, one can enable the matplotlib graphics kernel for smoother and graphics by adding the following line to the &lsquo;~/.zshrc&rsquo; file:</p>
+<p>According to the <a href="https://stsci.service-now.com/sys_attachment.do?sys_id=a49b1ec6db543b44591e79fdae96194d">PyRAF FAQ</a>, one can enable the matplotlib graphics kernel for smoother graphics by adding the following line to the &lsquo;~/.zshrc&rsquo; file:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PYRAFGRAPHICS</span><span class="o">=</span><span class="s2">&#34;matplotlib&#34;</span>
 </span></span></code></pre></div>
           </div>
@@ -620,8 +620,8 @@
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#12-install-homebrew-for-mac-os-optional">
-												 1.2 Install Homebrew for Mac OS (optional)
+						 					<a class="nav-link" href="#12-install-homebrew-for-mac-os-recommended">
+												 1.2 Install Homebrew for Mac OS (recommended)
 											</a>
 										</li>
 						 

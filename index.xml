@@ -8,12 +8,12 @@
     <language>zn-Hans</language>
     <lastBuildDate>Sat, 20 Jan 2024 10:40:00 +0800</lastBuildDate><atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to install IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac?</title>
+      <title>How to install IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac?</title>
       <link>https://yumingfu.space/tech/2024-iraf-mac-installation/</link>
       <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
       
       <guid>https://yumingfu.space/tech/2024-iraf-mac-installation/</guid>
-      <description>This tutorial is for installing IRAF Community Distribution and PyRAF on M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.</description>
+      <description>This tutorial is for installing IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.</description>
     </item>
     
     <item>
