@@ -31,7 +31,7 @@
       <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
       
       <guid>https://yumingfu.space/tech/local-port-forwarding/</guid>
-      <description>For more information, please see https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding.
+      <description>For more information, please see this SSH tutorial.
 1. Forward agnkiaa:9000 to localhost:8080 The webpage running on agnkiaa:9000 cannot be accessed from remote clients.</description>
     </item>
     

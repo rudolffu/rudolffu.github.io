@@ -7,11 +7,11 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Yuming Fu">
-  <meta name="description" content="For more information, please see https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding.
+  <meta name="description" content="For more information, please see this SSH tutorial.
 1. Forward agnkiaa:9000 to localhost:8080 The webpage running on agnkiaa:9000 cannot be accessed from remote clients.">
   
   <meta property="og:title" content="Local port forwarding examples" />
-<meta property="og:description" content="For more information, please see https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding.
+<meta property="og:description" content="For more information, please see this SSH tutorial.
 1. Forward agnkiaa:9000 to localhost:8080 The webpage running on agnkiaa:9000 cannot be accessed from remote clients." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yumingfu.space/tech/local-port-forwarding/" /><meta property="article:section" content="tech" />
@@ -348,8 +348,7 @@
 
 
           <div class="post-content markdown">
-            <p>For more information, please see
-<a href="https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding">https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding</a>.</p>
+            <p>For more information, please see this <a href="https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding">SSH tutorial</a>.</p>
 <h2 id="1-forward-agnkiaa9000-to-localhost8080">1. Forward <code>agnkiaa:9000</code> to <code>localhost:8080</code></h2>
 <p>The webpage running on <code>agnkiaa:9000</code> cannot be accessed from remote clients. To visit the webpage from the local computer, we can forward the port <code>9000</code> of the host <code>agnkiaa</code> to the <code>8080</code> port (or any other port number you like) of <code>localhost</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -L 8080:localhost:9000 agnkiaa
