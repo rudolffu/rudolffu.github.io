@@ -834,7 +834,7 @@ toc-nav  scrollspy
 .pagination.pagination-outline .page-item .page-link {
   background-color: transparent;
   /* color: #333; */
-  color: var(--text-dark);
+  color: #004a93;
 }
 
 .pagination.pagination-outline .page-item .page-link:hover {

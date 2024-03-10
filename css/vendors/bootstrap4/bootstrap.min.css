@@ -4703,7 +4703,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .page-item.disabled .page-link {
-  color: #6c757d;
+  color: #0070E0;
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
