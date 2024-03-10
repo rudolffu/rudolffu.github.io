@@ -8,12 +8,13 @@
     <language>zn-Hans</language>
     <lastBuildDate>Mon, 14 Oct 2019 14:43:21 +0800</lastBuildDate><atom:link href="https://yumingfu.space/tags/astroconda/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to install and initiate IRAF in Ubuntu/Mac OS</title>
+      <title>How to install and initiate IRAF in Ubuntu/Mac OS [deprecated]</title>
       <link>https://yumingfu.space/tech/iraf-installation/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
       
       <guid>https://yumingfu.space/tech/iraf-installation/</guid>
-      <description>0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
+      <description>Note: This article is deprecated. Please refer to the new version for the latest tutorial.
+0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
     </item>
     
   </channel>
