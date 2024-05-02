@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Yuming Fu&#39;s Homepage</title>
+    <link>https://yumingfu.space/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Yuming Fu&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yumingfu.space/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The CatNorth Catalog: Over 1.5 Million Reliable Quasar Candidates from Gaia DR3</title>
+      <link>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</guid>
+      <description>Reposted from KIAA-PKU
+The Kavli Institute for Astronomy and Astrophysics at Peking University announces an advancement in cosmic exploration with the release of the CatNorth quasar candidate catalog, as recently published in The Astrophysical Journal Supplement Series.</description>
+    </item>
+    
+  </channel>
+</rss>
