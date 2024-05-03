@@ -8,6 +8,25 @@
     <language>zn-Hans</language>
     <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate><atom:link href="https://yumingfu.space/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://yumingfu.space/research/publications/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yumingfu.space/research/publications/</guid>
+      <description>A list of my publications can be found in this ADS library.
+Selected papers: Yuming Fu, Xue-Bing Wu, Yifan Li, Yuxuan Pang, Ravi Joshi, et al.</description>
+    </item>
+    
+    <item>
+      <title>Research Interests</title>
+      <link>https://yumingfu.space/research/research-interests/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yumingfu.space/research/research-interests/</guid>
+      <description>My research fields include quasar surveys, statistical and machine learning methods in astronomy. My PhD thesis project was &amp;ldquo;Searching for Quasars behind the Galactic Plane&amp;rdquo;, aiming to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.</description>
+    </item>
+    
+    <item>
       <title>The CatNorth Catalog: Over 1.5 Million Reliable Quasar Candidates from Gaia DR3</title>
       <link>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
