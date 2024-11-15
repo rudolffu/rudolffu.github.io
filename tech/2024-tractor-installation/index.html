@@ -7,24 +7,24 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Yuming Fu">
-  <meta name="description" content="Table Access Protocol (TAP) is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the IVOA TAP document.">
+  <meta name="description" content="1. Preparations 1.1. Install Command Line Tools for Xcode If you have not installed Xcode, please install it from the App Store.">
   
-  <meta property="og:title" content="Useful Table Access Protocol (TAP) URLs for Astronomers" />
-<meta property="og:description" content="Table Access Protocol (TAP) is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the IVOA TAP document." />
+  <meta property="og:title" content="Installing Tractor on Mac" />
+<meta property="og:description" content="1. Preparations 1.1. Install Command Line Tools for Xcode If you have not installed Xcode, please install it from the App Store." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yumingfu.space/tech/2024-tap-urls/" /><meta property="article:section" content="tech" />
-<meta property="article:published_time" content="2024-09-23T14:00:00+02:00" />
-<meta property="article:modified_time" content="2024-09-23T14:00:00+02:00" />
+<meta property="og:url" content="https://yumingfu.space/tech/2024-tractor-installation/" /><meta property="article:section" content="tech" />
+<meta property="article:published_time" content="2024-11-15T16:00:00+01:00" />
+<meta property="article:modified_time" content="2024-11-15T16:00:00+01:00" />
 
 
 
   <title>
   
-       Useful Table Access Protocol (TAP) URLs for Astronomers | Useful Table Access Protocol (TAP) URLs for Astronomers 
+       Installing Tractor on Mac | Installing Tractor on Mac 
   
   </title>
 
-  <link rel="canonical" href="https://yumingfu.space/tech/2024-tap-urls/">
+  <link rel="canonical" href="https://yumingfu.space/tech/2024-tractor-installation/">
 
   
   
@@ -347,16 +347,16 @@
     
   </ul>
 
-  <div class="px-4 post-heading">Useful Table Access Protocol (TAP) URLs for Astronomers</div>
+  <div class="px-4 post-heading">Installing Tractor on Mac</div>
 
   <ul class="post-meta li-x mt-1">
     
-      <li>Sep 23, 2024</li>
+      <li>Nov 15, 2024</li>
     
 
     
       <li class="middot"></li>
-      <li>One minute read</li>
+      <li>2 minutes read</li>
     
   </ul>
   
@@ -365,32 +365,46 @@
 
 
           <div class="post-content markdown">
-            <p><a href="https://www.ivoa.net/documents/TAP/20190927/index.html">Table Access Protocol (TAP)</a> is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the <a href="https://www.ivoa.net/documents/TAP/20190927/REC-TAP-1.1.html">IVOA TAP document</a>.</p>
-<p>Topcat is a popular tool to access and manipulate astronomical catalogs. Many TAP services can be found by specifying a keyword under the &ldquo;Select Service&rdquo; tab (see the <a href="https://www.star.bris.ac.uk/~mbt/topcat/sun253/TapTableLoadDialog.html">Topcat documentation</a>). However, it is not always easy to find the TAP URL for a specific catalog. Here I list some useful TAP URLs for astronomers (including myself).</p>
-<h3 id="1-noirlab-datalab">1. NOIRLab datalab</h3>
-<ul>
-<li>TAP URL: <a href="https://datalab.noirlab.edu/tap">https://datalab.noirlab.edu/tap</a></li>
-<li>Documentation: <a href="https://datalab.noirlab.edu/docs/manual/index.html">https://datalab.noirlab.edu/docs/manual/index.html</a></li>
-</ul>
-<h3 id="2-ukirt-at-wfcam-science-archive-wsa-and-vista-at-vista-science-archive-vsa">2. UKIRT at WFCAM Science Archive (WSA), and VISTA at VISTA Science Archive (VSA)</h3>
-<p>These two services can be found at the same URL, but with different TAP endpoints. They can also be found in the Topcat &ldquo;Select Service&rdquo; tab.</p>
-<ul>
-<li>WSA: <a href="http://tap.roe.ac.uk/wsa/">http://tap.roe.ac.uk/wsa/</a></li>
-<li>VSA: <a href="http://tap.roe.ac.uk/vsa/">http://tap.roe.ac.uk/vsa/</a></li>
-</ul>
-<h3 id="3-eso-archive">3. ESO Archive</h3>
-<ul>
-<li>TAP service for catalogs: <a href="http://archive.eso.org/tap_cat">http://archive.eso.org/tap_cat</a></li>
-<li>TAP service for raw and reduced data: <a href="http://archive.eso.org/tap_obs">http://archive.eso.org/tap_obs</a></li>
-<li>Documentation: <a href="https://archive.eso.org/cms/eso-data/programmatic-access.html">https://archive.eso.org/cms/eso-data/programmatic-access.html</a></li>
-<li>Examples:
-<ol>
-<li><a href="https://archive.eso.org/tap_obs/examples">https://archive.eso.org/tap_obs/examples</a></li>
-<li><a href="https://archive.eso.org/programmatic/HOWTO/jupyter/how_to_query_for_reduced_data/ESO_How_to_query_for_reduced_data.html">https://archive.eso.org/programmatic/HOWTO/jupyter/how_to_query_for_reduced_data/ESO_How_to_query_for_reduced_data.html</a></li>
-</ol>
-</li>
-</ul>
-
+            <h3 id="1-preparations">1. Preparations</h3>
+<h4 id="11-install-command-line-tools-for-xcode">1.1. Install Command Line Tools for Xcode</h4>
+<p>If you have not installed Xcode, please install it from the App Store. After installation, open a terminal and type:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">xcode-select --install
+</span></span></code></pre></div><p>to install Command Line Tools for Xcode.</p>
+<h4 id="12-install-homebrew-gcc-and-cmake-for-mac-os">1.2. Install Homebrew, gcc, and cmake for Mac OS</h4>
+<p><a href="https://brew.sh/">Homebrew</a> is a package manager for Mac OS, which can be installed with:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><p>For example, to install gcc v14 compiler (recommended) and <code>cmake</code> using Homebrew, type:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">brew install gcc@14 cmake
+</span></span></code></pre></div><h4 id="13-create-a-conda-environment-for-tractor">1.3. Create a conda environment for Tractor</h4>
+<p>Assuming you have installed a conda distribution, you can create a new virtual environment for Tractor. Here we create a new environment named <code>wise</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">conda create -n wise <span class="nv">cython</span><span class="o">=</span>3.0 ceres-solver<span class="o">=</span>2.1 <span class="nv">glog</span><span class="o">=</span>0.5 <span class="nv">python</span><span class="o">=</span>3.10 <span class="nv">fitsio</span><span class="o">=</span>1.2.4 -c conda-forge 
+</span></span></code></pre></div><p>If you want to install more packages, e.g. <code>jupyter</code>  in the <code>wise</code> environment, you can type:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">conda install -n wise jupyter -c conda-forge 
+</span></span></code></pre></div><h4 id="14-install-astrometrynet">1.4. Install <code>astrometry.net</code></h4>
+<p>Download the latest version of <code>astrometry.net</code> from <a href="https://astrometry.net/downloads/">here</a>. For example, you can download the latest version and extract it using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">wget https://astrometry.net/downloads/astrometry.net-latest.tar.gz 
+</span></span><span class="line"><span class="cl">tar -xzf astrometry.net-latest.tar.gz
+</span></span></code></pre></div><p>To install <code>astrometry.net</code> in the <code>wise</code> environment, you can type:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">conda activate wise 
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> astrometry.net-0.96
+</span></span><span class="line"><span class="cl">python -m pip install .
+</span></span></code></pre></div><h3 id="2-install-tractor">2. Install <code>Tractor</code></h3>
+<h4 id="21-download-the-latest-version-of-tractor">2.1. Download the latest version of <code>Tractor</code></h4>
+<p>You can download the latest version of <code>Tractor</code> from github:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">git clone git@github.com:dstndstn/tractor.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> tractor
+</span></span></code></pre></div><h4 id="22-edit-the-environment-variables-in-the-setuppy-file">2.2. Edit the environment variables in the <code>setup.py</code> file</h4>
+<p>Locate the <code>gcc-14</code> (and <code>g++-14</code>) path of the <code>gcc</code> compiler installed by Homebrew. The latest version homebrew will put the excutable in <code>/opt/homebrew/bin/</code>. Once you confirm the path, you can add the following two lines into the <code>setup.py</code> file of <code>Tractor</code> before the line starting with <code>def main</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;CC&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/opt/homebrew/bin/gcc-14&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;CXX&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/opt/homebrew/bin/g++-14&#39;</span>
+</span></span></code></pre></div><h4 id="23-install-tractor-in-the-wise-environment">2.3. Install <code>Tractor</code> in the <code>wise</code> environment</h4>
+<p>Make sure you have activated the <code>wise</code> environment. Then you can install <code>Tractor</code> using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">make 
+</span></span><span class="line"><span class="cl"><span class="c1"># OR</span>
+</span></span><span class="line"><span class="cl">python3 setup.py build_ext --inplace --with-ceres --with-cython 
+</span></span></code></pre></div><p>Once the installation is finished, you can test the installation by typing:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">python examples/tractor-sdss-synth.py
+</span></span></code></pre></div>
           </div>
 
           
@@ -403,16 +417,10 @@
   <li class="pr-0"><a href="https://yumingfu.space/tags/"><i class="fas fa-tags"></i></a></li>
   <div class="tags-sm">
     
-      <li><a href="https://yumingfu.space/tags/database" role="button">database </a></li>
+      <li><a href="https://yumingfu.space/tags/tractor" role="button">Tractor </a></li>
       
     
-      <li><a href="https://yumingfu.space/tags/tap" role="button">TAP </a></li>
-      
-    
-      <li><a href="https://yumingfu.space/tags/adql" role="button">ADQL </a></li>
-      
-    
-      <li><a href="https://yumingfu.space/tags/topcat" role="button">Topcat </a></li>
+      <li><a href="https://yumingfu.space/tags/photometry" role="button">photometry </a></li>
       
     
   </div>
@@ -428,23 +436,16 @@
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=https://yumingfu.space/tech/2024-iraf-mac-installation/ class="post-meta">Previous
+                <a href=https://yumingfu.space/tech/2024-tap-urls/ class="post-meta">Previous
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>How to install IRAF and PyRAF on a M1/M2 (Apple Silicon) Mac?</span>
+                    <span>Useful Table Access Protocol (TAP) URLs for Astronomers</span>
                   </div>
                 </a>
               
             </div>
             
             <div class="col-md-6 text-right" >
-              
-                <a href=https://yumingfu.space/tech/2024-tractor-installation/ class="post-meta">Next
-                  <div class="pt-2 pb-5 flex-reverse">
-                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
-                    <span>Installing Tractor on Mac</span>
-                  </div>
-                </a>
               
             </div>
           </div>
@@ -492,8 +493,8 @@
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#1-noirlab-datalab">
-												 1. NOIRLab datalab
+						 					<a class="nav-link" href="#1-preparations">
+												 1. Preparations
 											</a>
 										</li>
 						 
@@ -515,11 +516,131 @@
 								
 									<ul class="nav">
 								
+									<ul class="nav">
+								
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#2-ukirt-at-wfcam-science-archive-wsa-and-vista-at-vista-science-archive-vsa">
-												 2. UKIRT at WFCAM Science Archive (WSA), and VISTA at VISTA Science Archive (VSA)
+						 					<a class="nav-link" href="#11-install-command-line-tools-for-xcode">
+												 1.1. Install Command Line Tools for Xcode
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#12-install-homebrew-gcc-and-cmake-for-mac-os">
+												 1.2. Install Homebrew, gcc, and cmake for Mac OS
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#13-create-a-conda-environment-for-tractor">
+												 1.3. Create a conda environment for Tractor
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#14-install-astrometrynet">
+												 1.4. Install astrometry.net
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#2-install-tractor">
+												 2. Install Tractor
 											</a>
 										</li>
 						 
@@ -541,15 +662,79 @@
 								
 									<ul class="nav">
 								
+									<ul class="nav">
+								
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#3-eso-archive">
-												 3. ESO Archive
+						 					<a class="nav-link" href="#21-download-the-latest-version-of-tractor">
+												 2.1. Download the latest version of Tractor
 											</a>
 										</li>
 						 
 								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#22-edit-the-environment-variables-in-the-setuppy-file">
+												 2.2. Edit the environment variables in the setup.py file
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#23-install-tractor-in-the-wise-environment">
+												 2.3. Install Tractor in the wise environment
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
 								
 									</ul>
 								

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>photometry on Yuming Fu&#39;s Homepage</title>
+    <link>https://yumingfu.space/tags/photometry/</link>
+    <description>Recent content in photometry on Yuming Fu&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Fri, 15 Nov 2024 16:00:00 +0100</lastBuildDate><atom:link href="https://yumingfu.space/tags/photometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Tractor on Mac</title>
+      <link>https://yumingfu.space/tech/2024-tractor-installation/</link>
+      <pubDate>Fri, 15 Nov 2024 16:00:00 +0100</pubDate>
+      
+      <guid>https://yumingfu.space/tech/2024-tractor-installation/</guid>
+      <description>1. Preparations 1.1. Install Command Line Tools for Xcode If you have not installed Xcode, please install it from the App Store.</description>
+    </item>
+    
+  </channel>
+</rss>

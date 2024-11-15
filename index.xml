@@ -6,7 +6,16 @@
     <description>Recent content on Yuming Fu&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Mon, 23 Sep 2024 14:00:00 +0200</lastBuildDate><atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Nov 2024 16:00:00 +0100</lastBuildDate><atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Tractor on Mac</title>
+      <link>https://yumingfu.space/tech/2024-tractor-installation/</link>
+      <pubDate>Fri, 15 Nov 2024 16:00:00 +0100</pubDate>
+      
+      <guid>https://yumingfu.space/tech/2024-tractor-installation/</guid>
+      <description>1. Preparations 1.1. Install Command Line Tools for Xcode If you have not installed Xcode, please install it from the App Store.</description>
+    </item>
+    
     <item>
       <title>Useful Table Access Protocol (TAP) URLs for Astronomers</title>
       <link>https://yumingfu.space/tech/2024-tap-urls/</link>

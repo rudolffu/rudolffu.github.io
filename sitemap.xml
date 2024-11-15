@@ -2,31 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yumingfu.space/tags/adql/</loc>
-    <lastmod>2024-09-23T14:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://yumingfu.space/categories/</loc>
+    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tech/2024-tractor-installation/</loc>
+    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/photometry/</loc>
+    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/</loc>
+    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/categories/tech/</loc>
+    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/tractor/</loc>
+    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/</loc>
+    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/adql/</loc>
     <lastmod>2024-09-23T14:00:00+02:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tags/database/</loc>
     <lastmod>2024-09-23T14:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://yumingfu.space/tags/</loc>
-    <lastmod>2024-09-23T14:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://yumingfu.space/tags/tap/</loc>
-    <lastmod>2024-09-23T14:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://yumingfu.space/categories/tech/</loc>
     <lastmod>2024-09-23T14:00:00+02:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tags/topcat/</loc>
     <lastmod>2024-09-23T14:00:00+02:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tech/2024-tap-urls/</loc>
-    <lastmod>2024-09-23T14:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://yumingfu.space/</loc>
     <lastmod>2024-09-23T14:00:00+02:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tags/gaia-dr3/</loc>
