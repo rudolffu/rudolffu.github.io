@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Observation on Yuming Fu&#39;s Homepage</title>
+    <title>Observation on </title>
     <link>https://yumingfu.space/observation/</link>
-    <description>Recent content in Observation on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Observation on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate><atom:link href="https://yumingfu.space/observation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yumingfu.space/observation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Schedule of time allocation in S22B and S23A</title>
       <link>https://yumingfu.space/observation/schedule-22b-23a/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/observation/schedule-22b-23a/</guid>
-      <description>Telescope Lijiang-2.4m Xinglong-2.16m 2022-09 9.25-9.30 (北京时间当日24点以前) 2022-10 10.22-10.25</description>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Telescope&lt;/th&gt;&#xA;          &lt;th&gt;Lijiang-2.4m&lt;/th&gt;&#xA;          &lt;th&gt;Xinglong-2.16m&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-09&lt;/td&gt;&#xA;          &lt;td&gt;9.25-9.30    (北京时间当日24点以前)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-10&lt;/td&gt;&#xA;          &lt;td&gt;10.22-10.25&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-11&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;11.11-11.12&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-12&lt;/td&gt;&#xA;          &lt;td&gt;12.3-12.4;  12.13-12.14;  12.25-12.27&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-01&lt;/td&gt;&#xA;          &lt;td&gt;1.18-1.20;  1.25-1.27&lt;/td&gt;&#xA;          &lt;td&gt;1.17-1.18&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-02&lt;/td&gt;&#xA;          &lt;td&gt;2.23-2.25    (北京时间次日2:30-天亮)&lt;/td&gt;&#xA;          &lt;td&gt;2.11 (half night)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-03&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;3.22-3.23&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-04&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-05&lt;/td&gt;&#xA;          &lt;td&gt;5.19-5.21&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-06&lt;/td&gt;&#xA;          &lt;td&gt;6.16-6.17&lt;/td&gt;&#xA;          &lt;td&gt;6.8-6.9&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-07&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
     <item>
       <title>How&#39;s the weather tonight?</title>
       <link>https://yumingfu.space/observation/weather-china/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/observation/weather-china/</guid>
-      <description>Although astronomers do not study meteorology, some of them, especially observers, may pay close attention to the weather. Factors such as temperature, humidity, wind speed and direction, cloud coverage, have great influence on the observation activity.</description>
+      <description>&lt;p&gt;Although astronomers do not study meteorology, some of them, especially observers, may pay close attention to the weather. Factors such as temperature, humidity, wind speed and direction, cloud coverage, have great influence on the observation activity. We have also known a lot about the significance of good seeing, low sky brightness and so on.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

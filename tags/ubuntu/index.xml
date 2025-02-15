@@ -1,50 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Yuming Fu&#39;s Homepage</title>
+    <title>Ubuntu on </title>
     <link>https://yumingfu.space/tags/ubuntu/</link>
-    <description>Recent content in Ubuntu on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ubuntu on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 14 Sep 2022 10:35:05 +0800</lastBuildDate><atom:link href="https://yumingfu.space/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Sep 2022 10:35:05 +0800</lastBuildDate>
+    <atom:link href="https://yumingfu.space/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Local port forwarding examples</title>
       <link>https://yumingfu.space/tech/local-port-forwarding/</link>
       <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/local-port-forwarding/</guid>
-      <description>For more information, please see this SSH tutorial.
-1. Forward agnkiaa:9000 to localhost:8080 The webpage running on agnkiaa:9000 cannot be accessed from remote clients.</description>
+      <description>&lt;p&gt;For more information, please see this &lt;a href=&#34;https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding&#34;&gt;SSH tutorial&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-forward-agnkiaa9000-to-localhost8080&#34;&gt;1. Forward &lt;code&gt;agnkiaa:9000&lt;/code&gt; to &lt;code&gt;localhost:8080&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The webpage running on &lt;code&gt;agnkiaa:9000&lt;/code&gt; cannot be accessed from remote clients. To visit the webpage from the local computer, we can forward the port &lt;code&gt;9000&lt;/code&gt; of the host &lt;code&gt;agnkiaa&lt;/code&gt; to the &lt;code&gt;8080&lt;/code&gt; port (or any other port number you like) of &lt;code&gt;localhost&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Create and manage SSH keys for authentication to a Linux server</title>
       <link>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</link>
       <pubDate>Tue, 02 Aug 2022 16:35:43 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</guid>
-      <description>Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being</description>
+      <description>&lt;p&gt;Say the hostname of the server is &lt;code&gt;agnkiaa&lt;/code&gt; (e.g. set in your local &lt;code&gt;/etc/hosts&lt;/code&gt; file), with its ip address being &lt;code&gt;162.***.***.***&lt;/code&gt;, we can set up SSH keys following the steps below.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to install and initiate IRAF in Ubuntu/Mac OS [deprecated]</title>
       <link>https://yumingfu.space/tech/iraf-installation/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/iraf-installation/</guid>
-      <description>Note: This article is deprecated. Please refer to the new version for the latest tutorial.
-0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:1.5em;color:red&#34;&gt;&lt;strong&gt;Note&lt;/strong&gt;: This article is &lt;strong&gt;deprecated&lt;/strong&gt;. Please refer to the &lt;a href=&#34;https://yumingfu.space/tech/2024-iraf-mac-installation/&#34;&gt;new version&lt;/a&gt; for the latest tutorial.&lt;/span&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-introduction-to-iraf&#34;&gt;0. Introduction to IRAF&lt;/h3&gt;&#xA;&lt;p&gt;IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data. IRAF is licensed under a MIT style license. The software was written by the National Optical Astronomy Observatories (NOAO) in Tucson, Arizona.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Extend disk volume with Ubuntu LVM</title>
       <link>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</link>
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
-      
       <guid>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</guid>
-      <description>Be careful with your disk when reading this note and similar ones. Think twice before you take action.
-Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Be careful with your disk when reading this note and similar ones. Think twice before you take action.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction-to-lvm&#34;&gt;Introduction to LVM&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.sourceware.org/lvm2/&#34;&gt;LVM&lt;/a&gt; (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems. Since version 12.10, Ubuntu has introduced LVM support in the installation process.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

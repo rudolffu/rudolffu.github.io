@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IRAF on Yuming Fu&#39;s Homepage</title>
+    <title>IRAF on </title>
     <link>https://yumingfu.space/tags/iraf/</link>
-    <description>Recent content in IRAF on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in IRAF on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sat, 20 Jan 2024 10:40:00 +0800</lastBuildDate><atom:link href="https://yumingfu.space/tags/iraf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2024 10:40:00 +0800</lastBuildDate>
+    <atom:link href="https://yumingfu.space/tags/iraf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install IRAF and PyRAF on a M1/M2 (Apple Silicon) Mac?</title>
       <link>https://yumingfu.space/tech/2024-iraf-mac-installation/</link>
       <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/2024-iraf-mac-installation/</guid>
-      <description>This tutorial is for installing IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.</description>
+      <description>&lt;p&gt;This tutorial is for installing &lt;a href=&#34;https://iraf-community.github.io/&#34;&gt;IRAF Community Distribution&lt;/a&gt; and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.2.1 with M1 chip.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to install and initiate IRAF in Ubuntu/Mac OS [deprecated]</title>
       <link>https://yumingfu.space/tech/iraf-installation/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/iraf-installation/</guid>
-      <description>Note: This article is deprecated. Please refer to the new version for the latest tutorial.
-0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:1.5em;color:red&#34;&gt;&lt;strong&gt;Note&lt;/strong&gt;: This article is &lt;strong&gt;deprecated&lt;/strong&gt;. Please refer to the &lt;a href=&#34;https://yumingfu.space/tech/2024-iraf-mac-installation/&#34;&gt;new version&lt;/a&gt; for the latest tutorial.&lt;/span&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-introduction-to-iraf&#34;&gt;0. Introduction to IRAF&lt;/h3&gt;&#xA;&lt;p&gt;IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data. IRAF is licensed under a MIT style license. The software was written by the National Optical Astronomy Observatories (NOAO) in Tucson, Arizona.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

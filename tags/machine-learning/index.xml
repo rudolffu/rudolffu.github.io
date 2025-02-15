@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning on Yuming Fu&#39;s Homepage</title>
+    <title>Machine Learning on </title>
     <link>https://yumingfu.space/tags/machine-learning/</link>
-    <description>Recent content in Machine Learning on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Machine Learning on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yumingfu.space/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yumingfu.space/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The CatNorth Catalog: Over 1.5 Million Reliable Quasar Candidates from Gaia DR3</title>
       <link>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</guid>
-      <description>Reposted from KIAA-PKU
-The Kavli Institute for Astronomy and Astrophysics at Peking University announces an advancement in cosmic exploration with the release of the CatNorth quasar candidate catalog, as recently published in The Astrophysical Journal Supplement Series.</description>
+      <description>&lt;p&gt;&lt;em&gt;Reposted from &lt;a href=&#34;https://kiaa.pku.edu.cn/info/1031/9270.htm&#34;&gt;KIAA-PKU&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Kavli Institute for Astronomy and Astrophysics at Peking University announces an advancement in cosmic exploration with the release of the CatNorth quasar candidate catalog, as recently published in The Astrophysical Journal Supplement Series. The international collaborative study, led by Dr. Yuming Fu and Prof. Xue-Bing Wu, presents an enhanced set of over 1.5 million reliable quasar candidates, building upon the initial Gaia DR3 quasar candidate catalog noted for its substantial size but low purity.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

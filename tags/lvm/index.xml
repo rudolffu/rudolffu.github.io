@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LVM on Yuming Fu&#39;s Homepage</title>
+    <title>LVM on </title>
     <link>https://yumingfu.space/tags/lvm/</link>
-    <description>Recent content in LVM on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in LVM on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 21 May 2019 17:19:31 +0200</lastBuildDate><atom:link href="https://yumingfu.space/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2019 17:19:31 +0200</lastBuildDate>
+    <atom:link href="https://yumingfu.space/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Extend disk volume with Ubuntu LVM</title>
       <link>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</link>
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
-      
       <guid>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</guid>
-      <description>Be careful with your disk when reading this note and similar ones. Think twice before you take action.
-Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Be careful with your disk when reading this note and similar ones. Think twice before you take action.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction-to-lvm&#34;&gt;Introduction to LVM&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.sourceware.org/lvm2/&#34;&gt;LVM&lt;/a&gt; (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems. Since version 12.10, Ubuntu has introduced LVM support in the installation process.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

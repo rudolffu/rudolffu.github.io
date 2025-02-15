@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Topcat on Yuming Fu&#39;s Homepage</title>
+    <title>Topcat on </title>
     <link>https://yumingfu.space/tags/topcat/</link>
-    <description>Recent content in Topcat on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Topcat on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Mon, 23 Sep 2024 14:00:00 +0200</lastBuildDate><atom:link href="https://yumingfu.space/tags/topcat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 14:00:00 +0200</lastBuildDate>
+    <atom:link href="https://yumingfu.space/tags/topcat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Useful Table Access Protocol (TAP) URLs for Astronomers</title>
       <link>https://yumingfu.space/tech/2024-tap-urls/</link>
       <pubDate>Mon, 23 Sep 2024 14:00:00 +0200</pubDate>
-      
       <guid>https://yumingfu.space/tech/2024-tap-urls/</guid>
-      <description>Table Access Protocol (TAP) is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the IVOA TAP document.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ivoa.net/documents/TAP/20190927/index.html&#34;&gt;Table Access Protocol (TAP)&lt;/a&gt; is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the &lt;a href=&#34;https://www.ivoa.net/documents/TAP/20190927/REC-TAP-1.1.html&#34;&gt;IVOA TAP document&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

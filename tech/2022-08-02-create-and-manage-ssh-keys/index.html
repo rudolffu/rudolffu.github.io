@@ -7,15 +7,19 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Yuming Fu">
-  <meta name="description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being">
+  <meta name="description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following the steps below.">
   
-  <meta property="og:title" content="Create and manage SSH keys for authentication to a Linux server" />
-<meta property="og:description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/" /><meta property="article:section" content="tech" />
-<meta property="article:published_time" content="2022-08-02T16:35:43+08:00" />
-<meta property="article:modified_time" content="2022-08-02T16:35:43+08:00" />
-
+  <meta property="og:url" content="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/">
+  <meta property="og:title" content="Create and manage SSH keys for authentication to a Linux server">
+  <meta property="og:description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following the steps below.">
+  <meta property="og:locale" content="zn_Hans">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2022-08-02T16:35:43+08:00">
+    <meta property="article:modified_time" content="2022-08-02T16:35:43+08:00">
+    <meta property="article:tag" content="Ubuntu">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Ssh">
 
 
   <title>
@@ -91,7 +95,7 @@
     <div class="container">
 
       
-      <a class="navbar-brand" href="https://yumingfu.space">
+      <a class="navbar-brand" href="https://yumingfu.space/">
           
         <img class="avatar" src="https://yumingfu.space/img/black-hole.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
         
@@ -110,7 +114,7 @@
         
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item ">
-            <a class="nav-link" href="https://yumingfu.space">Home</a>
+            <a class="nav-link" href="https://yumingfu.space/">Home</a>
           </li>
              
             <li class="nav-item ">
@@ -261,7 +265,7 @@
     <div class="row mx-0 headfont mt-3 pt-4">
       
       <div class="col-12 col-sm-5 align-middle">
-        <a href="https://yumingfu.space">
+        <a href="https://yumingfu.space/">
           
             <img class="pull-right avatar avatar-md" src="https://yumingfu.space/img/profile_ellemen.jpg" alt="" >
           
@@ -269,9 +273,9 @@
       </div>
       
       <div class="col-12 col-sm-7 text-left pl-2">
-        <a href="https://yumingfu.space">
+        <a href="https://yumingfu.space/">
           <h1 class="mb-2 h1" style="font-weight: 300;" >
-            <strong>Yuming Fu&#39;s Homepage</strong>
+            <strong></strong>
           </h1>
         </a>
         
@@ -372,49 +376,49 @@
             <p>Say the hostname of the server is <code>agnkiaa</code> (e.g. set in your local <code>/etc/hosts</code> file), with its ip address being <code>162.***.***.***</code>, we can set up SSH keys following the steps below.</p>
 <h3 id="step-1-generate-keygen-pair-client">Step 1: Generate keygen pair (client)</h3>
 <p>On the local client（客户端，例如笔记本电脑）：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh-keygen -m PEM -t rsa -C <span class="s2">&#34;username@your_local_machine&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh-keygen -m PEM -t rsa -C <span style="color:#e6db74">&#34;username@your_local_machine&#34;</span>
 </span></span></code></pre></div><p>The string &ldquo;username@your_local_machine&rdquo; is added to make the string of the public key more recognizable on the server.</p>
 <p>Example:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="o">(</span>base<span class="o">)</span> ➜  ~ ssh-keygen -m PEM -t rsa -C <span class="s2">&#34;username@your_local_machine&#34;</span>
-</span></span><span class="line"><span class="cl">Generating public/private rsa key pair.
-</span></span><span class="line"><span class="cl">Enter file in which to save the key <span class="o">(</span>~/.ssh/id_rsa<span class="o">)</span>: ~/.ssh/id_rsa_agn    
-</span></span><span class="line"><span class="cl">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: <span class="o">[</span>Can be different from the ssh passwd<span class="o">]</span>
-</span></span><span class="line"><span class="cl">Enter same passphrase again: 
-</span></span><span class="line"><span class="cl">Your identification has been saved in ~/.ssh/id_rsa_agn
-</span></span><span class="line"><span class="cl">Your public key has been saved in ~/.ssh/id_rsa_agn.pub
-</span></span><span class="line"><span class="cl">The key fingerprint is:
-</span></span><span class="line"><span class="cl">SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx username@your_local_machine
-</span></span><span class="line"><span class="cl">The key<span class="se">\&#39;</span>s randomart image is:
-</span></span><span class="line"><span class="cl">+---<span class="o">[</span>RSA 3072<span class="o">]</span>----+
-</span></span><span class="line"><span class="cl"><span class="p">|</span>    .............<span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   ..............<span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>  ...............<span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>   ..............<span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>    .............<span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>     .......     <span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>        ...      <span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>                 <span class="p">|</span>
-</span></span><span class="line"><span class="cl"><span class="p">|</span>                 <span class="p">|</span>
-</span></span><span class="line"><span class="cl">+----<span class="o">[</span>SHA256<span class="o">]</span>-----+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#f92672">(</span>base<span style="color:#f92672">)</span> ➜  ~ ssh-keygen -m PEM -t rsa -C <span style="color:#e6db74">&#34;username@your_local_machine&#34;</span>
+</span></span><span style="display:flex;"><span>Generating public/private rsa key pair.
+</span></span><span style="display:flex;"><span>Enter file in which to save the key <span style="color:#f92672">(</span>~/.ssh/id_rsa<span style="color:#f92672">)</span>: ~/.ssh/id_rsa_agn    
+</span></span><span style="display:flex;"><span>Enter passphrase <span style="color:#f92672">(</span>empty <span style="color:#66d9ef">for</span> no passphrase<span style="color:#f92672">)</span>: <span style="color:#f92672">[</span>Can be different from the ssh passwd<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>Enter same passphrase again: 
+</span></span><span style="display:flex;"><span>Your identification has been saved in ~/.ssh/id_rsa_agn
+</span></span><span style="display:flex;"><span>Your public key has been saved in ~/.ssh/id_rsa_agn.pub
+</span></span><span style="display:flex;"><span>The key fingerprint is:
+</span></span><span style="display:flex;"><span>SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx username@your_local_machine
+</span></span><span style="display:flex;"><span>The key<span style="color:#ae81ff">\&#39;</span>s randomart image is:
+</span></span><span style="display:flex;"><span>+---<span style="color:#f92672">[</span>RSA 3072<span style="color:#f92672">]</span>----+
+</span></span><span style="display:flex;"><span>|    .............|
+</span></span><span style="display:flex;"><span>|   ..............|
+</span></span><span style="display:flex;"><span>|  ...............|
+</span></span><span style="display:flex;"><span>|   ..............|
+</span></span><span style="display:flex;"><span>|    .............|
+</span></span><span style="display:flex;"><span>|     .......     |
+</span></span><span style="display:flex;"><span>|        ...      |
+</span></span><span style="display:flex;"><span>|                 |
+</span></span><span style="display:flex;"><span>|                 |
+</span></span><span style="display:flex;"><span>+----<span style="color:#f92672">[</span>SHA256<span style="color:#f92672">]</span>-----+
 </span></span></code></pre></div><h3 id="step-2-upload-your-public-key-to-the-server">Step 2: Upload your public key to the server</h3>
 <p>Make sure <code>ssh-agent</code> is running on your local machine.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">eval</span> <span class="s2">&#34;</span><span class="k">$(</span>ssh-agent -s<span class="k">)</span><span class="s2">&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>ssh-agent -s<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 </span></span></code></pre></div><p>Add your private key to <code>ssh-agent</code>.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh-add ~/.ssh/id_rsa_agn
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh-add ~/.ssh/id_rsa_agn
 </span></span></code></pre></div><h4 id="upload-automatically-recommended">Upload automatically (recommended)</h4>
 <p>From local client:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh-copy-id -i ~/.ssh/id_rsa_agn username@agnkiaa
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh-copy-id -i ~/.ssh/id_rsa_agn username@agnkiaa
 </span></span></code></pre></div><h4 id="upload-manually">Upload manually</h4>
 <p>From local client:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cat ~/.ssh/id_rsa_agn.pub <span class="p">|</span> ssh username@agnkiaa <span class="s2">&#34;cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cat ~/.ssh/id_rsa_agn.pub | ssh username@agnkiaa <span style="color:#e6db74">&#34;cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
 </span></span></code></pre></div><p>If <code>~/.ssh</code> does not exist on the server, excute the following line:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cat ~/.ssh/id_rsa_agn.pub <span class="p">|</span> ssh username@agnkiaa <span class="s2">&#34;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cat ~/.ssh/id_rsa_agn.pub | ssh username@agnkiaa <span style="color:#e6db74">&#34;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
 </span></span></code></pre></div><h3 id="step-3-configure-ssh-local">Step 3: Configure SSH (local)</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">vim ~/.ssh/config
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>vim ~/.ssh/config
 </span></span></code></pre></div><p>Locate the configuration of the agnkiaa server which may look like:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">Host agnkiaa
-</span></span><span class="line"><span class="cl">  HostName agnkiaa
-</span></span><span class="line"><span class="cl">  User username <span class="c1">## Your own user name </span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>Host agnkiaa
+</span></span><span style="display:flex;"><span>  HostName agnkiaa
+</span></span><span style="display:flex;"><span>  User username <span style="color:#75715e">## Your own user name </span>
 </span></span></code></pre></div><p>or:</p>
 <pre tabindex="0"><code>Host 162.***.***.***
   HostName 162.***.***.***
@@ -712,7 +716,7 @@
   
   <div class="copyright py-4">
     
-    <span>  2017 - 2024 &copy; Yuming Fu (傅煜铭; <a href='https://github.com/rudolffu' target="_blank">rudolffu</a>) | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
+    <span>  2017 - 2025 &copy; Yuming Fu (傅煜铭; <a href='https://github.com/rudolffu' target="_blank">rudolffu</a>) | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
   </div>
   
 
@@ -757,10 +761,6 @@
           renderMathInElement(document.body);
       });
   </script>
-
-
-
-
 
 
 

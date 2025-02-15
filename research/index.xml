@@ -1,58 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research on Yuming Fu&#39;s Homepage</title>
+    <title>Research on </title>
     <link>https://yumingfu.space/research/</link>
-    <description>Recent content in Research on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Research on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 13 Sep 2018 22:31:21 +0800</lastBuildDate><atom:link href="https://yumingfu.space/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yumingfu.space/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
       <link>https://yumingfu.space/research/publications/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/research/publications/</guid>
-      <description>A list of my publications can be found in this ADS library.
-Selected papers: Yuming Fu, Xue-Bing Wu, Yifan Li, Yuxuan Pang, Ravi Joshi, et al.</description>
+      <description>&lt;p&gt;A list of my publications can be found in this &lt;a href=&#34;https://ui.adsabs.harvard.edu/user/libraries/fTwXZ5FXQ9O-kXKz1CdPGQ&#34;&gt;ADS library&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-papers&#34;&gt;Selected papers:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Yuming Fu&lt;/strong&gt;, Xue-Bing Wu, Yifan Li, Yuxuan Pang, Ravi Joshi, et al. “CatNorth: An Improved Gaia DR3 Quasar Candidate Catalog with Pan-STARRS1 and CatWISE”. In: ApJS 271.2, 54 (Apr. 2024). &lt;a href=&#34;https://doi.org/10.3847/1538-4365/ad2ae6&#34;&gt;DOI: 10.3847/1538-4365/ad2ae6&lt;/a&gt;. &lt;a href=&#34;https://yumingfu.space/files/papers/Fu_2024_ApJS_271_54.pdf&#34;&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Research Interests</title>
       <link>https://yumingfu.space/research/research-interests/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/research/research-interests/</guid>
-      <description>My research fields include quasar surveys, statistical and machine learning methods in astronomy. My PhD thesis project was &amp;ldquo;Searching for Quasars behind the Galactic Plane&amp;rdquo;, aiming to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.</description>
+      <description>&lt;p&gt;My research fields include quasar surveys, statistical and machine learning methods in astronomy. My PhD thesis project was &amp;ldquo;Searching for Quasars behind the Galactic Plane&amp;rdquo;, aiming to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes. Currently, I am working in the OU-NIR and the Galaxy and AGN Evolution Science Working Group of the Euclid mission, focusing on NIR pipeline development and the quasar/AGN science in the Euclid survey.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The CatNorth Catalog: Over 1.5 Million Reliable Quasar Candidates from Gaia DR3</title>
       <link>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</guid>
-      <description>Reposted from KIAA-PKU
-The Kavli Institute for Astronomy and Astrophysics at Peking University announces an advancement in cosmic exploration with the release of the CatNorth quasar candidate catalog, as recently published in The Astrophysical Journal Supplement Series.</description>
+      <description>&lt;p&gt;&lt;em&gt;Reposted from &lt;a href=&#34;https://kiaa.pku.edu.cn/info/1031/9270.htm&#34;&gt;KIAA-PKU&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Kavli Institute for Astronomy and Astrophysics at Peking University announces an advancement in cosmic exploration with the release of the CatNorth quasar candidate catalog, as recently published in The Astrophysical Journal Supplement Series. The international collaborative study, led by Dr. Yuming Fu and Prof. Xue-Bing Wu, presents an enhanced set of over 1.5 million reliable quasar candidates, building upon the initial Gaia DR3 quasar candidate catalog noted for its substantial size but low purity.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Featured Science: PKU Astronomers Discover Nearly 200 New Quasars behind the Galactic Plane</title>
       <link>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</link>
       <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
-      
       <guid>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</guid>
-      <description>We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky.</description>
+      <description>&lt;p&gt;We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky. Looking for extragalactic objects like quasars through this band of light is so hard that this region has long been called the “Zone of Avoidance” for extragalactic astronomy. But now, a new research program makes it hard for quasars to hide themselves behind the Galactic plane.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Finding Quasars behind the Galactic Plane</title>
       <link>https://yumingfu.space/research/finding_gpqs/</link>
       <pubDate>Sat, 01 May 2021 12:59:32 +0200</pubDate>
-      
       <guid>https://yumingfu.space/research/finding_gpqs/</guid>
-      <description>Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find.</description>
+      <description>&lt;p&gt;Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find. This project aims to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

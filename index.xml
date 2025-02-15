@@ -1,160 +1,124 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yuming Fu&#39;s Homepage</title>
+    <title></title>
     <link>https://yumingfu.space/</link>
-    <description>Recent content on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Fri, 15 Nov 2024 16:00:00 +0100</lastBuildDate><atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Nov 2024 16:00:00 +0100</lastBuildDate>
+    <atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Tractor on Mac</title>
       <link>https://yumingfu.space/tech/2024-tractor-installation/</link>
       <pubDate>Fri, 15 Nov 2024 16:00:00 +0100</pubDate>
-      
       <guid>https://yumingfu.space/tech/2024-tractor-installation/</guid>
-      <description>1. Preparations 1.1. Install Command Line Tools for Xcode If you have not installed Xcode, please install it from the App Store.</description>
+      <description>&lt;h3 id=&#34;1-preparations&#34;&gt;1. Preparations&lt;/h3&gt;&#xA;&lt;h4 id=&#34;11-install-command-line-tools-for-xcode&#34;&gt;1.1. Install Command Line Tools for Xcode&lt;/h4&gt;&#xA;&lt;p&gt;If you have not installed Xcode, please install it from the App Store. After installation, open a terminal and type:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Useful Table Access Protocol (TAP) URLs for Astronomers</title>
       <link>https://yumingfu.space/tech/2024-tap-urls/</link>
       <pubDate>Mon, 23 Sep 2024 14:00:00 +0200</pubDate>
-      
       <guid>https://yumingfu.space/tech/2024-tap-urls/</guid>
-      <description>Table Access Protocol (TAP) is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the IVOA TAP document.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.ivoa.net/documents/TAP/20190927/index.html&#34;&gt;Table Access Protocol (TAP)&lt;/a&gt; is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the &lt;a href=&#34;https://www.ivoa.net/documents/TAP/20190927/REC-TAP-1.1.html&#34;&gt;IVOA TAP document&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Publications</title>
       <link>https://yumingfu.space/research/publications/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/research/publications/</guid>
-      <description>A list of my publications can be found in this ADS library.
-Selected papers: Yuming Fu, Xue-Bing Wu, Yifan Li, Yuxuan Pang, Ravi Joshi, et al.</description>
+      <description>&lt;p&gt;A list of my publications can be found in this &lt;a href=&#34;https://ui.adsabs.harvard.edu/user/libraries/fTwXZ5FXQ9O-kXKz1CdPGQ&#34;&gt;ADS library&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-papers&#34;&gt;Selected papers:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Yuming Fu&lt;/strong&gt;, Xue-Bing Wu, Yifan Li, Yuxuan Pang, Ravi Joshi, et al. “CatNorth: An Improved Gaia DR3 Quasar Candidate Catalog with Pan-STARRS1 and CatWISE”. In: ApJS 271.2, 54 (Apr. 2024). &lt;a href=&#34;https://doi.org/10.3847/1538-4365/ad2ae6&#34;&gt;DOI: 10.3847/1538-4365/ad2ae6&lt;/a&gt;. &lt;a href=&#34;https://yumingfu.space/files/papers/Fu_2024_ApJS_271_54.pdf&#34;&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Research Interests</title>
       <link>https://yumingfu.space/research/research-interests/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/research/research-interests/</guid>
-      <description>My research fields include quasar surveys, statistical and machine learning methods in astronomy. My PhD thesis project was &amp;ldquo;Searching for Quasars behind the Galactic Plane&amp;rdquo;, aiming to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.</description>
+      <description>&lt;p&gt;My research fields include quasar surveys, statistical and machine learning methods in astronomy. My PhD thesis project was &amp;ldquo;Searching for Quasars behind the Galactic Plane&amp;rdquo;, aiming to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes. Currently, I am working in the OU-NIR and the Galaxy and AGN Evolution Science Working Group of the Euclid mission, focusing on NIR pipeline development and the quasar/AGN science in the Euclid survey.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The CatNorth Catalog: Over 1.5 Million Reliable Quasar Candidates from Gaia DR3</title>
       <link>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</guid>
-      <description>Reposted from KIAA-PKU
-The Kavli Institute for Astronomy and Astrophysics at Peking University announces an advancement in cosmic exploration with the release of the CatNorth quasar candidate catalog, as recently published in The Astrophysical Journal Supplement Series.</description>
+      <description>&lt;p&gt;&lt;em&gt;Reposted from &lt;a href=&#34;https://kiaa.pku.edu.cn/info/1031/9270.htm&#34;&gt;KIAA-PKU&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Kavli Institute for Astronomy and Astrophysics at Peking University announces an advancement in cosmic exploration with the release of the CatNorth quasar candidate catalog, as recently published in The Astrophysical Journal Supplement Series. The international collaborative study, led by Dr. Yuming Fu and Prof. Xue-Bing Wu, presents an enhanced set of over 1.5 million reliable quasar candidates, building upon the initial Gaia DR3 quasar candidate catalog noted for its substantial size but low purity.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to install IRAF and PyRAF on a M1/M2 (Apple Silicon) Mac?</title>
       <link>https://yumingfu.space/tech/2024-iraf-mac-installation/</link>
       <pubDate>Sat, 20 Jan 2024 10:40:00 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/2024-iraf-mac-installation/</guid>
-      <description>This tutorial is for installing IRAF Community Distribution and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.</description>
+      <description>&lt;p&gt;This tutorial is for installing &lt;a href=&#34;https://iraf-community.github.io/&#34;&gt;IRAF Community Distribution&lt;/a&gt; and PyRAF on a M1/M2 (Apple Silicon) Mac. The following steps are tested on Mac OS Sonoma 14.2.1 with M1 chip.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Schedule of time allocation in S22B and S23A</title>
       <link>https://yumingfu.space/observation/schedule-22b-23a/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/observation/schedule-22b-23a/</guid>
-      <description>Telescope Lijiang-2.4m Xinglong-2.16m 2022-09 9.25-9.30 (北京时间当日24点以前) 2022-10 10.22-10.25</description>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Telescope&lt;/th&gt;&#xA;          &lt;th&gt;Lijiang-2.4m&lt;/th&gt;&#xA;          &lt;th&gt;Xinglong-2.16m&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-09&lt;/td&gt;&#xA;          &lt;td&gt;9.25-9.30    (北京时间当日24点以前)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-10&lt;/td&gt;&#xA;          &lt;td&gt;10.22-10.25&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-11&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;11.11-11.12&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2022-12&lt;/td&gt;&#xA;          &lt;td&gt;12.3-12.4;  12.13-12.14;  12.25-12.27&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-01&lt;/td&gt;&#xA;          &lt;td&gt;1.18-1.20;  1.25-1.27&lt;/td&gt;&#xA;          &lt;td&gt;1.17-1.18&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-02&lt;/td&gt;&#xA;          &lt;td&gt;2.23-2.25    (北京时间次日2:30-天亮)&lt;/td&gt;&#xA;          &lt;td&gt;2.11 (half night)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-03&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;3.22-3.23&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-04&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-05&lt;/td&gt;&#xA;          &lt;td&gt;5.19-5.21&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-06&lt;/td&gt;&#xA;          &lt;td&gt;6.16-6.17&lt;/td&gt;&#xA;          &lt;td&gt;6.8-6.9&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2023-07&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
     <item>
       <title>Local port forwarding examples</title>
       <link>https://yumingfu.space/tech/local-port-forwarding/</link>
       <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/local-port-forwarding/</guid>
-      <description>For more information, please see this SSH tutorial.
-1. Forward agnkiaa:9000 to localhost:8080 The webpage running on agnkiaa:9000 cannot be accessed from remote clients.</description>
+      <description>&lt;p&gt;For more information, please see this &lt;a href=&#34;https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding&#34;&gt;SSH tutorial&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-forward-agnkiaa9000-to-localhost8080&#34;&gt;1. Forward &lt;code&gt;agnkiaa:9000&lt;/code&gt; to &lt;code&gt;localhost:8080&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The webpage running on &lt;code&gt;agnkiaa:9000&lt;/code&gt; cannot be accessed from remote clients. To visit the webpage from the local computer, we can forward the port &lt;code&gt;9000&lt;/code&gt; of the host &lt;code&gt;agnkiaa&lt;/code&gt; to the &lt;code&gt;8080&lt;/code&gt; port (or any other port number you like) of &lt;code&gt;localhost&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Featured Science: PKU Astronomers Discover Nearly 200 New Quasars behind the Galactic Plane</title>
       <link>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</link>
       <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
-      
       <guid>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</guid>
-      <description>We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky.</description>
+      <description>&lt;p&gt;We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky. Looking for extragalactic objects like quasars through this band of light is so hard that this region has long been called the “Zone of Avoidance” for extragalactic astronomy. But now, a new research program makes it hard for quasars to hide themselves behind the Galactic plane.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Create and manage SSH keys for authentication to a Linux server</title>
       <link>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</link>
       <pubDate>Tue, 02 Aug 2022 16:35:43 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</guid>
-      <description>Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being</description>
+      <description>&lt;p&gt;Say the hostname of the server is &lt;code&gt;agnkiaa&lt;/code&gt; (e.g. set in your local &lt;code&gt;/etc/hosts&lt;/code&gt; file), with its ip address being &lt;code&gt;162.***.***.***&lt;/code&gt;, we can set up SSH keys following the steps below.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Finding Quasars behind the Galactic Plane</title>
       <link>https://yumingfu.space/research/finding_gpqs/</link>
       <pubDate>Sat, 01 May 2021 12:59:32 +0200</pubDate>
-      
       <guid>https://yumingfu.space/research/finding_gpqs/</guid>
-      <description>Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find.</description>
+      <description>&lt;p&gt;Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find. This project aims to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>网络汉语字典推荐</title>
       <link>https://yumingfu.space/philology/chinesedict/</link>
       <pubDate>Sun, 20 Oct 2019 11:05:05 +0800</pubDate>
-      
       <guid>https://yumingfu.space/philology/chinesedict/</guid>
-      <description>作者：傅煜铭 按：本文原载于“浅浅的天河”</description>
+      <description>&lt;p&gt;作者：傅煜铭&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;按：本文原载于“浅浅的天河”微信公众号2017年6月27日，&lt;a href=&#34;https://mp.weixin.qq.com/s/ooiFSSB24MMZRcu4SboWGQ&#34;&gt;点击此处&lt;/a&gt;可以跳转到原文。&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to install and initiate IRAF in Ubuntu/Mac OS [deprecated]</title>
       <link>https://yumingfu.space/tech/iraf-installation/</link>
       <pubDate>Mon, 14 Oct 2019 14:43:21 +0800</pubDate>
-      
       <guid>https://yumingfu.space/tech/iraf-installation/</guid>
-      <description>Note: This article is deprecated. Please refer to the new version for the latest tutorial.
-0. Introduction to IRAF IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data.</description>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size:1.5em;color:red&#34;&gt;&lt;strong&gt;Note&lt;/strong&gt;: This article is &lt;strong&gt;deprecated&lt;/strong&gt;. Please refer to the &lt;a href=&#34;https://yumingfu.space/tech/2024-iraf-mac-installation/&#34;&gt;new version&lt;/a&gt; for the latest tutorial.&lt;/span&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-introduction-to-iraf&#34;&gt;0. Introduction to IRAF&lt;/h3&gt;&#xA;&lt;p&gt;IRAF (Image Reduction and Analysis Facility) is a general purpose software system for the reduction and analysis of astronomical data. IRAF is licensed under a MIT style license. The software was written by the National Optical Astronomy Observatories (NOAO) in Tucson, Arizona.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>清平樂（積勞目眩）</title>
       <link>https://yumingfu.space/philology/2019-07-05-qingpingyue/</link>
       <pubDate>Fri, 05 Jul 2019 21:09:40 +0200</pubDate>
-      
       <guid>https://yumingfu.space/philology/2019-07-05-qingpingyue/</guid>
-      <description>清平樂 傅煜銘 己亥年六月初三作於萊頓司馬樓</description>
+      <description>&lt;h1 id=&#34;清平樂&#34;&gt;清平樂&lt;/h1&gt;&#xA;&lt;p&gt;傅煜銘&lt;br&gt;&#xA;己亥年六月初三作於萊頓司馬樓&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-family:STKaiti;font-size:1.5em;&#34;&gt;積勞目眩，未醉身先亂。&lt;/span&gt;&lt;br&gt;&#xA;&lt;span style=&#34;font-family:STKaiti;font-size:1.5em;&#34;&gt;卻看飛禽躇步慢，偷取閒暇日半。&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-family:STKaiti;font-size:1.5em;&#34;&gt;極高夏晝頗長，遲歸久候斜陽。&lt;/span&gt;&lt;br&gt;&#xA;&lt;span style=&#34;font-family:STKaiti;font-size:1.5em;&#34;&gt;但喜花喧草鬧，河風吹作蘇杭。&lt;/span&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How&#39;s the weather tonight?</title>
       <link>https://yumingfu.space/observation/weather-china/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://yumingfu.space/observation/weather-china/</guid>
-      <description>Although astronomers do not study meteorology, some of them, especially observers, may pay close attention to the weather. Factors such as temperature, humidity, wind speed and direction, cloud coverage, have great influence on the observation activity.</description>
+      <description>&lt;p&gt;Although astronomers do not study meteorology, some of them, especially observers, may pay close attention to the weather. Factors such as temperature, humidity, wind speed and direction, cloud coverage, have great influence on the observation activity. We have also known a lot about the significance of good seeing, low sky brightness and so on.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Extend disk volume with Ubuntu LVM</title>
       <link>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</link>
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
-      
       <guid>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</guid>
-      <description>Be careful with your disk when reading this note and similar ones. Think twice before you take action.
-Introduction to LVM LVM (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Be careful with your disk when reading this note and similar ones. Think twice before you take action.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction-to-lvm&#34;&gt;Introduction to LVM&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.sourceware.org/lvm2/&#34;&gt;LVM&lt;/a&gt; (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems. Since version 12.10, Ubuntu has introduced LVM support in the installation process.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
