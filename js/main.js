@@ -1,57 +1,48 @@
-// smooth-scroll
-$.smoothScroll({
-    //滑动到的位置的偏移量
-    offset: 0,
-    //滑动的方向，可取 'top' 或 'left'
-    direction: 'top',
-    // 只有当你想重写默认行为的时候才会用到
-    scrollTarget: null,
-    // 滑动开始前的回调函数。`this` 代表正在被滚动的元素
-    beforeScroll: function () { },
-    //滑动完成后的回调函数。 `this` 代表触发滑动的元素
-    afterScroll: function () { },
-    //缓动效果
-    easing: 'swing',
-    //滑动的速度
-    speed: 700,
-    // "自动" 加速的系数
-    autoCoefficent: 2
-});
-
-
-// Bind the hashchange event listener
-$(window).bind('hashchange', function (event) {
+$(function() {
+    // Initialize smooth scroll defaults
     $.smoothScroll({
-        // Replace '#/' with '#' to go to the correct target
-        offset: $("body").attr("data-offset")? -$("body").attr("data-offset"):0 ,
-        // offset: -30,
+      // Offset from the top when scrolling
+      offset: 0,
+      // Scroll direction: 'top' or 'left'
+      direction: 'top',
+      // Target element to scroll (null for default)
+      scrollTarget: null,
+      // Callback before scrolling starts
+      beforeScroll: function() {},
+      // Callback after scrolling finishes
+      afterScroll: function() {},
+      // Easing effect
+      easing: 'swing',
+      // Scrolling speed (ms)
+      speed: 700,
+      // "Auto" acceleration coefficient
+      autoCoefficent: 2
+    });
+  
+    // Bind hashchange event to trigger smooth scroll
+    $(window).on('hashchange', function() {
+      // Determine offset from body data attribute (if set)
+      var offsetValue = $("body").attr("data-offset") ? -parseInt($("body").attr("data-offset"), 10) : 0;
+      $.smoothScroll({
+        // Replace any '#/' with '#' to get the correct target
+        offset: offsetValue,
         scrollTarget: decodeURI(location.hash.replace(/^\#\/?/, '#'))
-        
       });
-});
-
-// $(".smooth-scroll").on('click', "a", function() {
-$('a[href*="#"]')
-    .bind('click', function (event) {    
-    // Remove '#' from the hash.
-    var hash = this.hash.replace(/^#/, '')
-    if (this.pathname === location.pathname && hash) {
+    });
+  
+    // Bind click event for anchor links that contain a hash
+    $('a[href*="#"]').on('click', function(event) {
+      var hash = this.hash.replace(/^#/, '');
+      if (this.pathname === location.pathname && hash) {
         event.preventDefault();
-        // Change '#' (removed above) to '#/' so it doesn't jump without the smooth scrolling
+        // Update location hash using '#/' prefix to trigger smooth scroll
         location.hash = '#/' + hash;
+      }
+    });
+  
+    // Trigger hashchange event on page load if a hash is present in the URL
+    if (location.hash) {
+      $(window).trigger('hashchange');
     }
-});
-
-// Trigger hashchange event on page load if there is a hash in the URL.
-if (location.hash) {
-    $(window).trigger('hashchange');
-}
-
-// // $('[data-spy="scroll"]').each(function () {
-// //     var $spy = $(this).scrollspy('refresh')
-// //   })
-
-// $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
-//     // do something…
-//     var offset = $('[data-spy="scroll"]').attr("data-offset")
-//   })
+  });
+  
