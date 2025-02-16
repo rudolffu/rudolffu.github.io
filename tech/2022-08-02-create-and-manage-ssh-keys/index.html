@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zn-Hans">
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
-  <meta name="author" content="Yuming Fu">
-  <meta name="description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following the steps below.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+    <meta name="author" content="Yuming Fu">
+    <meta name="description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following the steps below.">
   
-  <meta property="og:url" content="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/">
+    <meta property="og:url" content="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/">
   <meta property="og:title" content="Create and manage SSH keys for authentication to a Linux server">
   <meta property="og:description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following the steps below.">
   <meta property="og:locale" content="zn_Hans">
@@ -21,72 +21,57 @@
     <meta property="article:tag" content="Linux">
     <meta property="article:tag" content="Ssh">
 
-
-  <title>
   
-       Create and manage SSH keys for authentication to a Linux server | Create and manage SSH keys for authentication to a Linux server 
+    <title>
+      
+        Create and manage SSH keys for authentication to a Linux server | Create and manage SSH keys for authentication to a Linux server
+      
+    </title>
   
-  </title>
-
-  <link rel="canonical" href="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/">
-
+    <link rel="canonical" href="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/">
   
-  
-
-  
-  <link href="https://yumingfu.space/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
-
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
-  <link href="https://yumingfu.space/css/font.css" rel="stylesheet"> 
     
   
-  <link href="https://yumingfu.space/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
-  <link href="https://yumingfu.space/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
-  <link href="https://yumingfu.space/css/vendors/mdb/style.min.css" rel="stylesheet"> 
-  <link href="https://yumingfu.space/css/main.css" rel="stylesheet">
-
-
+    
+    <link href="https://yumingfu.space/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
   
-  <link rel="shortcut icon"
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
+    <link href="https://yumingfu.space/css/font.css" rel="stylesheet"> 
+      
+    
+    <link href="https://yumingfu.space/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
+    <link href="https://yumingfu.space/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
+    <link href="https://yumingfu.space/css/vendors/mdb/style.min.css" rel="stylesheet"> 
+    <link href="https://yumingfu.space/css/main.css" rel="stylesheet">
   
-      href="https://yumingfu.space/img/black-hole.png"
+    
+    <link rel="shortcut icon" 
+      
+        href="https://yumingfu.space/img/black-hole.png"
+      
+    >
   
-  >
-
-
-  
-  
-  
-
-
-  <style type="text/css">
+    <style type="text/css">
       @media (min-width: 800px) and (max-width: 850px) {
-              .navbar:not(.top-nav-collapse) {
-                  background: #1C2331!important;
-              }
-          }
-  </style>
-
-
+        .navbar:not(.top-nav-collapse) {
+          background: #1C2331!important;
+        }
+      }
+    </style>
   
     
-    <link rel="stylesheet" href="https://yumingfu.space/js/vendors/katex/katex.min.css">
-  
-  
-
+      
+      <link rel="stylesheet" href="https://yumingfu.space/js/vendors/katex/katex.min.css">
+    
   
     
-    <link rel="stylesheet" href="https://yumingfu.space/css/vendors/highlight/github-gist.css">
+      
+      <link rel="stylesheet" href="https://yumingfu.space/css/vendors/highlight/github-gist.css">
+    
+  </head>
   
-
-</head>
-
   <body class="bg-light" data-spy="scroll" data-target="#page-scrollspy" data-offset="90">
-  
-    
-    
-
     
       
 
@@ -167,96 +152,44 @@
 
 
 
-
-<div id="site-header" class="carousel slide carousel-fade" data-ride="carousel" style="height: 18rem;" >  
-
-  
-  
-  
-
+<div id="site-header" class="carousel slide carousel-fade" data-ride="carousel" style="height: 18rem;">
   
   <div class="carousel-inner" role="listbox">
     
       
-
-        
         <div class="carousel-item active">
           <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides/aIMG_7892_PS3_freeze-1.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-            
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
               
-              
-              
-
             </div>
-            
-
           </div>
         </div>
-        
       
     
       
-
-        
         <div class="carousel-item">
           <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides//bIMG_4613cp-1.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-            
-            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-            
-
-            </div>
-            
-
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center"></div>
           </div>
         </div>
-        
       
     
       
-
-        
         <div class="carousel-item">
           <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides//c2020-1.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-            
-            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-            
-
-            </div>
-            
-
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center"></div>
           </div>
         </div>
-        
       
     
       
-
-        
         <div class="carousel-item">
           <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides//dIMG_3964.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-            
-            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-            
-
-            </div>
-            
-
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center"></div>
           </div>
         </div>
-        
       
     
-
-  
   </div>
   
 
@@ -267,50 +200,35 @@
       <div class="col-12 col-sm-5 align-middle">
         <a href="https://yumingfu.space/">
           
-            <img class="pull-right avatar avatar-md" src="https://yumingfu.space/img/profile_ellemen.jpg" alt="" >
+            <img class="pull-right avatar avatar-md" src="https://yumingfu.space/img/profile_ellemen.jpg" alt="Avatar">
           
         </a>
       </div>
       
       <div class="col-12 col-sm-7 text-left pl-2">
         <a href="https://yumingfu.space/">
-          <h1 class="mb-2 h1" style="font-weight: 300;" >
+          <h1 class="mb-2 h1" style="font-weight: 300;">
             <strong></strong>
           </h1>
         </a>
-        
-
-             
         <div class="mt-2" style="font-size: 1rem; color: white;">
-            
-              <a href="https://github.com/rudolffu" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>    
-            
-            
-              <a href="https://www.linkedin.com/in/yuming-fu/" target="_blank" rel="noopener"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
-            
-
-            
-
-            
-
-            
-
-            
-    
-            
-                <a href="https://www.researchgate.net/profile/Yuming-Fu" target="_blank" rel="noopener"><i class="fab fa-researchgate pr-1" aria-hidden="true"></i></a>
-            
-    
-            
-    
-        
-            
-                <a href="mailto:fuympku@outlook.com"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
-            
-    
-            
-
-            
+          
+            <a href="https://github.com/rudolffu" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>
+          
+          
+            <a href="https://www.linkedin.com/in/yuming-fu/" target="_blank" rel="noopener"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
+          
+          
+          
+          
+          
+          
+            <a href="https://www.researchgate.net/profile/Yuming-Fu" target="_blank" rel="noopener"><i class="fab fa-researchgate pr-1" aria-hidden="true"></i></a>
+          
+          
+          
+            <a href="mailto:fuympku@outlook.com"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
+          
         </div>
       </div>
     </div>
@@ -318,46 +236,42 @@
   
 
   
-  
-  
-
 </div>
+
   
     
 
     
-  
   <main class="post-main-wrapper">
-    
-    
     <div class="row">
-
       
-
       
-      <div class="col-md-10">
+        <div class="col-md-10">
       
-
-        
-        <div class="z-depth-1  post-wrapper white-bg single-post">
-
-          <div class="post-header text-center" >
+          <article class="z-depth-1 post-wrapper white-bg single-post">
+            <div class="post-header text-center">
   <ul class="post-meta li-x">
     
       
-        <li><a href="https://yumingfu.space/categories/tech"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Tech </a></li>
+        <li>
+          <a href="https://yumingfu.space/categories/tech">
+            <i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Tech
+          </a>
+        </li>
       
     
     
   </ul>
 
-  <div class="px-4 post-heading">Create and manage SSH keys for authentication to a Linux server</div>
+  
+  <header class="px-4 post-heading">
+    <h1>Create and manage SSH keys for authentication to a Linux server</h1>
+  </header>
 
   <ul class="post-meta li-x mt-1">
     
       <li>Aug 2, 2022</li>
     
-
     
       <li class="middot"></li>
       <li>One minute read</li>
@@ -365,15 +279,14 @@
   </ul>
   
     <div class="view">
-      <img src="https://yumingfu.space/img/postfig/tech/SSH/Unofficial_SSH_Logo.svg.png" />
+      <img src="https://yumingfu.space/img/postfig/tech/SSH/Unofficial_SSH_Logo.svg.png" alt="Create and manage SSH keys for authentication to a Linux server" />
     </div>
   
-
 </div>
 
 
-          <div class="post-content markdown">
-            <p>Say the hostname of the server is <code>agnkiaa</code> (e.g. set in your local <code>/etc/hosts</code> file), with its ip address being <code>162.***.***.***</code>, we can set up SSH keys following the steps below.</p>
+            <div class="post-content markdown">
+              <p>Say the hostname of the server is <code>agnkiaa</code> (e.g. set in your local <code>/etc/hosts</code> file), with its ip address being <code>162.***.***.***</code>, we can set up SSH keys following the steps below.</p>
 <h3 id="step-1-generate-keygen-pair-client">Step 1: Generate keygen pair (client)</h3>
 <p>On the local client（客户端，例如笔记本电脑）：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh-keygen -m PEM -t rsa -C <span style="color:#e6db74">&#34;username@your_local_machine&#34;</span>
@@ -431,246 +344,222 @@
   IdentityFile ~/.ssh/id_rsa_agn
 </code></pre><p>Then you can use <code>ssh username@agnkiaa</code> or VScode to connect to the server.</p>
 
-          </div>
-
-          
-          <div class="row">
-            <div class="col-md-8">
-            
-              <div class="mb-5">
-                
-<div class="li-x div-x post-meta">
-  <li class="pr-0"><a href="https://yumingfu.space/tags/"><i class="fas fa-tags"></i></a></li>
-  <div class="tags-sm">
-    
-      <li><a href="https://yumingfu.space/tags/ubuntu" role="button">Ubuntu </a></li>
-      
-    
-      <li><a href="https://yumingfu.space/tags/linux" role="button">Linux </a></li>
-      
-    
-      <li><a href="https://yumingfu.space/tags/ssh" role="button">SSH </a></li>
-      
-    
-  </div>
-</div>
-              </div>
-            
             </div>
+
             
-          </div>
-          
-
-          
-          <div class="row pt-3">
-            <div class="col-md-6">
-              
-                <a href=https://yumingfu.space/tech/iraf-installation/ class="post-meta">Previous
-                  <div class="pt-2 pb-5 d-flex">
-                    <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>How to install and initiate IRAF in Ubuntu/Mac OS [deprecated]</span>
-                  </div>
-                </a>
-              
-            </div>
             
-            <div class="col-md-6 text-right" >
-              
-                <a href=https://yumingfu.space/tech/local-port-forwarding/ class="post-meta">Next
-                  <div class="pt-2 pb-5 flex-reverse">
-                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
-                    <span>Local port forwarding examples</span>
-                  </div>
-                </a>
-              
-            </div>
-          </div>
-
-          
-
-        </div>
+            <div class="row">
+              <div class="col-md-8 mb-5">
+                <div class="li-x div-x post-meta">
+  <ul class="list-unstyled">
+    <li class="pr-0">
+      <a href="https://yumingfu.space/tags/">
+        <i class="fas fa-tags"></i>
+      </a>
+    </li>
+    <li>
+      <ul class="tags-sm list-inline">
         
+          <li class="list-inline-item">
+            <a href="https://yumingfu.space/tags/ubuntu" role="button">
+              Ubuntu
+            </a>
+          </li>
+        
+          <li class="list-inline-item">
+            <a href="https://yumingfu.space/tags/linux" role="button">
+              Linux
+            </a>
+          </li>
+        
+          <li class="list-inline-item">
+            <a href="https://yumingfu.space/tags/ssh" role="button">
+              SSH
+            </a>
+          </li>
+        
+      </ul>
+    </li>
+  </ul>
+</div>
 
-      </div>
+              </div>
+            </div>
+            
+
+            
+            <nav class="row pt-3">
+              <div class="col-md-6">
+                
+                  <a href="https://yumingfu.space/tech/iraf-installation/" class="post-meta">
+                    Previous
+                    <div class="pt-2 pb-5 d-flex">
+                      <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
+                      <span>How to install and initiate IRAF in Ubuntu/Mac OS [deprecated]</span>
+                    </div>
+                  </a>
+                
+              </div>
+              <div class="col-md-6 text-right">
+                
+                  <a href="https://yumingfu.space/tech/local-port-forwarding/" class="post-meta">
+                    Next
+                    <div class="pt-2 pb-5 flex-reverse">
+                      <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
+                      <span>Local port forwarding examples</span>
+                    </div>
+                  </a>
+                
+              </div>
+            </nav>
+          </article>
+        </div>
       
 
       
-	
-	
-	
-	
-		
-		
-		
-	
-
-		
-		<div class="col-md-2 pl-0">
-
-			
-			<div id="page-scrollspy" class="toc-nav">
-				
-				<ul class="nav nav-pills ml-0">
-					
-					<li class="nav-item pb-3 text-center">
-						<span class="font-weight-bold mb-2">- CATALOG - </span>
-					</li>
-
-					
-						
-						
-							
-								
-								
-									<ul class="nav">
-								
-									<ul class="nav">
-								
-								
-
-										<li class="nav-item">
-						 					<a class="nav-link" href="#step-1-generate-keygen-pair-client">
-												 Step 1: Generate keygen pair (client)
-											</a>
-										</li>
-						 
-								
-								
-									</ul>
-								
-									</ul>
-								
-							
-						
-				 
-						
-						
-							
-								
-								
-									<ul class="nav">
-								
-									<ul class="nav">
-								
-								
-
-										<li class="nav-item">
-						 					<a class="nav-link" href="#step-2-upload-your-public-key-to-the-server">
-												 Step 2: Upload your public key to the server
-											</a>
-										</li>
-						 
-								
-								
-									</ul>
-								
-									</ul>
-								
-							
-						
-				 
-						
-						
-							
-								
-								
-									<ul class="nav">
-								
-									<ul class="nav">
-								
-									<ul class="nav">
-								
-								
-
-										<li class="nav-item">
-						 					<a class="nav-link" href="#upload-automatically-recommended">
-												 Upload automatically (recommended)
-											</a>
-										</li>
-						 
-								
-								
-									</ul>
-								
-									</ul>
-								
-									</ul>
-								
-							
-						
-				 
-						
-						
-							
-								
-								
-									<ul class="nav">
-								
-									<ul class="nav">
-								
-									<ul class="nav">
-								
-								
-
-										<li class="nav-item">
-						 					<a class="nav-link" href="#upload-manually">
-												 Upload manually
-											</a>
-										</li>
-						 
-								
-								
-									</ul>
-								
-									</ul>
-								
-									</ul>
-								
-							
-						
-				 
-						
-						
-							
-								
-								
-									<ul class="nav">
-								
-									<ul class="nav">
-								
-								
-
-										<li class="nav-item">
-						 					<a class="nav-link" href="#step-3-configure-ssh-local">
-												 Step 3: Configure SSH (local)
-											</a>
-										</li>
-						 
-								
-								
-									</ul>
-								
-									</ul>
-								
-							
-						
-				 
-
-				</ul>
-			</div>
-			
-
-		</div>
-		
-	
-
-    </div>
+  
+  
     
-
-
-  </main>
+    
+    
+    <div class="col-md-2 pl-0">
+      <div id="page-scrollspy" class="toc-nav">
+        <ul class="nav nav-pills ml-0">
+          <li class="nav-item pb-3 text-center">
+            <span class="font-weight-bold mb-2">- CATALOG - </span>
+          </li>
+          
+            
+            
+              
+                
+                
+                  <ul class="nav">
+                
+                  <ul class="nav">
+                
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#step-1-generate-keygen-pair-client">
+                    Step 1: Generate keygen pair (client)
+                  </a>
+                </li>
+                
+                  </ul>
+                
+                  </ul>
+                
+              
+            
+          
+            
+            
+              
+                
+                
+                  <ul class="nav">
+                
+                  <ul class="nav">
+                
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#step-2-upload-your-public-key-to-the-server">
+                    Step 2: Upload your public key to the server
+                  </a>
+                </li>
+                
+                  </ul>
+                
+                  </ul>
+                
+              
+            
+          
+            
+            
+              
+                
+                
+                  <ul class="nav">
+                
+                  <ul class="nav">
+                
+                  <ul class="nav">
+                
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#upload-automatically-recommended">
+                    Upload automatically (recommended)
+                  </a>
+                </li>
+                
+                  </ul>
+                
+                  </ul>
+                
+                  </ul>
+                
+              
+            
+          
+            
+            
+              
+                
+                
+                  <ul class="nav">
+                
+                  <ul class="nav">
+                
+                  <ul class="nav">
+                
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#upload-manually">
+                    Upload manually
+                  </a>
+                </li>
+                
+                  </ul>
+                
+                  </ul>
+                
+                  </ul>
+                
+              
+            
+          
+            
+            
+              
+                
+                
+                  <ul class="nav">
+                
+                  <ul class="nav">
+                
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#step-3-configure-ssh-local">
+                    Step 3: Configure SSH (local)
+                  </a>
+                </li>
+                
+                  </ul>
+                
+                  </ul>
+                
+              
+            
+          
+        </ul>
+      </div>
+    </div>
   
 
+
+    </div>
+  </main>
 
     
     
@@ -724,54 +613,40 @@
 
 
     
+<script src="https://yumingfu.space/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script src="https://yumingfu.space/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
 
 
+<script src="https://yumingfu.space/js/vendors-extensions/bootstrap4/bootstrap.bundle.min.js"></script>
 
 
+<script src="https://yumingfu.space/js/vendors/holder.min.js"></script>
+<script src="https://yumingfu.space/js/vendors/mdb/mdb.min.js"></script>
 
 
-<script type="text/javascript" src="https://yumingfu.space/js/vendors/jquery/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="https://yumingfu.space/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
-
-
-
-<script type="text/javascript" src="https://yumingfu.space/js/vendors/popper.min.js"></script>
-<script type="text/javascript" src="https://yumingfu.space/js/vendors/holder.min.js"></script>
-<script type="text/javascript" src="https://yumingfu.space/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
-<script type="text/javascript" src="https://yumingfu.space/js/vendors-extensions/bootstrap4/bootstrap.bundle.min.js" ></script>
-<script type="text/javascript" src="https://yumingfu.space/js/vendors/mdb/mdb.min.js"></script>
-
-<script type="text/javascript" src="https://yumingfu.space/js/main.js"></script>
-
+<script src="https://yumingfu.space/js/main.js"></script>
 
 
   
-  <script src="https://yumingfu.space/js/vendors/highlight.pack.js"> </script>
+  <script src="https://yumingfu.space/js/vendors/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
 
 
-
  
-  <script src="https://yumingfu.space/js/vendors/katex/katex.min.js"> </script>
+  <script src="https://yumingfu.space/js/vendors/katex/katex.min.js"></script>
   <script src="https://yumingfu.space/js/vendors/katex/contrib/auto-render.min.js"></script>
-
   <script>
-      document.addEventListener("DOMContentLoaded", function () {
-          renderMathInElement(document.body);
-      });
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body);
+    });
   </script>
 
 
 
-
-<script type="text/javascript">
-  
+<script>
   new WOW().init();
 </script>
-
-
-
 
   </body>
 </html>
