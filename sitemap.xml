@@ -3,18 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yumingfu.space/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/categories/</loc>
-    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/galactic-plane/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/quasar/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/categories/research-progress/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/series/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/tags/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/research/lamost-discovers-1300-new-gpqs/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tech/2024-tractor-installation/</loc>
     <lastmod>2024-11-15T16:00:00+01:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tags/photometry/</loc>
-    <lastmod>2024-11-15T16:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://yumingfu.space/tags/</loc>
     <lastmod>2024-11-15T16:00:00+01:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/categories/tech/</loc>
@@ -47,13 +65,7 @@
     <loc>https://yumingfu.space/research/publications/</loc>
     <lastmod>2025-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yumingfu.space/tags/quasar/</loc>
-    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yumingfu.space/research/research-interests/</loc>
-    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yumingfu.space/categories/research-progress/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/research/catnorth-gaiadr3-quasar-candidate-catalog/</loc>
@@ -99,15 +111,6 @@
     <lastmod>2022-09-14T10:35:05+08:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</loc>
-    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
-  </url><url>
-    <loc>https://yumingfu.space/tags/galactic-plane/</loc>
-    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
-  </url><url>
-    <loc>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</loc>
-    <lastmod>2022-08-05T21:17:10+08:00</lastmod>
-  </url><url>
-    <loc>https://yumingfu.space/series/</loc>
     <lastmod>2022-08-05T21:17:10+08:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</loc>
