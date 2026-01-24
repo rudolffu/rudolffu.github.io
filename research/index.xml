@@ -6,7 +6,7 @@
     <description>Recent content in Research on </description>
     <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 08:00:00 +0000</lastBuildDate>
     <atom:link href="https://yumingfu.space/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xinhua News: Astronomers use LAMOST to find over 1,300 new quasars behind Galactic plane</title>
@@ -14,13 +14,6 @@
       <pubDate>Sat, 19 Apr 2025 08:00:00 +0000</pubDate>
       <guid>https://yumingfu.space/research/lamost-discovers-1300-new-gpqs/</guid>
       <description>&lt;p&gt;BEIJING, April 18 (Xinhua) &amp;ndash; A group of astronomers has found over 1,300 new quasars behind the Galactic plane by using China&amp;rsquo;s Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST), and the scientists said the results shed new light on some hot issues of cosmic research.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>https://yumingfu.space/research/publications/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://yumingfu.space/research/publications/</guid>
-      <description>&lt;p&gt;A list of my publications can be found in this &lt;a href=&#34;https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-0759-0504&amp;amp;sort=date+desc&#34;&gt;ADS library&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-papers&#34;&gt;Selected papers:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Euclid Collaboration: Y. Fu&lt;/strong&gt;, R. Bouwens, K. I. Caputi, D. Vergani, M. Scialpi, et al. “Euclid Quick Data Release (Q1): Euclid spectroscopy of QSOs. 1. Identification and redshift determination of 3500 bright QSOs”. A&amp;amp;A, submitted, 2025, &lt;a href=&#34;https://arxiv.org/abs/2512.08803&#34;&gt;arXiv:2512.08803&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research Interests</title>
@@ -49,6 +42,13 @@
       <pubDate>Sat, 01 May 2021 12:59:32 +0200</pubDate>
       <guid>https://yumingfu.space/research/finding_gpqs/</guid>
       <description>&lt;p&gt;Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find. This project aims to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://yumingfu.space/research/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yumingfu.space/research/publications/</guid>
+      <description>&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;A list of my publications can be found in this &lt;a href=&#34;https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-0759-0504&amp;amp;sort=date+desc&#34;&gt;ADS library&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-papers&#34;&gt;Selected papers:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Euclid Collaboration: Y. Fu&lt;/strong&gt;, R. Bouwens, K. I. Caputi, D. Vergani, M. Scialpi, et al. “Euclid Quick Data Release (Q1): Euclid spectroscopy of QSOs. 1. Identification and redshift determination of 3500 bright QSOs”. A&amp;amp;A, submitted, 2025, &lt;a href=&#34;https://arxiv.org/abs/2512.08803&#34;&gt;arXiv:2512.08803&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

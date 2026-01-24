@@ -6,7 +6,7 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 08:00:00 +0000</lastBuildDate>
     <atom:link href="https://yumingfu.space/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xinhua News: Astronomers use LAMOST to find over 1,300 new quasars behind Galactic plane</title>
@@ -28,13 +28,6 @@
       <pubDate>Mon, 23 Sep 2024 14:00:00 +0200</pubDate>
       <guid>https://yumingfu.space/tech/2024-tap-urls/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.ivoa.net/documents/TAP/20190927/index.html&#34;&gt;Table Access Protocol (TAP)&lt;/a&gt; is a service protocol for accessing general table data, especially astronomical catalogs. For a detailed introduction to TAP, please refer to the &lt;a href=&#34;https://www.ivoa.net/documents/TAP/20190927/REC-TAP-1.1.html&#34;&gt;IVOA TAP document&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>https://yumingfu.space/research/publications/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://yumingfu.space/research/publications/</guid>
-      <description>&lt;p&gt;A list of my publications can be found in this &lt;a href=&#34;https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-0759-0504&amp;amp;sort=date+desc&#34;&gt;ADS library&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-papers&#34;&gt;Selected papers:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Euclid Collaboration: Y. Fu&lt;/strong&gt;, R. Bouwens, K. I. Caputi, D. Vergani, M. Scialpi, et al. “Euclid Quick Data Release (Q1): Euclid spectroscopy of QSOs. 1. Identification and redshift determination of 3500 bright QSOs”. A&amp;amp;A, submitted, 2025, &lt;a href=&#34;https://arxiv.org/abs/2512.08803&#34;&gt;arXiv:2512.08803&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research Interests</title>
@@ -126,6 +119,13 @@
       <pubDate>Tue, 21 May 2019 17:19:31 +0200</pubDate>
       <guid>https://yumingfu.space/tech/2019-05-21-ubuntu-lvm/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Be careful with your disk when reading this note and similar ones. Think twice before you take action.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction-to-lvm&#34;&gt;Introduction to LVM&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.sourceware.org/lvm2/&#34;&gt;LVM&lt;/a&gt; (Logical Volume Manager) is a powerful tool for logical volume management on Linux systems. Since version 12.10, Ubuntu has introduced LVM support in the installation process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://yumingfu.space/research/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yumingfu.space/research/publications/</guid>
+      <description>&lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;A list of my publications can be found in this &lt;a href=&#34;https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-0759-0504&amp;amp;sort=date+desc&#34;&gt;ADS library&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;selected-papers&#34;&gt;Selected papers:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Euclid Collaboration: Y. Fu&lt;/strong&gt;, R. Bouwens, K. I. Caputi, D. Vergani, M. Scialpi, et al. “Euclid Quick Data Release (Q1): Euclid spectroscopy of QSOs. 1. Identification and redshift determination of 3500 bright QSOs”. A&amp;amp;A, submitted, 2025, &lt;a href=&#34;https://arxiv.org/abs/2512.08803&#34;&gt;arXiv:2512.08803&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
