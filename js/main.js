@@ -1,4 +1,5 @@
-$(function() {
+if (window.jQuery) {
+  jQuery(function($) {
     // Initialize smooth scroll defaults
     $.smoothScroll({
       // Offset from the top when scrolling
@@ -44,5 +45,142 @@ $(function() {
     if (location.hash) {
       $(window).trigger('hashchange');
     }
+
+    function copyText(text) {
+      function fallbackCopy() {
+        var textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.setAttribute('readonly', '');
+        textArea.style.position = 'absolute';
+        textArea.style.left = '-9999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+
+        return new Promise(function(resolve, reject) {
+          try {
+            document.execCommand('copy') ? resolve() : reject();
+          } catch (error) {
+            reject(error);
+          } finally {
+            document.body.removeChild(textArea);
+          }
+        });
+      }
+
+      if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(text).catch(fallbackCopy);
+      }
+
+      return fallbackCopy();
+    }
+
+    $('.markdown pre').each(function() {
+      var pre = this;
+      var code = pre.querySelector('code');
+      if (!code || pre.querySelector('.copy-code-button')) {
+        return;
+      }
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'copy-code-button';
+      button.setAttribute('aria-label', 'Copy code');
+      button.textContent = 'Copy';
+
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        copyText(code.innerText).then(function() {
+          button.textContent = 'Copied';
+          button.classList.add('copied');
+          window.setTimeout(function() {
+            button.textContent = 'Copy';
+            button.classList.remove('copied');
+          }, 1400);
+        }).catch(function() {
+          button.textContent = 'Failed';
+          window.setTimeout(function() {
+            button.textContent = 'Copy';
+          }, 1400);
+        });
+      });
+
+      pre.appendChild(button);
+    });
   });
-  
+}
+
+(function() {
+  function onReady(callback) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', callback);
+    } else {
+      callback();
+    }
+  }
+
+  function copyCodeText(text) {
+    function fallbackCopy() {
+      var textArea = document.createElement('textarea');
+      textArea.value = text;
+      textArea.setAttribute('readonly', '');
+      textArea.style.position = 'absolute';
+      textArea.style.left = '-9999px';
+      document.body.appendChild(textArea);
+      textArea.select();
+
+      return new Promise(function(resolve, reject) {
+        try {
+          document.execCommand('copy') ? resolve() : reject();
+        } catch (error) {
+          reject(error);
+        } finally {
+          document.body.removeChild(textArea);
+        }
+      });
+    }
+
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text).catch(fallbackCopy);
+    }
+
+    return fallbackCopy();
+  }
+
+  onReady(function() {
+    document.querySelectorAll('.markdown pre').forEach(function(pre) {
+      var code = pre.querySelector('code');
+      if (!code || pre.querySelector('.copy-code-button')) {
+        return;
+      }
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'copy-code-button';
+      button.setAttribute('aria-label', 'Copy code');
+      button.textContent = 'Copy';
+
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        copyCodeText(code.innerText).then(function() {
+          button.textContent = 'Copied';
+          button.classList.add('copied');
+          window.setTimeout(function() {
+            button.textContent = 'Copy';
+            button.classList.remove('copied');
+          }, 1400);
+        }).catch(function() {
+          button.textContent = 'Failed';
+          window.setTimeout(function() {
+            button.textContent = 'Copy';
+          }, 1400);
+        });
+      });
+
+      pre.appendChild(button);
+    });
+  });
+})();

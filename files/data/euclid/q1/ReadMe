@@ -1,0 +1,213 @@
+                                                      (Euclid Collaboration: Y. Fu, Publication date ?)
+================================================================================
+Euclid Quick Data Release (Q1). Euclid spectroscopy of quasars. 1.
+Identification and redshift determination of 3500 bright quasars
+    Euclid Collaboration: Y. Fu, R. Bouwens, K. I. Caputi, D. Vergani,
+    M. Scialpi, B. Margalef-Bentabol, L. Wang, M. Bolzonella, M. Banerji,
+    E. Bañados, A. Feltre, Y. Toba, J. Calhau, F. Tarsitano, P. A. C. Cunha,
+    A. Humphrey, G. Vietri, F. Mannucci, S. Bisogni, F. Ricci, H. Landt,
+    L. Spinoglio, T. Matamoro Zatarain, D. Stern, M. J. Page, D. M. Alexander,
+    G. Zamorani, W. Roster, M. Salvato, Y. Copin, J. G. Sorce, D. Scott,
+    Y.-H. Zhang, E. Lusso, J. Wolf, D. Yang, H. J. A. Rottgering, B. Laloux,
+    M. Siudek, S. Belladitta, Q. Liu, V. Allevato, K. Kuijken, S. Andreon,
+    N. Auricchio, C. Baccigalupi, M. Baldi, A. Balestra, S. Bardelli,
+    P. Battaglia, A. Biviano, E. Branchini, M. Brescia, J. Brinchmann,
+    S. Camera, G. Cañas-Herrera, V. Capobianco, C. Carbone, J. Carretero,
+    S. Casas, M. Castellano, G. Castignani, S. Cavuoti, K. C. Chambers,
+    A. Cimatti, C. Colodro-Conde, G. Congedo, C. J. Conselice, L. Conversi,
+    A. Costille, F. Courbin, H. M. Courtois, M. Cropper, A. Da Silva,
+    H. Degaudenzi, G. De Lucia, C. Dolding, H. Dole, F. Dubath,
+    C. A. J. Duncan, X. Dupac, S. Dusini, S. Escoffier, M. Fabricius,
+    M. Farina, R. Farinelli, S. Ferriol, F. Finelli, P. Fosalba,
+    N. Fourmanoit, M. Frailis, E. Franceschi, P. Franzetti, M. Fumana,
+    S. Galeotta, K. George, W. Gillard, B. Gillis, C. Giocoli,
+    J. Gracia-Carpio, A. Grazian, F. Grupp, L. Guzzo, S. V. H. Haugan,
+    H. Hoekstra, W. Holmes, I. M. Hook, F. Hormuth, A. Hornstrup, K. Jahnke,
+    M. Jhabvala, B. Joachimi, E. Keihänen, S. Kermiche, A. Kiessling,
+    B. Kubik, M. Kümmel, M. Kunz, H. Kurki-Suonio, R. Laureijs,
+    A. M. C. Le Brun, S. Ligori, P. B. Lilje, V. Lindholm, I. Lloro,
+    G. Mainetti, D. Maino, E. Maiorano, O. Mansutti, S. Marcin, O. Marggraf,
+    K. Markovic, M. Martinelli, N. Martinet, F. Marulli, R. J. Massey,
+    E. Medinaceli, S. Mei, M. Melchior, Y. Mellier, M. Meneghetti, E. Merlin,
+    G. Meylan, A. Mora, M. Moresco, L. Moscardini, R. Nakajima, C. Neissner,
+    R. C. Nichol, S.-M. Niemi, C. Padilla, S. Paltani, F. Pasian, K. Pedersen,
+    W. J. Percival, V. Pettorino, S. Pires, G. Polenta, M. Poncet, L. A. Popa,
+    L. Pozzetti, F. Raison, R. Rebolo, A. Renzi, J. Rhodes, G. Riccio,
+    E. Romelli, M. Roncarelli, E. Rossetti, R. Saglia, Z. Sakr, D. Sapone,
+    B. Sartoris, M. Schirmer, P. Schneider, T. Schrabback, M. Scodeggio,
+    A. Secroun, E. Sefusatti, G. Seidel, S. Serrano, P. Simon, C. Sirignano,
+    G. Sirri, L. Stanco, J.-L. Starck, J. Steinwagner, C. Surace,
+    P. Tallada-Crespí, D. Tavagnacco, A. N. Taylor, H. I. Teplitz, I. Tereno,
+    N. Tessore, S. Toft, R. Toledo-Moreo, F. Torradeflot, I. Tutusaus,
+    L. Valenziano, J. Valiviita, T. Vassallo, A. Veropalumbo, D. Vibert,
+    Y. Wang, J. Weller, A. Zacchei, E. Zucca, M. Ballardini, E. Bozzo,
+    C. Burigana, R. Cabanac, M. Calabrese, A. Cappi, D. Di Ferdinando,
+    J. A. Escartin Vigo, L. Gabarra, W. G. Hartley, M. Huertas-Company,
+    J. Martín-Fleitas, S. Matthew, N. Mauri, R. B. Metcalf, A. A. Nucita,
+    A. Pezzotta, M. Pöntinen, C. Porciani, I. Risso, V. Scottez, M. Sereno,
+    M. Tenti, M. Viel, M. Wiesmann, Y. Akrami, S. Alvi, I. T. Andika,
+    S. Anselmi, M. Archidiacono, F. Atrio-Barandela, E. Aubourg, D. Bertacca,
+    M. Bethermin, L. Bisigello, A. Blanchard, L. Blot, M. Bonici, S. Borgani,
+    M. L. Brown, S. Bruton, A. Calabro, B. Camacho Quevedo, F. Caro,
+    C. S. Carvalho, T. Castro, F. Cogato, S. Conseil, A. R. Cooray,
+    O. Cucciati, G. Daste, F. De Paolis, G. Desprez, A. Díaz-Sánchez,
+    J. J. Diaz, S. Di Domizio, J. M. Diego, P. Dimauro, P.-A. Duc,
+    M. Y. Elkhashab, A. Enia, Y. Fang, A. G. Ferrari, A. Finoguenov,
+    F. Fontanot, A. Franco, K. Ganga, J. García-Bellido, T. Gasparetto,
+    V. Gautard, E. Gaztanaga, F. Giacomini, F. Gianotti, G. Gozaliasl,
+    M. Gray, M. Guidi, C. M. Gutierrez, A. Hall, C. Hernández-Monteagudo,
+    H. Hildebrandt, J. Hjorth, J. J. E. Kajava, Y. Kang, V. Kansal,
+    D. Karagiannis, K. Kiiveri, J. Kim, C. C. Kirkpatrick, S. Kruk,
+    V. Le Brun, J. Le Graet, L. Legrand, M. Lembo, F. Lepori, G. Leroy,
+    G. F. Lesci, J. Lesgourgues, T. I. Liaudat, A. Loureiro, J. Macias-Perez,
+    M. Magliocchetti, C. Mancini, R. Maoli, C. J. A. P. Martins, L. Maurin,
+    M. Miluzio, P. Monaco, C. Moretti, G. Morgante, S. Nadathur, K. Naidoo,
+    P. Natoli, A. Navarro-Alsina, S. Nesseris, D. Paoletti, F. Passalacqua,
+    K. Paterson, L. Patrizii, A. Pisani, D. Potter, S. Quai, M. Radovich,
+    P.-F. Rocci, G. Rodighiero, S. Sacquegna, M. Sahlén, D. B. Sanders,
+    E. Sarpa, C. Scarlata, A. Schneider, D. Sciotti, E. Sellentin, F. Shankar,
+    L. C. Smith, E. Soubrie, K. Tanidis, C. Tao, G. Testera, R. Teyssier,
+    S. Tosi, A. Troja, M. Tucci, C. Valieri, A. Venhola, G. Verza,
+    P. Vielzeuf, A. Viitanen, N. A. Walton, J. R. Weaver
+    =aa58490-25
+================================================================================
+Keywords: Galaxies: quasars: general, Infrared: galaxies, Galaxies: active, Tech
+          niques: spectroscopic, Galaxies: distances and redshifts
+
+Abstract:
+  The slitless spectroscopy mode of the Near-Infrared Spectrometer and
+  Photometer (NISP) on board the Euclid telescope has enabled eﬃcient
+  spectroscopy of objects within a large field of view. Nevertheless, the
+  relatively low spectral resolution, overlapping spectra, and contamination
+  pose challenges to source classification and redshift determination using the
+  NISP spectra alone. In this work, we present a large and homogeneous sample of
+  bright quasars identified from the Euclid Quick Data Release (Q1), constructed
+  by combining high-purity candidate selections from Gaia and WISE with the new
+  spectroscopic capabilities of Euclid. Through visual inspection of the Euclid
+  spectra of these quasar candidates, we identify approximately 3500 quasars and
+  determine reliable redshifts in the range of 0 < z 4.8. Of these, 2686 are new
+  spectroscopic identifications relative to existing public compilations. We
+  generated the first Euclid composite spectrum of quasars covering rest-frame
+  near- ultraviolet (NUV) to near-infrared (NIR) wavelengths without telluric
+  lines, which will be pivotal to NIR quasar spectral analysis. We obtained an
+  empirical spectroscopic depth of JE 21.5 and HE 21.3 at the sensitivity of the
+  Wide Field Survey, beyond which the number of securely identified quasars
+  declines sharply. Accordingly, the sample presented in this paper comprises
+  spectroscopically confirmed quasars brighter than these limits. We analysed
+  morphological parameters from the Visible Camera (VIS) using Sérsic and model-
+  independent (CAS) metrics, and a deep-learning point spread function fraction
+  to track nuclear dominance. The VIS morphologies show a clear redshift
+  dependence: at low redshift (z < 0.5), obvious host structures are common and
+  a single Sérsic model fits about half of the sources; at intermediate redshift
+  (0.5 < z < 2), the nuclear component dominates, with 90% of the Sérsic fits
+  saturating at the upper index limit. In this intermediate redshift regime,
+  fPSF is available, and we use it as a more reliable compactness measure than
+  the single-Sérsic and CAS parameters to quantify nuclear versus host emission.
+  We also explore the novel Euclid NIR colour space and discuss the role of
+  these quasars in refining active galactic nucleus selection techniques for
+  future Euclid data releases.
+
+Description:
+  The composite spectra are built using 2868 sources of the golden sample,
+  covering a restframe wavelength range of 240 nm to 1700 nm, with a constant
+  wavelength bin size of 0.4 nm.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .  This file
+table2.dat      91     3651  Mean, geometric mean, and median Euclid Q1 quasar
+                              composite spectra, along with RMS, S/N and the
+                              number of spectra in each wavelength bin.
+tableb1.dat    294     3468  Catalogue of spectroscopically identified bright
+                              quasars from Euclid Q1.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+Bytes   Format Units  Label      Explanations
+--------------------------------------------------------------------------------
+ 1- 8   F8.1   nm     Wavelength [240.0/1700.0] Wavelength bin center (nm)
+10-19   F10.3  ---    FluxMean   [0.77/16.58] Arithmetic-mean flux density
+                                 (arbitrary units)
+21-30   F10.3  ---    e_FluxMean [0.0/1.23] Uncertainty on arithmetic-mean flux
+                                 density
+32-41   F10.3  ---    FluxGeo    [0.72/15.98] Geometric-mean flux density
+                                 (arbitrary units)
+43-52   F10.3  ---    e_FluxGeo  [0.0/12.31] Uncertainty on geometric-mean flux
+                                 density
+54-63   F10.3  ---    FluxMed    [0.79/17.12] Median flux density (arbitrary
+                                 units)
+65-74   F10.3  ---    FluxRMS    [0.04/5.09] RMS flux density in bin (arbitrary
+                                 units)
+76-85   F10.3  ---    snr        [9.68/616.47] Signal-to-noise ratio in bin
+87-91   I5     ---    nSpectra   [5/1761] Number of spectra contributing to the
+                                 bin
+
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tableb1.dat
+--------------------------------------------------------------------------------
+  Bytes   Format Units  Label             Explanations
+--------------------------------------------------------------------------------
+  1- 19   I19    ---    object_id         ? Euclid Q1 unique source identifier
+ 21- 44   A24    ---    name               IAU-formatted source name (EUCL
+                                          JHHMMSS.ss+DDMMSS.s)
+ 46- 57   F12.6  deg    ra                [50.68/276.57] Source barycenter right
+                                          ascension coordinate in decimal
+                                          degrees
+ 59- 70   F12.6  deg    dec               [-51.4/68.8] Source barycenter
+                                          declination coordinate in decimal
+                                          degrees
+ 72- 74   A3     ---    class_vi           Visual classification of the source
+ 76- 87   F12.4  ---    z_vi              [0.0/4.77] Visual redshift of the
+                                          source
+ 89- 98   I10    ---    sum_mask          [225/3579] Sum of the mask values of
+                                          the spectrum within [12047, 18734] Å
+100-109   I10    ---    n_invalid          Number of invalid pixels in the
+                                          spectrum within [12047, 18734] Å
+111-122   F12.4  ---    med_snr           [-11.22/204.06] Median signal-to-noise
+                                          ratio of the spectrum within [12047,
+                                          18734] Å
+124-135   F12.4  mag.arcsec-2 mumax_minus_mag   [-3.64/4.31] The difference
+                                          between mu_max and mag_stargal_sep,
+                                          valid even for NIR-only sources
+137-148   F12.4  pix    kron_radius       [10.45/220.16] Major semi-axis (in
+                                          pixels) of the elliptical aperture
+                                          used for total (Kron) aperture
+                                          photometry on the detection image
+150-168   I19    ---    gaia_id           ? The associated Gaia source id
+170-190   F21.18 ---    f_psf             [0.01/1.0]? PSF fraction of the source
+                                          from VIS image, derived from the model
+                                          of Euclid Collaboration: Margalef-
+                                          Bentabol et al. (2025)
+192-203   F12.4  mag    mag_vis_psf       [16.1/27.24]? VIS IE band PSF-fitting
+                                          AB magnitude (from flux_vis_psf)
+205-216   F12.4  mag    magerr_vis_psf    [0.0/0.18]? Error on VIS IE band PSF-
+                                          fitting AB magnitude
+218-229   F12.4  mag    mag_y_templfit    [14.78/24.05]? YE band template-fit AB
+                                          magnitude (from flux_y_templfit)
+231-242   F12.4  mag    magerr_y_templfit [0.0/0.26]? Error on YE band template-
+                                          fit AB magnitude
+244-255   F12.4  mag    mag_j_templfit    [14.56/23.07]? JE band template-fit AB
+                                          magnitude (from flux_j_templfit)
+257-268   F12.4  mag    magerr_j_templfit [0.0/0.1]? Error on JE band template-
+                                          fit AB magnitude
+270-281   F12.4  mag    mag_h_templfit    [14.76/22.4]? HE band template-fit AB
+                                          magnitude (from flux_h_templfit)
+283-294   F12.4  mag    magerr_h_templfit [0.0/0.08]? Error on HE band template-
+                                          fit AB magnitude
+
+--------------------------------------------------------------------------------
+
+
+
+See also:
+None
+
+Acknowledgements:
+
+References:
+================================================================================
+     (prepared by author  / pyreadme )

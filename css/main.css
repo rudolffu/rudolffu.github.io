@@ -428,6 +428,7 @@ Markdown
 /* enclosed by 3 backticks (```) */
 .markdown pre {
   display: block;
+  position: relative;
   margin-top: 1rem;
   margin-bottom: 2rem;
   padding: 1rem;
@@ -442,6 +443,33 @@ Markdown
 
 .markdown pre code {
   padding: 0;
+}
+
+.markdown .copy-code-button {
+  position: absolute;
+  top: .45rem;
+  right: .45rem;
+  padding: .15rem .5rem;
+  border: 1px solid var(--grey-l3);
+  border-radius: .2rem;
+  background: rgba(255, 255, 255, .92);
+  color: var(--text-grey);
+  cursor: pointer;
+  font-size: .75rem;
+  line-height: 1.4;
+  opacity: 0;
+  transition: opacity .15s ease-in-out, color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.markdown pre:hover .copy-code-button,
+.markdown .copy-code-button:focus {
+  opacity: 1;
+}
+
+.markdown .copy-code-button:hover,
+.markdown .copy-code-button.copied {
+  border-color: var(--active-color);
+  color: var(--active-color);
 }
 
 .markdown p {
@@ -510,6 +538,46 @@ Markdown
 .markdown .no-border img {
   box-shadow: none;
   -webkit-box-shadow: none;
+}
+
+.markdown figure {
+  margin: 1.5rem auto 2rem;
+  text-align: center;
+}
+
+.markdown figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+.markdown figcaption {
+  max-width: 90%;
+  margin: .65rem auto 0;
+  color: var(--text-grey);
+  font-size: .9rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.markdown figcaption strong {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.markdown .figure-row {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.markdown .figure-row img {
+  flex: 0 1 calc((100% - 2rem) / 3);
+  width: calc((100% - 2rem) / 3);
+  min-width: 0;
+  height: auto;
 }
 
 /*
