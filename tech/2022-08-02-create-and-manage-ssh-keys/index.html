@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="zn-Hans">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
     <meta name="author" content="Yuming Fu">
-    <meta name="description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following the steps below.">
+    <meta name="description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following …">
   
     <meta property="og:url" content="https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/">
+  <meta property="og:site_name" content="Yuming Fu&#39;s Homepage">
   <meta property="og:title" content="Create and manage SSH keys for authentication to a Linux server">
   <meta property="og:description" content="Say the hostname of the server is agnkiaa (e.g. set in your local /etc/hosts file), with its ip address being 162.***.***.***, we can set up SSH keys following the steps below.">
-  <meta property="og:locale" content="zn_Hans">
+  <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2022-08-02T16:35:43+08:00">
@@ -82,7 +85,7 @@
       
       <a class="navbar-brand" href="https://yumingfu.space/">
           
-        <img class="avatar" src="https://yumingfu.space/img/black-hole.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+        <img class="avatar d-inline-block align-top" src="https://yumingfu.space/img/black-hole.png" style="width: 40px!important;height: auto;" alt="" >
         
         <strong> Yuming Fu</strong>
       </a>
@@ -168,7 +171,7 @@
     
       
         <div class="carousel-item">
-          <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides//bIMG_4613cp-1.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides/bIMG_4613cp-1.jpg'); background-repeat: no-repeat; background-size: cover;">
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center"></div>
           </div>
         </div>
@@ -176,7 +179,7 @@
     
       
         <div class="carousel-item">
-          <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides//c2020-1.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides/c2020-1.jpg'); background-repeat: no-repeat; background-size: cover;">
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center"></div>
           </div>
         </div>
@@ -184,7 +187,7 @@
     
       
         <div class="carousel-item">
-          <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides//dIMG_3964.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://yumingfu.space/img/header-slides/dIMG_3964.jpg'); background-repeat: no-repeat; background-size: cover;">
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center"></div>
           </div>
         </div>
@@ -200,7 +203,7 @@
       <div class="col-12 col-sm-5 align-middle">
         <a href="https://yumingfu.space/">
           
-            <img class="pull-right avatar avatar-md" src="https://yumingfu.space/img/profile_ellemen.jpg" alt="Avatar">
+            <img class="pull-right avatar avatar-md" src="https://yumingfu.space/img/profile_ellemen.jpg" alt="Avatar" loading="lazy" decoding="async">
           
         </a>
       </div>
@@ -208,22 +211,22 @@
       <div class="col-12 col-sm-7 text-left pl-2">
         <a href="https://yumingfu.space/">
           <h1 class="mb-2 h1" style="font-weight: 300;">
-            <strong></strong>
+            <strong>Yuming Fu&#39;s Homepage</strong>
           </h1>
         </a>
         <div class="mt-2" style="font-size: 1rem; color: white;">
           
-            <a href="https://github.com/rudolffu" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>
+            <a href="https://github.com/rudolffu" target="_blank" rel="noopener noreferrer"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>
           
           
-            <a href="https://www.linkedin.com/in/yuming-fu/" target="_blank" rel="noopener"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
-          
-          
-          
+            <a href="https://www.linkedin.com/in/yuming-fu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
           
           
           
-            <a href="https://www.researchgate.net/profile/Yuming-Fu" target="_blank" rel="noopener"><i class="fab fa-researchgate pr-1" aria-hidden="true"></i></a>
+          
+          
+          
+            <a href="https://www.researchgate.net/profile/Yuming-Fu" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate pr-1" aria-hidden="true"></i></a>
           
           
           
@@ -279,7 +282,7 @@
   </ul>
   
     <div class="view">
-      <img src="https://yumingfu.space/img/postfig/tech/SSH/Unofficial_SSH_Logo.svg.png" alt="Create and manage SSH keys for authentication to a Linux server" />
+      <img src="https://yumingfu.space/img/postfig/tech/SSH/Unofficial_SSH_Logo.svg.png" alt="Create and manage SSH keys for authentication to a Linux server" loading="lazy" decoding="async" />
     </div>
   
 </div>
@@ -289,49 +292,49 @@
               <p>Say the hostname of the server is <code>agnkiaa</code> (e.g. set in your local <code>/etc/hosts</code> file), with its ip address being <code>162.***.***.***</code>, we can set up SSH keys following the steps below.</p>
 <h3 id="step-1-generate-keygen-pair-client">Step 1: Generate keygen pair (client)</h3>
 <p>On the local client（客户端，例如笔记本电脑）：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh-keygen -m PEM -t rsa -C <span style="color:#e6db74">&#34;username@your_local_machine&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh-keygen -m PEM -t rsa -C <span class="s2">&#34;username@your_local_machine&#34;</span>
 </span></span></code></pre></div><p>The string &ldquo;username@your_local_machine&rdquo; is added to make the string of the public key more recognizable on the server.</p>
 <p>Example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#f92672">(</span>base<span style="color:#f92672">)</span> ➜  ~ ssh-keygen -m PEM -t rsa -C <span style="color:#e6db74">&#34;username@your_local_machine&#34;</span>
-</span></span><span style="display:flex;"><span>Generating public/private rsa key pair.
-</span></span><span style="display:flex;"><span>Enter file in which to save the key <span style="color:#f92672">(</span>~/.ssh/id_rsa<span style="color:#f92672">)</span>: ~/.ssh/id_rsa_agn    
-</span></span><span style="display:flex;"><span>Enter passphrase <span style="color:#f92672">(</span>empty <span style="color:#66d9ef">for</span> no passphrase<span style="color:#f92672">)</span>: <span style="color:#f92672">[</span>Can be different from the ssh passwd<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>Enter same passphrase again: 
-</span></span><span style="display:flex;"><span>Your identification has been saved in ~/.ssh/id_rsa_agn
-</span></span><span style="display:flex;"><span>Your public key has been saved in ~/.ssh/id_rsa_agn.pub
-</span></span><span style="display:flex;"><span>The key fingerprint is:
-</span></span><span style="display:flex;"><span>SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx username@your_local_machine
-</span></span><span style="display:flex;"><span>The key<span style="color:#ae81ff">\&#39;</span>s randomart image is:
-</span></span><span style="display:flex;"><span>+---<span style="color:#f92672">[</span>RSA 3072<span style="color:#f92672">]</span>----+
-</span></span><span style="display:flex;"><span>|    .............|
-</span></span><span style="display:flex;"><span>|   ..............|
-</span></span><span style="display:flex;"><span>|  ...............|
-</span></span><span style="display:flex;"><span>|   ..............|
-</span></span><span style="display:flex;"><span>|    .............|
-</span></span><span style="display:flex;"><span>|     .......     |
-</span></span><span style="display:flex;"><span>|        ...      |
-</span></span><span style="display:flex;"><span>|                 |
-</span></span><span style="display:flex;"><span>|                 |
-</span></span><span style="display:flex;"><span>+----<span style="color:#f92672">[</span>SHA256<span style="color:#f92672">]</span>-----+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="o">(</span>base<span class="o">)</span> ➜  ~ ssh-keygen -m PEM -t rsa -C <span class="s2">&#34;username@your_local_machine&#34;</span>
+</span></span><span class="line"><span class="cl">Generating public/private rsa key pair.
+</span></span><span class="line"><span class="cl">Enter file in which to save the key <span class="o">(</span>~/.ssh/id_rsa<span class="o">)</span>: ~/.ssh/id_rsa_agn    
+</span></span><span class="line"><span class="cl">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: <span class="o">[</span>Can be different from the ssh passwd<span class="o">]</span>
+</span></span><span class="line"><span class="cl">Enter same passphrase again: 
+</span></span><span class="line"><span class="cl">Your identification has been saved in ~/.ssh/id_rsa_agn
+</span></span><span class="line"><span class="cl">Your public key has been saved in ~/.ssh/id_rsa_agn.pub
+</span></span><span class="line"><span class="cl">The key fingerprint is:
+</span></span><span class="line"><span class="cl">SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx username@your_local_machine
+</span></span><span class="line"><span class="cl">The key<span class="se">\&#39;</span>s randomart image is:
+</span></span><span class="line"><span class="cl">+---<span class="o">[</span>RSA 3072<span class="o">]</span>----+
+</span></span><span class="line"><span class="cl"><span class="p">|</span>    .............<span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   ..............<span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>  ...............<span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   ..............<span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>    .............<span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     .......     <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>        ...      <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>                 <span class="p">|</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>                 <span class="p">|</span>
+</span></span><span class="line"><span class="cl">+----<span class="o">[</span>SHA256<span class="o">]</span>-----+
 </span></span></code></pre></div><h3 id="step-2-upload-your-public-key-to-the-server">Step 2: Upload your public key to the server</h3>
 <p>Make sure <code>ssh-agent</code> is running on your local machine.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>ssh-agent -s<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">eval</span> <span class="s2">&#34;</span><span class="k">$(</span>ssh-agent -s<span class="k">)</span><span class="s2">&#34;</span>
 </span></span></code></pre></div><p>Add your private key to <code>ssh-agent</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh-add ~/.ssh/id_rsa_agn
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh-add ~/.ssh/id_rsa_agn
 </span></span></code></pre></div><h4 id="upload-automatically-recommended">Upload automatically (recommended)</h4>
 <p>From local client:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh-copy-id -i ~/.ssh/id_rsa_agn username@agnkiaa
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh-copy-id -i ~/.ssh/id_rsa_agn username@agnkiaa
 </span></span></code></pre></div><h4 id="upload-manually">Upload manually</h4>
 <p>From local client:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cat ~/.ssh/id_rsa_agn.pub | ssh username@agnkiaa <span style="color:#e6db74">&#34;cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cat ~/.ssh/id_rsa_agn.pub <span class="p">|</span> ssh username@agnkiaa <span class="s2">&#34;cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
 </span></span></code></pre></div><p>If <code>~/.ssh</code> does not exist on the server, excute the following line:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cat ~/.ssh/id_rsa_agn.pub | ssh username@agnkiaa <span style="color:#e6db74">&#34;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cat ~/.ssh/id_rsa_agn.pub <span class="p">|</span> ssh username@agnkiaa <span class="s2">&#34;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
 </span></span></code></pre></div><h3 id="step-3-configure-ssh-local">Step 3: Configure SSH (local)</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>vim ~/.ssh/config
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">vim ~/.ssh/config
 </span></span></code></pre></div><p>Locate the configuration of the agnkiaa server which may look like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>Host agnkiaa
-</span></span><span style="display:flex;"><span>  HostName agnkiaa
-</span></span><span style="display:flex;"><span>  User username <span style="color:#75715e">## Your own user name </span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">Host agnkiaa
+</span></span><span class="line"><span class="cl">  HostName agnkiaa
+</span></span><span class="line"><span class="cl">  User username <span class="c1">## Your own user name </span>
 </span></span></code></pre></div><p>or:</p>
 <pre tabindex="0"><code>Host 162.***.***.***
   HostName 162.***.***.***
@@ -419,140 +422,23 @@
       
   
   
-    
-    
-    
     <div class="col-md-2 pl-0">
-      <div id="page-scrollspy" class="toc-nav">
-        <ul class="nav nav-pills ml-0">
-          <li class="nav-item pb-3 text-center">
-            <span class="font-weight-bold mb-2">- CATALOG - </span>
-          </li>
-          
-            
-            
-              
-                
-                
-                  <ul class="nav">
-                
-                  <ul class="nav">
-                
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#step-1-generate-keygen-pair-client">
-                    Step 1: Generate keygen pair (client)
-                  </a>
-                </li>
-                
-                  </ul>
-                
-                  </ul>
-                
-              
-            
-          
-            
-            
-              
-                
-                
-                  <ul class="nav">
-                
-                  <ul class="nav">
-                
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#step-2-upload-your-public-key-to-the-server">
-                    Step 2: Upload your public key to the server
-                  </a>
-                </li>
-                
-                  </ul>
-                
-                  </ul>
-                
-              
-            
-          
-            
-            
-              
-                
-                
-                  <ul class="nav">
-                
-                  <ul class="nav">
-                
-                  <ul class="nav">
-                
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#upload-automatically-recommended">
-                    Upload automatically (recommended)
-                  </a>
-                </li>
-                
-                  </ul>
-                
-                  </ul>
-                
-                  </ul>
-                
-              
-            
-          
-            
-            
-              
-                
-                
-                  <ul class="nav">
-                
-                  <ul class="nav">
-                
-                  <ul class="nav">
-                
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#upload-manually">
-                    Upload manually
-                  </a>
-                </li>
-                
-                  </ul>
-                
-                  </ul>
-                
-                  </ul>
-                
-              
-            
-          
-            
-            
-              
-                
-                
-                  <ul class="nav">
-                
-                  <ul class="nav">
-                
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="#step-3-configure-ssh-local">
-                    Step 3: Configure SSH (local)
-                  </a>
-                </li>
-                
-                  </ul>
-                
-                  </ul>
-                
-              
-            
-          
-        </ul>
+      
+      
+      
+      
+      <div class="toc-nav">
+        <nav id="page-scrollspy">
+  <ul class="nav nav-pills ml-0">
+    <li class="nav-item">
+      <ul class="nav nav-pills ml-0">
+        <li class="nav-item"><a class="nav-link" href="#step-1-generate-keygen-pair-client">Step 1: Generate keygen pair (client)</a></li>
+        <li class="nav-item"><a class="nav-link" href="#step-2-upload-your-public-key-to-the-server">Step 2: Upload your public key to the server</a></li>
+        <li class="nav-item"><a class="nav-link" href="#step-3-configure-ssh-local">Step 3: Configure SSH (local)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
       </div>
     </div>
   
@@ -570,12 +456,10 @@
   
   <div class="pb-2 mt-5 pt-5">
     
-      <a href="https://github.com/rudolffu " target="_blank" rel="noopener"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>
+      <a href="https://github.com/rudolffu " target="_blank" rel="noopener noreferrer"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>
     
     
-      <a href="https://www.linkedin.com/in/yuming-fu/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in mr-3" aria-hidden="true"></i></a>
-    
-
+      <a href="https://www.linkedin.com/in/yuming-fu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in mr-3" aria-hidden="true"></i></a>
     
 
     
@@ -585,7 +469,9 @@
     
 
     
-        <a href="https://www.researchgate.net/profile/Yuming-Fu" target="_blank" rel="noopener"><i class="fab fa-researchgate mr-3" aria-hidden="true"></i></a>
+
+    
+        <a href="https://www.researchgate.net/profile/Yuming-Fu" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate mr-3" aria-hidden="true"></i></a>
     
 
     
@@ -611,29 +497,29 @@
 
 
     
-<script src="https://yumingfu.space/js/vendors/jquery/jquery-3.3.1.min.js"></script>
-<script src="https://yumingfu.space/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+<script defer src="https://yumingfu.space/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script defer src="https://yumingfu.space/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
 
 
-<script src="https://yumingfu.space/js/vendors-extensions/bootstrap4/bootstrap.bundle.min.js"></script>
+<script defer src="https://yumingfu.space/js/vendors-extensions/bootstrap4/bootstrap.bundle.min.js"></script>
 
 
-<script src="https://yumingfu.space/js/vendors/holder.min.js"></script>
-<script src="https://yumingfu.space/js/vendors/mdb/mdb.min.js"></script>
+<script defer src="https://yumingfu.space/js/vendors/holder.min.js"></script>
+<script defer src="https://yumingfu.space/js/vendors/mdb/mdb.min.js"></script>
 
 
-<script src="https://yumingfu.space/js/main.js"></script>
+<script defer src="https://yumingfu.space/js/main.js"></script>
 
 
   
-  <script src="https://yumingfu.space/js/vendors/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script defer src="https://yumingfu.space/js/vendors/highlight.pack.js"></script>
+  <script>hljs.highlightAll();</script>
 
 
 
  
-  <script src="https://yumingfu.space/js/vendors/katex/katex.min.js"></script>
-  <script src="https://yumingfu.space/js/vendors/katex/contrib/auto-render.min.js"></script>
+  <script defer src="https://yumingfu.space/js/vendors/katex/katex.min.js"></script>
+  <script defer src="https://yumingfu.space/js/vendors/katex/contrib/auto-render.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       renderMathInElement(document.body);

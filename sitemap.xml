@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yumingfu.space/</loc>
-    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yumingfu.space/categories/</loc>
     <lastmod>2025-04-19T08:00:00+00:00</lastmod>
   </url><url>
@@ -27,6 +24,9 @@
     <lastmod>2025-04-19T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/research/lamost-discovers-1300-new-gpqs/</loc>
+    <lastmod>2025-04-19T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yumingfu.space/</loc>
     <lastmod>2025-04-19T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yumingfu.space/tech/2024-tractor-installation/</loc>

@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://yumingfu.space/sitemap.xml

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pigz on Yuming Fu&#39;s Homepage</title>
+    <link>http://localhost:1313/tags/pigz/</link>
+    <description>Recent content in Pigz on Yuming Fu&#39;s Homepage</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 08 Mar 2021 18:49:37 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pigz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tar-Gz-With-Pigz</title>
+      <link>http://localhost:1313/tech/tar-gz-with-pigz/</link>
+      <pubDate>Mon, 08 Mar 2021 18:49:37 +0800</pubDate>
+      <guid>http://localhost:1313/tech/tar-gz-with-pigz/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
