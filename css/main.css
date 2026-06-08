@@ -580,6 +580,58 @@ Markdown
   height: auto;
 }
 
+.markdown .research-index-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 2rem;
+  align-items: start;
+  margin: 2rem 0 2.75rem;
+}
+
+.markdown .research-index-card {
+  display: grid;
+  gap: 1.2rem;
+  color: var(--link-color);
+  text-align: center;
+}
+
+.markdown .research-index-card:hover,
+.markdown .research-index-card:focus {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.markdown .research-index-image {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  align-items: center;
+  justify-content: center;
+  padding: .9rem;
+  border-radius: .35rem;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.markdown .research-index-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+  border-radius: .2rem;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.markdown .research-index-title {
+  display: block;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 .markdown .book-hub {
   display: grid;
   gap: 1.25rem;
@@ -712,6 +764,15 @@ Markdown
 }
 
 @media (max-width: 575px) {
+  .markdown .research-index-grid {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .markdown .research-index-title {
+    font-size: 1.6rem;
+  }
+
   .markdown .book-hub-item,
   .markdown .book-list-item {
     grid-template-columns: 1fr;
