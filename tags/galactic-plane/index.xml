@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Galactic Plane on Yuming Fu&#39;s Homepage</title>
-    <link>https://yumingfu.space/tags/galactic-plane/</link>
-    <description>Recent content in Galactic Plane on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 19 Apr 2025 08:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yumingfu.space/tags/galactic-plane/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Xinhua News: Astronomers use LAMOST to find over 1,300 new quasars behind Galactic plane</title>
-      <link>https://yumingfu.space/research/lamost-discovers-1300-new-gpqs/</link>
-      <pubDate>Sat, 19 Apr 2025 08:00:00 +0000</pubDate>
-      <guid>https://yumingfu.space/research/lamost-discovers-1300-new-gpqs/</guid>
-      <description>&lt;p&gt;BEIJING, April 18 (Xinhua) &amp;ndash; A group of astronomers has found over 1,300 new quasars behind the Galactic plane by using China&amp;rsquo;s Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST), and the scientists said the results shed new light on some hot issues of cosmic research.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Featured Science: PKU Astronomers Discover Nearly 200 New Quasars behind the Galactic Plane</title>
-      <link>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</link>
-      <pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
-      <guid>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</guid>
-      <description>&lt;p&gt;We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky. Looking for extragalactic objects like quasars through this band of light is so hard that this region has long been called the “Zone of Avoidance” for extragalactic astronomy. But now, a new research program makes it hard for quasars to hide themselves behind the Galactic plane.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Finding Quasars behind the Galactic Plane</title>
-      <link>https://yumingfu.space/research/finding_gpqs/</link>
-      <pubDate>Sat, 01 May 2021 12:59:32 +0200</pubDate>
-      <guid>https://yumingfu.space/research/finding_gpqs/</guid>
-      <description>&lt;p&gt;Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find. This project aims to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Galactic Plane on Yuming Fu&#39;s Homepage</title>
+		<link>https://yumingfu.space/tags/galactic-plane/</link>
+		<description>Recent content in Galactic Plane on Yuming Fu&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Apr 2025 08:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://yumingfu.space/tags/galactic-plane/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Xinhua News: Astronomers use LAMOST to find over 1,300 new quasars behind Galactic plane</title>
+				<link>https://yumingfu.space/research/lamost-discovers-1300-new-gpqs/</link>
+				<pubDate>Sat, 19 Apr 2025 08:00:00 +0000</pubDate>
+				<guid>https://yumingfu.space/research/lamost-discovers-1300-new-gpqs/</guid>
+				<description>&lt;p&gt;BEIJING, April 18 (Xinhua) &amp;ndash; A group of astronomers has found over 1,300 new quasars behind the Galactic plane by using China&amp;rsquo;s Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST), and the scientists said the results shed new light on some hot issues of cosmic research.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Featured Science: PKU Astronomers Discover Nearly 200 New Quasars behind the Galactic Plane</title>
+				<link>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</link>
+				<pubDate>Fri, 05 Aug 2022 21:17:10 +0800</pubDate>
+				<guid>https://yumingfu.space/research/200-new-quasars-behind-the-galactic-plane/</guid>
+				<description>&lt;p&gt;We are located at the edge of the Galactic disk, and see our Galaxy as a hazy band of light made of countless stars in the night sky. Looking for extragalactic objects like quasars through this band of light is so hard that this region has long been called the “Zone of Avoidance” for extragalactic astronomy. But now, a new research program makes it hard for quasars to hide themselves behind the Galactic plane.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Finding Quasars behind the Galactic Plane</title>
+				<link>https://yumingfu.space/research/finding_gpqs/</link>
+				<pubDate>Sat, 01 May 2021 12:59:32 +0200</pubDate>
+				<guid>https://yumingfu.space/research/finding_gpqs/</guid>
+				<description>&lt;p&gt;Quasars behind the Galactic Plane (GPQs) are important astrometric references and useful probes of Milky Way gas, yet difficult to find. This project aims to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Series on Yuming Fu&#39;s Homepage</title>
-    <link>https://yumingfu.space/series/</link>
-    <description>Recent content in Series on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yumingfu.space/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AGN Sciences With Euclid</title>
-      <link>https://yumingfu.space/series/agn-sciences-with-euclid/</link>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://yumingfu.space/series/agn-sciences-with-euclid/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Quasars Behind the Galactic Plane</title>
-      <link>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</link>
-      <pubDate>Sat, 19 Apr 2025 08:00:00 +0000</pubDate>
-      <guid>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Series on Yuming Fu&#39;s Homepage</title>
+		<link>https://yumingfu.space/series/</link>
+		<description>Recent content in Series on Yuming Fu&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://yumingfu.space/series/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AGN Sciences With Euclid</title>
+				<link>https://yumingfu.space/series/agn-sciences-with-euclid/</link>
+				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://yumingfu.space/series/agn-sciences-with-euclid/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Quasars Behind the Galactic Plane</title>
+				<link>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</link>
+				<pubDate>Sat, 19 Apr 2025 08:00:00 +0000</pubDate>
+				<guid>https://yumingfu.space/series/quasars-behind-the-galactic-plane/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

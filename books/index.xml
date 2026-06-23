@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Books on Yuming Fu&#39;s Homepage</title>
-    <link>https://yumingfu.space/books/</link>
-    <description>Recent content in Books on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yumingfu.space/books/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Books I wrote or translated</title>
-      <link>https://yumingfu.space/books/my-books/</link>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://yumingfu.space/books/my-books/</guid>
-      <description>&lt;p&gt;Here are books that I have written or translated. The covers are hosted locally on this site, with links to shop or publisher pages when available.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Some useful books for astronomers</title>
-      <link>https://yumingfu.space/books/useful-books-for-astronomers/</link>
-      <pubDate>Thu, 13 Sep 2018 22:31:21 +0800</pubDate>
-      <guid>https://yumingfu.space/books/useful-books-for-astronomers/</guid>
-      <description>&lt;h3 id=&#34;textbooks-or-lecture-notes&#34;&gt;Textbooks or lecture notes&lt;/h3&gt;&#xA;&lt;h4 id=&#34;astronomy-astrophysics-and-cosmology&#34;&gt;Astronomy, Astrophysics and Cosmology&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://doi.org/10.1017/CBO9781139167574&#34;&gt;Textbook on spherical astronomy&lt;/a&gt;&lt;/em&gt;, by W. M. Smart, and R. M. Green.  Cambridge University Press, 1977.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- #### Physics --&gt;&#xA;&lt;h3 id=&#34;technical-books-or-manuals&#34;&gt;Technical books or manuals&lt;/h3&gt;&#xA;&lt;h4 id=&#34;astrostatistics-data-mining-machine-learning-and-ai&#34;&gt;(Astro)Statistics, Data Mining, Machine Learning and AI&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.sciencedirect.com/book/9780128021217/introduction-to-statistical-machine-learning&#34;&gt;Introduction to Statistical Machine Learning&lt;/a&gt;&lt;/em&gt;, by Masashi Sugiyama. Elsevier Inc., 2016.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Books on Yuming Fu&#39;s Homepage</title>
+		<link>https://yumingfu.space/books/</link>
+		<description>Recent content in Books on Yuming Fu&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://yumingfu.space/books/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Books I wrote or translated</title>
+				<link>https://yumingfu.space/books/my-books/</link>
+				<pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://yumingfu.space/books/my-books/</guid>
+				<description>&lt;p&gt;Here are books that I have written or translated. The covers are hosted locally on this site, with links to shop or publisher pages when available.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Some useful books for astronomers</title>
+				<link>https://yumingfu.space/books/useful-books-for-astronomers/</link>
+				<pubDate>Thu, 13 Sep 2018 22:31:21 +0800</pubDate>
+				<guid>https://yumingfu.space/books/useful-books-for-astronomers/</guid>
+				<description>&lt;h3 id=&#34;textbooks-or-lecture-notes&#34;&gt;Textbooks or lecture notes&lt;/h3&gt;&#xA;&lt;h4 id=&#34;astronomy-astrophysics-and-cosmology&#34;&gt;Astronomy, Astrophysics and Cosmology&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://doi.org/10.1017/CBO9781139167574&#34;&gt;Textbook on spherical astronomy&lt;/a&gt;&lt;/em&gt;, by W. M. Smart, and R. M. Green.  Cambridge University Press, 1977.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- #### Physics --&gt;&#xA;&lt;h3 id=&#34;technical-books-or-manuals&#34;&gt;Technical books or manuals&lt;/h3&gt;&#xA;&lt;h4 id=&#34;astrostatistics-data-mining-machine-learning-and-ai&#34;&gt;(Astro)Statistics, Data Mining, Machine Learning and AI&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.sciencedirect.com/book/9780128021217/introduction-to-statistical-machine-learning&#34;&gt;Introduction to Statistical Machine Learning&lt;/a&gt;&lt;/em&gt;, by Masashi Sugiyama. Elsevier Inc., 2016.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

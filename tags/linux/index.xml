@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Linux on Yuming Fu&#39;s Homepage</title>
-    <link>https://yumingfu.space/tags/linux/</link>
-    <description>Recent content in Linux on Yuming Fu&#39;s Homepage</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 14 Sep 2022 10:35:05 +0800</lastBuildDate>
-    <atom:link href="https://yumingfu.space/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Local port forwarding examples</title>
-      <link>https://yumingfu.space/tech/local-port-forwarding/</link>
-      <pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
-      <guid>https://yumingfu.space/tech/local-port-forwarding/</guid>
-      <description>&lt;p&gt;For more information, please see this &lt;a href=&#34;https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding&#34;&gt;SSH tutorial&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-forward-agnkiaa9000-to-localhost8080&#34;&gt;1. Forward &lt;code&gt;agnkiaa:9000&lt;/code&gt; to &lt;code&gt;localhost:8080&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The webpage running on &lt;code&gt;agnkiaa:9000&lt;/code&gt; cannot be accessed from remote clients. To visit the webpage from the local computer, we can forward the port &lt;code&gt;9000&lt;/code&gt; of the host &lt;code&gt;agnkiaa&lt;/code&gt; to the &lt;code&gt;8080&lt;/code&gt; port (or any other port number you like) of &lt;code&gt;localhost&lt;/code&gt;:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Create and manage SSH keys for authentication to a Linux server</title>
-      <link>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</link>
-      <pubDate>Tue, 02 Aug 2022 16:35:43 +0800</pubDate>
-      <guid>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</guid>
-      <description>&lt;p&gt;Say the hostname of the server is &lt;code&gt;agnkiaa&lt;/code&gt; (e.g. set in your local &lt;code&gt;/etc/hosts&lt;/code&gt; file), with its ip address being &lt;code&gt;162.***.***.***&lt;/code&gt;, we can set up SSH keys following the steps below.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Linux on Yuming Fu&#39;s Homepage</title>
+		<link>https://yumingfu.space/tags/linux/</link>
+		<description>Recent content in Linux on Yuming Fu&#39;s Homepage</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 14 Sep 2022 10:35:05 +0800</lastBuildDate>
+		
+			<atom:link href="https://yumingfu.space/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Local port forwarding examples</title>
+				<link>https://yumingfu.space/tech/local-port-forwarding/</link>
+				<pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
+				<guid>https://yumingfu.space/tech/local-port-forwarding/</guid>
+				<description>&lt;p&gt;For more information, please see this &lt;a href=&#34;https://www.ssh.com/academy/ssh/tunneling-example#local-forwarding&#34;&gt;SSH tutorial&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-forward-agnkiaa9000-to-localhost8080&#34;&gt;1. Forward &lt;code&gt;agnkiaa:9000&lt;/code&gt; to &lt;code&gt;localhost:8080&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The webpage running on &lt;code&gt;agnkiaa:9000&lt;/code&gt; cannot be accessed from remote clients. To visit the webpage from the local computer, we can forward the port &lt;code&gt;9000&lt;/code&gt; of the host &lt;code&gt;agnkiaa&lt;/code&gt; to the &lt;code&gt;8080&lt;/code&gt; port (or any other port number you like) of &lt;code&gt;localhost&lt;/code&gt;:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Create and manage SSH keys for authentication to a Linux server</title>
+				<link>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</link>
+				<pubDate>Tue, 02 Aug 2022 16:35:43 +0800</pubDate>
+				<guid>https://yumingfu.space/tech/2022-08-02-create-and-manage-ssh-keys/</guid>
+				<description>&lt;p&gt;Say the hostname of the server is &lt;code&gt;agnkiaa&lt;/code&gt; (e.g. set in your local &lt;code&gt;/etc/hosts&lt;/code&gt; file), with its ip address being &lt;code&gt;162.***.***.***&lt;/code&gt;, we can set up SSH keys following the steps below.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
