@@ -10,14 +10,28 @@
 		
 		
 		
-			<lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://yumingfu.space/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Euclid</title>
 				<link>https://yumingfu.space/tags/euclid/</link>
-				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+				<pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>https://yumingfu.space/tags/euclid/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Quasar</title>
+				<link>https://yumingfu.space/tags/quasar/</link>
+				<pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://yumingfu.space/tags/quasar/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Spectroscopy</title>
+				<link>https://yumingfu.space/tags/spectroscopy/</link>
+				<pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://yumingfu.space/tags/spectroscopy/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -25,13 +39,6 @@
 				<link>https://yumingfu.space/tags/machine-learning/</link>
 				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://yumingfu.space/tags/machine-learning/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Quasar</title>
-				<link>https://yumingfu.space/tags/quasar/</link>
-				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://yumingfu.space/tags/quasar/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -46,13 +53,6 @@
 				<link>https://yumingfu.space/tags/slitless-spectroscopy/</link>
 				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://yumingfu.space/tags/slitless-spectroscopy/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Spectroscopy</title>
-				<link>https://yumingfu.space/tags/spectroscopy/</link>
-				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://yumingfu.space/tags/spectroscopy/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -147,7 +147,7 @@
 				<description></description>
 			</item>
 			<item>
-				<title>SSH</title>
+				<title>Ssh</title>
 				<link>https://yumingfu.space/tags/ssh/</link>
 				<pubDate>Wed, 14 Sep 2022 10:35:05 +0800</pubDate>
 				<guid>https://yumingfu.space/tags/ssh/</guid>
