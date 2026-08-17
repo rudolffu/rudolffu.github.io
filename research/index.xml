@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Research on Yuming Fu&#39;s Homepage</title>
+		<title>Research on Yuming Fu | 傅煜铭</title>
 		<link>https://yumingfu.space/research/</link>
-		<description>Recent content in Research on Yuming Fu&#39;s Homepage</description>
+		<description>Recent content in Research on Yuming Fu | 傅煜铭</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
 		
@@ -25,7 +25,7 @@
 				<link>https://yumingfu.space/research/aims-z/</link>
 				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://yumingfu.space/research/aims-z/</guid>
-				<description>AIMS-z is a multimodal, astrophysics-informed machine-learning framework for reliable spectroscopic redshift determination of quasars, with an initial focus on Euclid slitless spectra.</description>
+				<description>AIMS-z is an astrophysics-informed machine-learning project for reliable quasar redshifts, reusable spectral representations, and multimodal inference, with an initial focus on Euclid slitless spectra.</description>
 			</item>
 			<item>
 				<title>Xinhua News: Astronomers use LAMOST to find over 1,300 new quasars behind Galactic plane</title>
@@ -39,7 +39,7 @@
 				<link>https://yumingfu.space/research/research-interests/</link>
 				<pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
 				<guid>https://yumingfu.space/research/research-interests/</guid>
-				<description>&lt;p&gt;My research fields include quasar surveys, statistical and machine learning methods in astronomy. My PhD thesis project was &amp;ldquo;Searching for Quasars behind the Galactic Plane&amp;rdquo;, aiming to select quasar candidates at |b| &amp;lt;= 20 deg with Machine Learning, and identify the candidates with optical telescopes. Currently, I am working in the OU-NIR and the Galaxy and AGN Evolution Science Working Group of the Euclid mission, focusing on NIR pipeline development and the quasar/AGN science in the Euclid survey.&lt;/p&gt;</description>
+				<description>&lt;p&gt;My research lies at the intersection of &lt;strong&gt;AGN and galaxy evolution, observational cosmology, and astronomical data science&lt;/strong&gt;. I use large, heterogeneous datasets from ground- and space-based surveys to study active galaxies, develop reliable methods for astronomical inference, and explore applications to cosmology and rare-object discovery.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The CatNorth Catalog: Over 1.5 Million Reliable Quasar Candidates from Gaia DR3</title>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Quasar on Yuming Fu&#39;s Homepage</title>
+		<title>Quasar on Yuming Fu | 傅煜铭</title>
 		<link>https://yumingfu.space/tags/quasar/</link>
-		<description>Recent content in Quasar on Yuming Fu&#39;s Homepage</description>
+		<description>Recent content in Quasar on Yuming Fu | 傅煜铭</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
 		
@@ -25,7 +25,7 @@
 				<link>https://yumingfu.space/research/aims-z/</link>
 				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://yumingfu.space/research/aims-z/</guid>
-				<description>AIMS-z is a multimodal, astrophysics-informed machine-learning framework for reliable spectroscopic redshift determination of quasars, with an initial focus on Euclid slitless spectra.</description>
+				<description>AIMS-z is an astrophysics-informed machine-learning project for reliable quasar redshifts, reusable spectral representations, and multimodal inference, with an initial focus on Euclid slitless spectra.</description>
 			</item>
 			<item>
 				<title>Xinhua News: Astronomers use LAMOST to find over 1,300 new quasars behind Galactic plane</title>

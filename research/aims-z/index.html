@@ -8,12 +8,12 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
     <meta name="author" content="Yuming Fu">
-    <meta name="description" content="AIMS-z is a multimodal, astrophysics-informed machine-learning framework for reliable spectroscopic redshift determination of quasars, with an initial focus on …">
+    <meta name="description" content="AIMS-z is an astrophysics-informed machine-learning project for reliable quasar redshifts, reusable spectral representations, and multimodal inference, with an …">
   
     <meta property="og:url" content="https://yumingfu.space/research/aims-z/">
-	<meta property="og:site_name" content="Yuming Fu&#39;s Homepage">
+	<meta property="og:site_name" content="Yuming Fu | 傅煜铭">
 	<meta property="og:title" content="AIMS-z: astrophysics-informed machine learning for spectroscopic redshifts of quasars">
-	<meta property="og:description" content="AIMS-z is a multimodal, astrophysics-informed machine-learning framework for reliable spectroscopic redshift determination of quasars, with an initial focus on Euclid slitless spectra.">
+	<meta property="og:description" content="AIMS-z is an astrophysics-informed machine-learning project for reliable quasar redshifts, reusable spectral representations, and multimodal inference, with an initial focus on Euclid slitless spectra.">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="research">
@@ -214,7 +214,7 @@
       <div class="col-12 col-sm-7 text-left pl-2">
         <a href="https://yumingfu.space/">
           <h1 class="mb-2 h1" style="font-weight: 300;">
-            <strong>Yuming Fu&#39;s Homepage</strong>
+            <strong>Yuming Fu | 傅煜铭</strong>
           </h1>
         </a>
         <div class="mt-2" style="font-size: 1rem; color: white;">
@@ -296,8 +296,8 @@
 
 
             <div class="post-content markdown">
-              <p>AIMS-z is a multimodal, astrophysics-informed machine-learning framework for determining spectroscopic redshifts of quasars. Its initial application focuses on Euclid slitless spectroscopy and DR1-scale samples, where visual inspection of every source becomes impractical and direct template matching can produce several plausible solutions for noisy, contaminated, or single-line spectra.</p>
-<p>AIMS-z grew out of our <a href="https://yumingfu.space/research/euclid-q1-quasars/">Euclid Q1 bright quasar analysis</a>, in which visual inspection of Euclid/NISP spectra enabled the identification and redshift determination of nearly 3500 bright quasars. The ambiguities and failure modes we encountered in that sample helped shape a more scalable, quality-aware approach. This is especially relevant to slitless spectroscopic surveys such as Euclid and the Nancy Grace Roman Space Telescope, but the broader framework could also be applied to other spectroscopic datasets, including DESI.</p>
+              <p>AIMS-z is a research project on AI for astronomical spectroscopy and reliable survey inference. It combines learned spectral representations with astrophysical information and complementary observations to determine spectroscopic redshifts of quasars. The initial application focuses on Euclid slitless spectroscopy and DR1-scale samples, where visual inspection of every source becomes impractical and direct template matching can produce several plausible solutions for noisy, contaminated, or single-line spectra.</p>
+<p>AIMS-z grew out of our <a href="https://yumingfu.space/research/euclid-q1-quasars/">Euclid Q1 bright quasar analysis</a>, in which visual inspection of Euclid/NISP spectra enabled the identification and redshift determination of nearly 3500 bright quasars. The ambiguities and failure modes we encountered in that sample motivated a more scalable, quality-aware approach. In the longer term, the project will examine whether useful spectral representations and reliability checks can transfer across instruments, and how photometry or imaging can help when a spectrum is ambiguous. These questions are especially relevant to slitless surveys such as Euclid and Roman, with possible future applications to other spectroscopic datasets, including DESI.</p>
 <div class="list-group my-4">
   <a class="list-group-item list-group-item-action" href="https://yumingfu.space/research/euclid-q1-quasars/">
     <strong>Euclid Q1 bright quasars</strong><br>
@@ -309,7 +309,7 @@
   </a>
 </div>
 <h2 id="why-aims-z">Why AIMS-z?</h2>
-<p>The Near-Infrared Spectrometer and Photometer (NISP) onboard Euclid provides slitless spectroscopy across a large field of view. In the Euclid Wide Survey, three red-grism observations with different dispersion directions help disentangle overlapping spectra and produce cleaner combined spectra. The red grisms cover approximately 1206–1892 nm at a resolving power above 480 for a compact source. Further instrument and mission details are presented by <a href="https://arxiv.org/html/2512.08803v2#bib.bib26">Euclid Collaboration: Jahnke et al. (2025)</a> and <a href="https://arxiv.org/html/2512.08803v2#bib.bib24">Euclid Collaboration: Mellier et al. (2025)</a>.</p>
+<p>The Near-Infrared Spectrometer and Photometer (NISP) onboard Euclid provides slitless spectroscopy across a large field of view. In the Euclid Wide Survey, three red-grism observations with different dispersion directions help disentangle overlapping spectra and produce cleaner combined spectra. The red grisms cover wavelengths from approximately 1206 to 1892 nm at a resolving power above 480 for a compact source. Further instrument and mission details are presented by <a href="https://arxiv.org/html/2512.08803v2#bib.bib26">Euclid Collaboration: Jahnke et al. (2025)</a> and <a href="https://arxiv.org/html/2512.08803v2#bib.bib24">Euclid Collaboration: Mellier et al. (2025)</a>.</p>
 <p>The <a href="https://yumingfu.space/research/euclid-q1-quasars/">Euclid Q1 study</a> demonstrated this capability by identifying nearly 3500 quasars from Euclid spectra. Nevertheless, a quasar spectrum may contain only a few prominent features and, in some cases, a single dominant emission line. Direct template matching can therefore return several plausible redshift solutions. Visual inspection resolves many of these ambiguities, but it does not scale to the much larger candidate samples expected from future data releases.</p>
 <figure id="fig-emission-line-redshift-challenge">
   <img src="https://yumingfu.space/img/postfig/research/euclid/q1/emission_line_stack_mesh.jpg" alt="Quasar emission lines moving through the Euclid NISP wavelength range as a function of redshift" width="90%">
@@ -331,10 +331,10 @@
 <p>These labels are intended to support a reliability-selection model. The longer-term goal is to identify high-confidence redshifts while prioritising ambiguous or failure-prone cases for further inspection.</p>
 <h2 id="connection-to-euclid-q1-dr1-and-other-surveys">Connection to Euclid Q1, DR1, and other surveys</h2>
 <p>The <a href="https://yumingfu.space/research/euclid-q1-quasars/">Euclid Q1 bright quasar study</a> demonstrated the redshift challenges in a visually inspected sample and produced a quasar catalogue, redshift-quality information, and a telluric-free Euclid quasar composite spectrum. AIMS-z takes the next step by turning those lessons into a scalable redshift framework for larger Euclid spectroscopic samples.</p>
-<p>Slitless surveys such as Euclid and Roman particularly benefit from a workflow that can combine sparse spectral features, photometry, contamination information, and reliability assessment. Because the framework is not intended to depend on one instrument alone, future work may explore its use with other spectroscopic surveys, including DESI.</p>
+<p>Slitless surveys such as Euclid and Roman particularly benefit from a workflow that can combine sparse spectral features, photometry, contamination information, and reliability assessment. Future work will test how much of the learned representation and inference strategy can be reused across instruments and whether it can support other spectroscopic surveys, including DESI.</p>
 <p>The full algorithm description, validation, and Euclid DR1-scale application are in preparation. This page does not present a final DR1 catalogue or released AIMS-z model products.</p>
 <h2 id="status">Status</h2>
-<p>AIMS-z is under active development. This page will be updated with the paper, algorithm details, validation figures, and data products as the project progresses.</p>
+<p>AIMS-z is under active development. The algorithm description and validation are in preparation, and no cross-survey generalisation or public model release is claimed here. This page will be updated as results and data products become available.</p>
 <h2 id="related-resources">Related resources</h2>
 <ul>
 <li><a href="https://yumingfu.space/research/euclid-q1-quasars/">Euclid Q1 spectroscopy of bright quasars</a></li>
