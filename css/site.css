@@ -1,0 +1,110 @@
+.home-intro {
+  padding-top: 2.75rem;
+  padding-bottom: 1.25rem;
+}
+
+.navbar .navbar-brand img.avatar {
+  filter: invert(0);
+  transition: filter .5s ease-in-out;
+}
+
+.navbar.top-nav-collapse .navbar-brand img.avatar {
+  filter: invert(1);
+}
+
+.home-intro-title {
+  margin-bottom: 1.25rem;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 3.25rem;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.home-intro-focus {
+  margin-bottom: 1.5rem;
+  color: var(--text-light);
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.home-intro-statement {
+  max-width: 68rem;
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+.home-intro-affiliation,
+.home-intro-links {
+  font-size: 1rem;
+}
+
+.inner-site-header {
+  height: 10rem;
+  overflow: hidden;
+}
+
+.inner-site-header .carousel-inner,
+.inner-site-header .carousel-item,
+.inner-site-header .view,
+.inner-site-header .mask {
+  height: 100%;
+}
+
+.inner-site-header .view {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: var(--header-position, center center);
+  background-size: cover;
+}
+
+.single-post .post-heading h1 {
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+
+@media (max-width: 767.98px) {
+  .navbar .navbar-brand img.avatar {
+    filter: invert(1);
+  }
+
+  .home-intro {
+    padding-top: 2rem;
+    padding-bottom: .75rem;
+  }
+
+  .home-intro-title {
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+
+  .home-intro-focus {
+    margin-bottom: 1.25rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .home-intro-statement {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .inner-site-header {
+    height: 8rem;
+  }
+
+  .inner-site-header .view {
+    background-position: var(--header-position-mobile, var(--header-position, center center));
+  }
+
+  .single-post .post-heading h1 {
+    font-size: 2.125rem;
+    line-height: 1.3;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar .navbar-brand img.avatar {
+    filter: invert(1);
+  }
+}
